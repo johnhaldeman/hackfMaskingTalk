@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "10640",
+               "short_name" : "10640",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Springhollow Street",
+               "short_name" : "Springhollow St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1X8",
+               "short_name" : "N8P 1X8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "10640 Springhollow St, Windsor, ON N8P 1X8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3152965,
+                  "lng" : -82.91029669999999
+               },
+               "southwest" : {
+                  "lat" : 42.3152828,
+                  "lng" : -82.9102994
+               }
+            },
+            "location" : {
+               "lat" : 42.3152828,
+               "lng" : -82.9102994
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3166386302915,
+                  "lng" : -82.90894906970848
+               },
+               "southwest" : {
+                  "lat" : 42.3139406697085,
+                  "lng" : -82.91164703029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjIxMDY0MCBTcHJpbmdob2xsb3cgU3QsIFdpbmRzb3IsIE9OIE44UCAxWDgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

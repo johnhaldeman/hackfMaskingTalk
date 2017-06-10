@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3621",
+               "short_name" : "3621",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Peter Street",
+               "short_name" : "Peter St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1J8",
+               "short_name" : "N9C 1J8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3621 Peter St, Windsor, ON N9C 1J8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2921707,
+                  "lng" : -83.07970530000001
+               },
+               "southwest" : {
+                  "lat" : 42.292165,
+                  "lng" : -83.07972239999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2921707,
+               "lng" : -83.07972239999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.29351683029149,
+                  "lng" : -83.07836486970851
+               },
+               "southwest" : {
+                  "lat" : 42.2908188697085,
+                  "lng" : -83.08106283029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozNjIxIFBldGVyIFN0LCBXaW5kc29yLCBPTiBOOUMgMUo4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

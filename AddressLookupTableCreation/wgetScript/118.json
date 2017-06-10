@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1814",
+               "short_name" : "1814",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Durham Place",
+               "short_name" : "Durham Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3A3",
+               "short_name" : "N8W 3A3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1814 Durham Pl, Windsor, ON N8W 3A3, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3034007,
+               "lng" : -82.9989226
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30474968029149,
+                  "lng" : -82.99757361970849
+               },
+               "southwest" : {
+                  "lat" : 42.30205171970849,
+                  "lng" : -83.00027158029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJK6v3A4QsO4gRaj0igwb27sY",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

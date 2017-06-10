@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2235",
+               "short_name" : "2235",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Woodlawn Avenue",
+               "short_name" : "Woodlawn Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2H4",
+               "short_name" : "N8W 2H4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2235 Woodlawn Ave, Windsor, ON N8W 2H4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2966565,
+                  "lng" : -83.0061042
+               },
+               "southwest" : {
+                  "lat" : 42.29665050000001,
+                  "lng" : -83.0061211
+               }
+            },
+            "location" : {
+               "lat" : 42.2966565,
+               "lng" : -83.0061042
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2980024802915,
+                  "lng" : -83.00476366970851
+               },
+               "southwest" : {
+                  "lat" : 42.2953045197085,
+                  "lng" : -83.00746163029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4yMjM1IFdvb2RsYXduIEF2ZSwgV2luZHNvciwgT04gTjhXIDJINCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

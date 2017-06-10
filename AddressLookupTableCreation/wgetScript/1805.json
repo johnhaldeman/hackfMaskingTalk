@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "911",
+               "short_name" : "911",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drouillard Road",
+               "short_name" : "Drouillard Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2P5",
+               "short_name" : "N8Y 2P5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "911 Drouillard Rd, Windsor, ON N8Y 2P5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3233816,
+                  "lng" : -83.0013656
+               },
+               "southwest" : {
+                  "lat" : 42.3233745,
+                  "lng" : -83.00138179999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3233816,
+               "lng" : -83.0013656
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3247270302915,
+                  "lng" : -83.00002471970849
+               },
+               "southwest" : {
+                  "lat" : 42.3220290697085,
+                  "lng" : -83.0027226802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei45MTEgRHJvdWlsbGFyZCBSZCwgV2luZHNvciwgT04gTjhZIDJQNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "911",
+               "short_name" : "911",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drouillard Drive",
+               "short_name" : "Drouillard Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2P9",
+               "short_name" : "N8Y 2P9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "911 Drouillard Dr, Windsor, ON N8Y 2P9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3215487,
+                  "lng" : -83.00015929999999
+               },
+               "southwest" : {
+                  "lat" : 42.3215428,
+                  "lng" : -83.00017629999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3215487,
+               "lng" : -83.00015929999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3228947302915,
+                  "lng" : -82.99881881970848
+               },
+               "southwest" : {
+                  "lat" : 42.3201967697085,
+                  "lng" : -83.0015167802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei45MTEgRHJvdWlsbGFyZCBEciwgV2luZHNvciwgT04gTjhZIDJQOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

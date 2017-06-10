@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "871",
+               "short_name" : "871",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Janette Avenue",
+               "short_name" : "Janette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 5A2",
+               "short_name" : "N9A 5A2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "871 Janette Ave, Windsor, ON N9A 5A2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3086811,
+                  "lng" : -83.04122009999999
+               },
+               "southwest" : {
+                  "lat" : 42.3081221,
+                  "lng" : -83.0417068
+               }
+            },
+            "location" : {
+               "lat" : 42.3084016,
+               "lng" : -83.0414634
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3097505802915,
+                  "lng" : -83.0401144697085
+               },
+               "southwest" : {
+                  "lat" : 42.3070526197085,
+                  "lng" : -83.04281243029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJBw2yfwMtO4gRbS2Z1hXs2ZA",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

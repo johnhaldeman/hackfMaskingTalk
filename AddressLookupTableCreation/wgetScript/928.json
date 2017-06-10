@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2640",
+               "short_name" : "2640",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Gem Avenue",
+               "short_name" : "Gem Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5N8",
+               "short_name" : "N8W 5N8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2640 Gem Ave, Windsor, ON N8W 5N8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2973775,
+                  "lng" : -82.9721514
+               },
+               "southwest" : {
+                  "lat" : 42.2973718,
+                  "lng" : -82.9721685
+               }
+            },
+            "location" : {
+               "lat" : 42.2973718,
+               "lng" : -82.9721685
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2987236302915,
+                  "lng" : -82.9708109697085
+               },
+               "southwest" : {
+                  "lat" : 42.2960256697085,
+                  "lng" : -82.9735089302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikyNjQwIEdlbSBBdmUsIFdpbmRzb3IsIE9OIE44VyA1TjgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4523",
+               "short_name" : "4523",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Brothers Court",
+               "short_name" : "Brothers Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2W1",
+               "short_name" : "N9G 2W1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4523 Brothers Ct, Windsor, ON N9G 2W1, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2409417,
+               "lng" : -83.0009762
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2422906802915,
+                  "lng" : -82.9996272197085
+               },
+               "southwest" : {
+                  "lat" : 42.2395927197085,
+                  "lng" : -83.00232518029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJpR2TS7YuO4gRd-ZJtQ8EUtE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

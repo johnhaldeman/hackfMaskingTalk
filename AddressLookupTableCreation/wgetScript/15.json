@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "342",
+               "short_name" : "342",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Shoreview Circle",
+               "short_name" : "Shoreview Cir",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1M7",
+               "short_name" : "N8P 1M7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "342 Shoreview Cir, Windsor, ON N8P 1M7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3334457,
+                  "lng" : -82.89699969999999
+               },
+               "southwest" : {
+                  "lat" : 42.33343250000001,
+                  "lng" : -82.8970052
+               }
+            },
+            "location" : {
+               "lat" : 42.33343250000001,
+               "lng" : -82.8970052
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.33478808029151,
+                  "lng" : -82.89565346970849
+               },
+               "southwest" : {
+                  "lat" : 42.33209011970851,
+                  "lng" : -82.89835143029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4zNDIgU2hvcmV2aWV3IENpciwgV2luZHNvciwgT04gTjhQIDFNNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

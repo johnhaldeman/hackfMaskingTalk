@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2233",
+               "short_name" : "2233",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dandurand Boulevard",
+               "short_name" : "Dandurand Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4Z7",
+               "short_name" : "N9E 4Z7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2233 Dandurand Blvd, Windsor, ON N9E 4Z7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2823868,
+                  "lng" : -83.030306
+               },
+               "southwest" : {
+                  "lat" : 42.2823758,
+                  "lng" : -83.0303175
+               }
+            },
+            "location" : {
+               "lat" : 42.2823868,
+               "lng" : -83.030306
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.28373028029149,
+                  "lng" : -83.02896276970849
+               },
+               "southwest" : {
+                  "lat" : 42.2810323197085,
+                  "lng" : -83.03166073029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAyMjMzIERhbmR1cmFuZCBCbHZkLCBXaW5kc29yLCBPTiBOOUUgNFo3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

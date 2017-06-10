@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1054",
+               "short_name" : "1054",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lexington Circle",
+               "short_name" : "Lexington Cir",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 4T3",
+               "short_name" : "N8S 4T3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1054 Lexington Cir, Windsor, ON N8S 4T3, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3286383,
+               "lng" : -82.9356303
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3299872802915,
+                  "lng" : -82.93428131970849
+               },
+               "southwest" : {
+                  "lat" : 42.32728931970851,
+                  "lng" : -82.93697928029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJoXShIMwqO4gRT_m3YjhVPr4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

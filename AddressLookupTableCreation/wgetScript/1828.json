@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1614",
+               "short_name" : "1614",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hall Avenue",
+               "short_name" : "Hall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4S1",
+               "short_name" : "N8X 4S1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1614 Hall Ave, Windsor, ON N8X 4S1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3039077,
+                  "lng" : -83.0083441
+               },
+               "southwest" : {
+                  "lat" : 42.3039018,
+                  "lng" : -83.0083612
+               }
+            },
+            "location" : {
+               "lat" : 42.3039018,
+               "lng" : -83.0083612
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3052537302915,
+                  "lng" : -83.0070036697085
+               },
+               "southwest" : {
+                  "lat" : 42.3025557697085,
+                  "lng" : -83.0097016302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EioxNjE0IEhhbGwgQXZlLCBXaW5kc29yLCBPTiBOOFggNFMxLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

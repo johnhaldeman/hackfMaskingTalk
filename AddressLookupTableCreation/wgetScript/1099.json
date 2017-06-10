@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Goyeau Street",
+               "short_name" : "Goyeau St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Goyeau St, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3200134,
+                  "lng" : -83.02329410000002
+               },
+               "southwest" : {
+                  "lat" : 42.2967959,
+                  "lng" : -83.0383552
+               }
+            },
+            "location" : {
+               "lat" : 42.30849569999999,
+               "lng" : -83.0309417
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3200134,
+                  "lng" : -83.02329410000002
+               },
+               "southwest" : {
+                  "lat" : 42.2967959,
+                  "lng" : -83.0383552
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJofzbnfwsO4gRBV8J_o4S4As",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "442",
+               "short_name" : "442",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lori Street",
+               "short_name" : "Lori St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3Y2",
+               "short_name" : "N8S 3Y2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "442 Lori St, Windsor, ON N8S 3Y2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.336937,
+                  "lng" : -82.93391389999999
+               },
+               "southwest" : {
+                  "lat" : 42.3369347,
+                  "lng" : -82.9339324
+               }
+            },
+            "location" : {
+               "lat" : 42.3369347,
+               "lng" : -82.9339324
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3382848302915,
+                  "lng" : -82.93257416970849
+               },
+               "southwest" : {
+                  "lat" : 42.3355868697085,
+                  "lng" : -82.93527213029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eig0NDIgTG9yaSBTdCwgV2luZHNvciwgT04gTjhTIDNZMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

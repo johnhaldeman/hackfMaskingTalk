@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "465",
+               "short_name" : "465",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Curry Avenue",
+               "short_name" : "Curry Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2B8",
+               "short_name" : "N9B 2B8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "465 Curry Ave, Windsor, ON N9B 2B8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3094057,
+               "lng" : -83.05491339999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3107546802915,
+                  "lng" : -83.05356441970848
+               },
+               "southwest" : {
+                  "lat" : 42.3080567197085,
+                  "lng" : -83.0562623802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ_RrUqQ0tO4gRZxCzQQYNBdI",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

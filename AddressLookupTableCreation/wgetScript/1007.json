@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2869",
+               "short_name" : "2869",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Buckingham Drive",
+               "short_name" : "Buckingham Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2C4",
+               "short_name" : "N8T 2C4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2869 Buckingham Dr, Windsor, ON N8T 2C4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2986407,
+                  "lng" : -82.9555821
+               },
+               "southwest" : {
+                  "lat" : 42.2986347,
+                  "lng" : -82.95559899999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2986407,
+               "lng" : -82.9555821
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2999866802915,
+                  "lng" : -82.95424156970849
+               },
+               "southwest" : {
+                  "lat" : 42.2972887197085,
+                  "lng" : -82.95693953029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8yODY5IEJ1Y2tpbmdoYW0gRHIsIFdpbmRzb3IsIE9OIE44VCAyQzQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

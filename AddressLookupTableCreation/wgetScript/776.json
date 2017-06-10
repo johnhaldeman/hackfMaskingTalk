@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "410",
+               "short_name" : "410",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Logan Avenue",
+               "short_name" : "Logan Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2V4",
+               "short_name" : "N8X 2V4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "410 Logan Ave, Windsor, ON N8X 2V4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2947687,
+                  "lng" : -83.01735630000002
+               },
+               "southwest" : {
+                  "lat" : 42.2947564,
+                  "lng" : -83.0173648
+               }
+            },
+            "location" : {
+               "lat" : 42.2947564,
+               "lng" : -83.01735630000002
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2961115302915,
+                  "lng" : -83.0160115697085
+               },
+               "southwest" : {
+                  "lat" : 42.2934135697085,
+                  "lng" : -83.01870953029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio0MTAgTG9nYW4gQXZlLCBXaW5kc29yLCBPTiBOOFggMlY0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

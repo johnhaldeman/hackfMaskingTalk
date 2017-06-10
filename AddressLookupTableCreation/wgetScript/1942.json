@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "224",
+               "short_name" : "224",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Belleview Avenue",
+               "short_name" : "Belleview Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1A5",
+               "short_name" : "N8Y 1A5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "224 Belleview Ave, Windsor, ON N8Y 1A5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3265007,
+                  "lng" : -82.9986909
+               },
+               "southwest" : {
+                  "lat" : 42.3264945,
+                  "lng" : -82.9987077
+               }
+            },
+            "location" : {
+               "lat" : 42.3264945,
+               "lng" : -82.9987077
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32784658029149,
+                  "lng" : -82.9973503197085
+               },
+               "southwest" : {
+                  "lat" : 42.32514861970849,
+                  "lng" : -83.00004828029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4yMjQgQmVsbGV2aWV3IEF2ZSwgV2luZHNvciwgT04gTjhZIDFBNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

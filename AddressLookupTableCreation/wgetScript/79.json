@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "999",
+               "short_name" : "999",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Walker Road",
+               "short_name" : "Walker Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2N6",
+               "short_name" : "N8Y 2N6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "999 Walker Rd, Windsor, ON N8Y 2N6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3192341,
+                  "lng" : -83.0053726
+               },
+               "southwest" : {
+                  "lat" : 42.3192281,
+                  "lng" : -83.0053896
+               }
+            },
+            "location" : {
+               "lat" : 42.3192341,
+               "lng" : -83.0053726
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3205800802915,
+                  "lng" : -83.0040321197085
+               },
+               "southwest" : {
+                  "lat" : 42.3178821197085,
+                  "lng" : -83.0067300802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio5OTkgV2Fsa2VyIFJkLCBXaW5kc29yLCBPTiBOOFkgMk42LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

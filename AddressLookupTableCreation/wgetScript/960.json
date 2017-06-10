@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "630",
+               "short_name" : "630",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Argyle Road",
+               "short_name" : "Argyle Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3J6",
+               "short_name" : "N8Y 3J6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "630 Argyle Rd, Windsor, ON N8Y 3J6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3231669,
+                  "lng" : -83.01077629999999
+               },
+               "southwest" : {
+                  "lat" : 42.3231609,
+                  "lng" : -83.0107933
+               }
+            },
+            "location" : {
+               "lat" : 42.3231609,
+               "lng" : -83.0107933
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3245128802915,
+                  "lng" : -83.00943581970849
+               },
+               "southwest" : {
+                  "lat" : 42.3218149197085,
+                  "lng" : -83.01213378029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio2MzAgQXJneWxlIFJkLCBXaW5kc29yLCBPTiBOOFkgM0o2LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

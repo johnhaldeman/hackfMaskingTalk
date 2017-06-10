@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2612",
+               "short_name" : "2612",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lauzon Road",
+               "short_name" : "Lauzon Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2Z5",
+               "short_name" : "N8T 2Z5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2612 Lauzon Rd, Windsor, ON N8T 2Z5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3119275,
+                  "lng" : -82.93037319999999
+               },
+               "southwest" : {
+                  "lat" : 42.3119217,
+                  "lng" : -82.9303903
+               }
+            },
+            "location" : {
+               "lat" : 42.3119217,
+               "lng" : -82.9303903
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3132735802915,
+                  "lng" : -82.92903276970848
+               },
+               "southwest" : {
+                  "lat" : 42.3105756197085,
+                  "lng" : -82.93173073029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyNjEyIExhdXpvbiBSZCwgV2luZHNvciwgT04gTjhUIDJaNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

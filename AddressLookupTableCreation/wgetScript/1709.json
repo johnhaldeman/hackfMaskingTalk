@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "818",
+               "short_name" : "818",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Newport Crescent",
+               "short_name" : "Newport Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4Z5",
+               "short_name" : "N9E 4Z5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "818 Newport Crescent, Windsor, ON N9E 4Z5, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2815655,
+               "lng" : -83.02598130000001
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2829144802915,
+                  "lng" : -83.02463231970852
+               },
+               "southwest" : {
+                  "lat" : 42.2802165197085,
+                  "lng" : -83.02733028029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJzdDsckgsO4gR7CE6A0ZiSAY",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1880",
+               "short_name" : "1880",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fuller Crescent",
+               "short_name" : "Fuller Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5S2",
+               "short_name" : "N8W 5S2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1880 Fuller Crescent, Windsor, ON N8W 5S2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2717697,
+               "lng" : -82.9864877
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2731186802915,
+                  "lng" : -82.9851387197085
+               },
+               "southwest" : {
+                  "lat" : 42.2704207197085,
+                  "lng" : -82.98783668029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ3Vk9QPErO4gRRG3rvGQojq4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

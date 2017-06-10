@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "872",
+               "short_name" : "872",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lawrence Road",
+               "short_name" : "Lawrence Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3Z7",
+               "short_name" : "N8Y 3Z7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "872 Lawrence Rd, Windsor, ON N8Y 3Z7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3250883,
+                  "lng" : -82.9779592
+               },
+               "southwest" : {
+                  "lat" : 42.3249727,
+                  "lng" : -82.97810830000002
+               }
+            },
+            "location" : {
+               "lat" : 42.3250305,
+               "lng" : -82.97803379999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32637948029149,
+                  "lng" : -82.97668476970851
+               },
+               "southwest" : {
+                  "lat" : 42.32368151970849,
+                  "lng" : -82.97938273029153
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJh94hwkUrO4gRbX8mz0lvvWg",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1990",
+               "short_name" : "1990",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Jefferson Boulevard",
+               "short_name" : "Jefferson Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2W2",
+               "short_name" : "N8T 2W2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1990 Jefferson Blvd, Windsor, ON N8T 2W2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3127157,
+               "lng" : -82.95303579999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31406468029149,
+                  "lng" : -82.95168681970848
+               },
+               "southwest" : {
+                  "lat" : 42.3113667197085,
+                  "lng" : -82.95438478029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJY6gGAR8rO4gRRMnOmb_aBk8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

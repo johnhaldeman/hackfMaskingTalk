@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3782",
+               "short_name" : "3782",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Victoria Boulevard",
+               "short_name" : "Victoria Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3L8",
+               "short_name" : "N9E 3L8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3782 Victoria Blvd, Windsor, ON N9E 3L8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2585359,
+                  "lng" : -83.00274
+               },
+               "southwest" : {
+                  "lat" : 42.2585299,
+                  "lng" : -83.00275689999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2585299,
+               "lng" : -83.00275689999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2598818802915,
+                  "lng" : -83.00139946970849
+               },
+               "southwest" : {
+                  "lat" : 42.2571839197085,
+                  "lng" : -83.00409743029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8zNzgyIFZpY3RvcmlhIEJsdmQsIFdpbmRzb3IsIE9OIE45RSAzTDgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

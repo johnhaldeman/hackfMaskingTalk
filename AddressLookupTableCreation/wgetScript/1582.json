@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "8739",
+               "short_name" : "8739",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riverside Drive East",
+               "short_name" : "Riverside Dr E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S",
+               "short_name" : "N8S",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "8739 Riverside Dr E, Windsor, ON N8S, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3423436,
+                  "lng" : -82.93773070000002
+               },
+               "southwest" : {
+                  "lat" : 42.34233,
+                  "lng" : -82.9377344
+               }
+            },
+            "location" : {
+               "lat" : 42.3423436,
+               "lng" : -82.93773070000002
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.34368578029149,
+                  "lng" : -82.9363835697085
+               },
+               "southwest" : {
+                  "lat" : 42.3409878197085,
+                  "lng" : -82.93908153029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw4NzM5IFJpdmVyc2lkZSBEciBFLCBXaW5kc29yLCBPTiBOOFMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

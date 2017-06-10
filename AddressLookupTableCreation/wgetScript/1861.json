@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1455",
+               "short_name" : "1455",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parent Avenue",
+               "short_name" : "Parent Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4J6",
+               "short_name" : "N8X 4J6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1455 Parent Ave, Windsor, ON N8X 4J6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3057155,
+                  "lng" : -83.015457
+               },
+               "southwest" : {
+                  "lat" : 42.3057095,
+                  "lng" : -83.01547389999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3057155,
+               "lng" : -83.015457
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3070614802915,
+                  "lng" : -83.0141164697085
+               },
+               "southwest" : {
+                  "lat" : 42.3043635197085,
+                  "lng" : -83.0168144302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxNDU1IFBhcmVudCBBdmUsIFdpbmRzb3IsIE9OIE44WCA0SjYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

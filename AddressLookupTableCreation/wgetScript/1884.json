@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1672",
+               "short_name" : "1672",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Factoria Road",
+               "short_name" : "Factoria Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 4R2",
+               "short_name" : "N8Y 4R2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1672 Factoria Rd, Windsor, ON N8Y 4R2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.307306,
+               "lng" : -82.995385
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3086549802915,
+                  "lng" : -82.99403601970849
+               },
+               "southwest" : {
+                  "lat" : 42.3059570197085,
+                  "lng" : -82.99673398029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJT2XW0YIsO4gR5-JihV3jTRQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

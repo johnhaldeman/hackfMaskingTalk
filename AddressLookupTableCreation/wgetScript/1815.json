@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "417",
+               "short_name" : "417",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Aylmer Avenue",
+               "short_name" : "Aylmer Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 1T5",
+               "short_name" : "N9A 1T5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "417 Aylmer Ave, Windsor, ON N9A 1T5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3185851,
+                  "lng" : -83.0294727
+               },
+               "southwest" : {
+                  "lat" : 42.31857919999999,
+                  "lng" : -83.02948959999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3185851,
+               "lng" : -83.0294727
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3199311302915,
+                  "lng" : -83.02813216970848
+               },
+               "southwest" : {
+                  "lat" : 42.3172331697085,
+                  "lng" : -83.03083013029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eis0MTcgQXlsbWVyIEF2ZSwgV2luZHNvciwgT04gTjlBIDFUNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

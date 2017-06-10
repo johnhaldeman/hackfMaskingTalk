@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1194",
+               "short_name" : "1194",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Reedmere Road",
+               "short_name" : "Reedmere Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2M3",
+               "short_name" : "N8S 2M3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1194 Reedmere Rd, Windsor, ON N8S 2M3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3205597,
+                  "lng" : -82.9623464
+               },
+               "southwest" : {
+                  "lat" : 42.3205538,
+                  "lng" : -82.9623634
+               }
+            },
+            "location" : {
+               "lat" : 42.3205538,
+               "lng" : -82.9623634
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3219057302915,
+                  "lng" : -82.9610059197085
+               },
+               "southwest" : {
+                  "lat" : 42.3192077697085,
+                  "lng" : -82.96370388029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xMTk0IFJlZWRtZXJlIFJkLCBXaW5kc29yLCBPTiBOOFMgMk0zLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

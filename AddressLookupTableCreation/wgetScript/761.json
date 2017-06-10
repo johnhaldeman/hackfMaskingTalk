@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "476",
+               "short_name" : "476",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Avenue",
+               "short_name" : "McKay Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1Z8",
+               "short_name" : "N9B 1Z8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "476 McKay Ave, Windsor, ON N9B 1Z8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3099143,
+                  "lng" : -83.05331989999999
+               },
+               "southwest" : {
+                  "lat" : 42.3098035,
+                  "lng" : -83.05349269999999
+               }
+            },
+            "location" : {
+               "lat" : 42.30985889999999,
+               "lng" : -83.05340629999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3112078802915,
+                  "lng" : -83.05205731970848
+               },
+               "southwest" : {
+                  "lat" : 42.3085099197085,
+                  "lng" : -83.05475528029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJG6EhwQ0tO4gR2hQ-iwA5jgY",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "315",
+               "short_name" : "315",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pelissier Street",
+               "short_name" : "Pelissier St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "315 Pelissier St, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3171195,
+               "lng" : -83.0400087
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3184684802915,
+                  "lng" : -83.03865971970851
+               },
+               "southwest" : {
+                  "lat" : 42.3157705197085,
+                  "lng" : -83.04135768029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ24tW6B4tO4gRTsu7-DIlJiY",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

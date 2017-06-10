@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1627",
+               "short_name" : "1627",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drouillard Road",
+               "short_name" : "Drouillard Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2S4",
+               "short_name" : "N8Y 2S4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1627 Drouillard Rd, Windsor, ON N8Y 2S4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.309342,
+                  "lng" : -82.99231639999999
+               },
+               "southwest" : {
+                  "lat" : 42.30933599999999,
+                  "lng" : -82.99233339999999
+               }
+            },
+            "location" : {
+               "lat" : 42.309342,
+               "lng" : -82.99231639999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3106879802915,
+                  "lng" : -82.99097591970848
+               },
+               "southwest" : {
+                  "lat" : 42.3079900197085,
+                  "lng" : -82.9936738802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xNjI3IERyb3VpbGxhcmQgUmQsIFdpbmRzb3IsIE9OIE44WSAyUzQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

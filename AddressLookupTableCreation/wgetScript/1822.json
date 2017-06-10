@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1414",
+               "short_name" : "1414",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bernard Road",
+               "short_name" : "Bernard Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 4K3",
+               "short_name" : "N8Y 4K3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1414 Bernard Rd, Windsor, ON N8Y 4K3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3189718,
+                  "lng" : -82.98021039999999
+               },
+               "southwest" : {
+                  "lat" : 42.318966,
+                  "lng" : -82.98022739999999
+               }
+            },
+            "location" : {
+               "lat" : 42.318966,
+               "lng" : -82.98022739999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3203178802915,
+                  "lng" : -82.97886991970847
+               },
+               "southwest" : {
+                  "lat" : 42.3176199197085,
+                  "lng" : -82.98156788029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxNDE0IEJlcm5hcmQgUmQsIFdpbmRzb3IsIE9OIE44WSA0SzMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

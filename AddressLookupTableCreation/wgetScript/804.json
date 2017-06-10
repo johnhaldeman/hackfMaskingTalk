@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "416",
+               "short_name" : "416",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saint John Street",
+               "short_name" : "St John St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3T7",
+               "short_name" : "N8S 3T7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "416 St John St, Windsor, ON N8S 3T7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.336709,
+                  "lng" : -82.9410974
+               },
+               "southwest" : {
+                  "lat" : 42.3367033,
+                  "lng" : -82.9411145
+               }
+            },
+            "location" : {
+               "lat" : 42.3367033,
+               "lng" : -82.9411145
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3380551302915,
+                  "lng" : -82.9397569697085
+               },
+               "southwest" : {
+                  "lat" : 42.3353571697085,
+                  "lng" : -82.9424549302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eis0MTYgU3QgSm9obiBTdCwgV2luZHNvciwgT04gTjhTIDNUNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

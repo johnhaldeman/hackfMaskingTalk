@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1660",
+               "short_name" : "1660",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Moy Avenue",
+               "short_name" : "Moy Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3J9",
+               "short_name" : "N8X 3J9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1660 Moy Ave, Windsor, ON N8X 3J9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3036655,
+                  "lng" : -83.00690640000001
+               },
+               "southwest" : {
+                  "lat" : 42.30365949999999,
+                  "lng" : -83.00692330000001
+               }
+            },
+            "location" : {
+               "lat" : 42.30365949999999,
+               "lng" : -83.00692330000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30501148029149,
+                  "lng" : -83.00556586970852
+               },
+               "southwest" : {
+                  "lat" : 42.30231351970849,
+                  "lng" : -83.00826383029153
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikxNjYwIE1veSBBdmUsIFdpbmRzb3IsIE9OIE44WCAzSjksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

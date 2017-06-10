@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1980",
+               "short_name" : "1980",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Daytona Avenue",
+               "short_name" : "Daytona Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3V7",
+               "short_name" : "N9B 3V7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1980 Daytona Ave, Windsor, ON N9B 3V7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2796727,
+                  "lng" : -83.05189370000001
+               },
+               "southwest" : {
+                  "lat" : 42.27966670000001,
+                  "lng" : -83.05191069999999
+               }
+            },
+            "location" : {
+               "lat" : 42.27966670000001,
+               "lng" : -83.05191069999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2810186802915,
+                  "lng" : -83.0505532197085
+               },
+               "southwest" : {
+                  "lat" : 42.2783207197085,
+                  "lng" : -83.05325118029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xOTgwIERheXRvbmEgQXZlLCBXaW5kc29yLCBPTiBOOUIgM1Y3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

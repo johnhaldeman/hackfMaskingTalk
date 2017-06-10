@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1433",
+               "short_name" : "1433",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sprucewood Avenue",
+               "short_name" : "Sprucewood Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9J 3N3",
+               "short_name" : "N9J 3N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1433 Sprucewood Ave, Windsor, ON N9J 3N3, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.25037,
+               "lng" : -83.07230589999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2517189802915,
+                  "lng" : -83.07095691970849
+               },
+               "southwest" : {
+                  "lat" : 42.2490210197085,
+                  "lng" : -83.0736548802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJGdGevRsuO4gR99_eLOzpF28",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

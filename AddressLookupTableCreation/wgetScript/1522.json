@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5319",
+               "short_name" : "5319",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riverside Drive East",
+               "short_name" : "Riverside Dr E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 1A2",
+               "short_name" : "N8S 1A2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5319 Riverside Dr E, Windsor, ON N8S 1A2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.33089409999999,
+                  "lng" : -82.9742835
+               },
+               "southwest" : {
+                  "lat" : 42.3308805,
+                  "lng" : -82.9742878
+               }
+            },
+            "location" : {
+               "lat" : 42.33089409999999,
+               "lng" : -82.9742878
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3322362802915,
+                  "lng" : -82.97293666970849
+               },
+               "southwest" : {
+                  "lat" : 42.3295383197085,
+                  "lng" : -82.97563463029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjA1MzE5IFJpdmVyc2lkZSBEciBFLCBXaW5kc29yLCBPTiBOOFMgMUEyLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5319",
+               "short_name" : "5319",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riverside Drive West",
+               "short_name" : "Riverside Dr W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "5319 Riverside Dr W, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3096988,
+                  "lng" : -83.07038659999999
+               },
+               "southwest" : {
+                  "lat" : 42.3096883,
+                  "lng" : -83.0703989
+               }
+            },
+            "location" : {
+               "lat" : 42.3096988,
+               "lng" : -83.0703989
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31104253029149,
+                  "lng" : -83.0690437697085
+               },
+               "southwest" : {
+                  "lat" : 42.3083445697085,
+                  "lng" : -83.07174173029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw1MzE5IFJpdmVyc2lkZSBEciBXLCBXaW5kc29yLCBPTiBOOUIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

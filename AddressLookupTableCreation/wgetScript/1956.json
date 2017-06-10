@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3215",
+               "short_name" : "3215",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Milano Court",
+               "short_name" : "Milano Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 2K1",
+               "short_name" : "N8R 2K1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3215 Milano Ct, Windsor, ON N8R 2K1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3043378,
+                  "lng" : -82.90373249999999
+               },
+               "southwest" : {
+                  "lat" : 42.3043353,
+                  "lng" : -82.903751
+               }
+            },
+            "location" : {
+               "lat" : 42.3043378,
+               "lng" : -82.90373249999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3056855302915,
+                  "lng" : -82.9023927697085
+               },
+               "southwest" : {
+                  "lat" : 42.3029875697085,
+                  "lng" : -82.9050907302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszMjE1IE1pbGFubyBDdCwgV2luZHNvciwgT04gTjhSIDJLMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2838",
+               "short_name" : "2838",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Howard Avenue",
+               "short_name" : "Howard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3Y4",
+               "short_name" : "N8X 3Y4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2838 Howard Ave, Windsor, ON N8X 3Y4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.280622,
+                  "lng" : -83.0092382
+               },
+               "southwest" : {
+                  "lat" : 42.28061539999999,
+                  "lng" : -83.0092547
+               }
+            },
+            "location" : {
+               "lat" : 42.28061539999999,
+               "lng" : -83.0092547
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2819676802915,
+                  "lng" : -83.0078974697085
+               },
+               "southwest" : {
+                  "lat" : 42.2792697197085,
+                  "lng" : -83.0105954302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyODM4IEhvd2FyZCBBdmUsIFdpbmRzb3IsIE9OIE44WCAzWTQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

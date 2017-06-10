@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3729",
+               "short_name" : "3729",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Howard Avenue",
+               "short_name" : "Howard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3729 Howard Ave, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2618605,
+                  "lng" : -82.9974225
+               },
+               "southwest" : {
+                  "lat" : 42.26185479999999,
+                  "lng" : -82.99743959999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2618605,
+               "lng" : -82.9974225
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.26320663029149,
+                  "lng" : -82.99608206970849
+               },
+               "southwest" : {
+                  "lat" : 42.26050866970849,
+                  "lng" : -82.9987800302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigzNzI5IEhvd2FyZCBBdmUsIFdpbmRzb3IsIE9OIE45RSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

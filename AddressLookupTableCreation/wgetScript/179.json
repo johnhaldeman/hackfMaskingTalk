@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1379",
+               "short_name" : "1379",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Marentette Avenue",
+               "short_name" : "Marentette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4C9",
+               "short_name" : "N8X 4C9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1379 Marentette Ave, Windsor, ON N8X 4C9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.306095,
+                  "lng" : -83.01835509999999
+               },
+               "southwest" : {
+                  "lat" : 42.306089,
+                  "lng" : -83.018372
+               }
+            },
+            "location" : {
+               "lat" : 42.306095,
+               "lng" : -83.01835509999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3074409802915,
+                  "lng" : -83.01701456970849
+               },
+               "southwest" : {
+                  "lat" : 42.3047430197085,
+                  "lng" : -83.01971253029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAxMzc5IE1hcmVudGV0dGUgQXZlLCBXaW5kc29yLCBPTiBOOFggNEM5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4439",
+               "short_name" : "4439",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wyandotte Street East",
+               "short_name" : "Wyandotte St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1H3",
+               "short_name" : "N8Y 1H3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4439 Wyandotte St E, Windsor, ON N8Y 1H3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3258208,
+                  "lng" : -82.98256429999999
+               },
+               "southwest" : {
+                  "lat" : 42.32580730000001,
+                  "lng" : -82.982569
+               }
+            },
+            "location" : {
+               "lat" : 42.3258208,
+               "lng" : -82.982569
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3271630302915,
+                  "lng" : -82.98121766970849
+               },
+               "southwest" : {
+                  "lat" : 42.3244650697085,
+                  "lng" : -82.98391563029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjA0NDM5IFd5YW5kb3R0ZSBTdCBFLCBXaW5kc29yLCBPTiBOOFkgMUgzLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

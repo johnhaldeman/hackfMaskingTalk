@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1196",
+               "short_name" : "1196",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Balsamo Court",
+               "short_name" : "Balsamo Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4Y5",
+               "short_name" : "N9E 4Y5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1196 Balsamo Ct, Windsor, ON N9E 4Y5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2799242,
+                  "lng" : -83.030524
+               },
+               "southwest" : {
+                  "lat" : 42.2799138,
+                  "lng" : -83.0305365
+               }
+            },
+            "location" : {
+               "lat" : 42.2799138,
+               "lng" : -83.030524
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2812679802915,
+                  "lng" : -83.0291812697085
+               },
+               "southwest" : {
+                  "lat" : 42.2785700197085,
+                  "lng" : -83.03187923029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxMTk2IEJhbHNhbW8gQ3QsIFdpbmRzb3IsIE9OIE45RSA0WTUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

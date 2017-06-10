@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "344",
+               "short_name" : "344",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Newbury Street",
+               "short_name" : "Newbury St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4T8",
+               "short_name" : "N9A 4T8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "344 Newbury St, Windsor, ON N9A 4T8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3097085,
+                  "lng" : -83.03941159999999
+               },
+               "southwest" : {
+                  "lat" : 42.3096961,
+                  "lng" : -83.03941999999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3096961,
+               "lng" : -83.03941159999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3110512802915,
+                  "lng" : -83.03806681970849
+               },
+               "southwest" : {
+                  "lat" : 42.3083533197085,
+                  "lng" : -83.0407647802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszNDQgTmV3YnVyeSBTdCwgV2luZHNvciwgT04gTjlBIDRUOCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

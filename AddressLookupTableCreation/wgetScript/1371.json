@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "151",
+               "short_name" : "151",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Marentette Avenue",
+               "short_name" : "Marentette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 1Y4",
+               "short_name" : "N9A 1Y4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "151 Marentette Ave, Windsor, ON N9A 1Y4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.32174089999999,
+                  "lng" : -83.0278847
+               },
+               "southwest" : {
+                  "lat" : 42.3217348,
+                  "lng" : -83.02790159999999
+               }
+            },
+            "location" : {
+               "lat" : 42.32174089999999,
+               "lng" : -83.0278847
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3230868302915,
+                  "lng" : -83.0265441697085
+               },
+               "southwest" : {
+                  "lat" : 42.3203888697085,
+                  "lng" : -83.02924213029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xNTEgTWFyZW50ZXR0ZSBBdmUsIFdpbmRzb3IsIE9OIE45QSAxWTQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

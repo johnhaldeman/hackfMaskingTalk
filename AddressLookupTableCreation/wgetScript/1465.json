@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "867",
+               "short_name" : "867",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cataraqui Street",
+               "short_name" : "Cataraqui St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3P5",
+               "short_name" : "N9A 3P5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "867 Cataraqui St, Windsor, ON N9A 3P5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3167564,
+                  "lng" : -83.0232862
+               },
+               "southwest" : {
+                  "lat" : 42.3167438,
+                  "lng" : -83.0232942
+               }
+            },
+            "location" : {
+               "lat" : 42.3167564,
+               "lng" : -83.0232942
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3180990802915,
+                  "lng" : -83.02194121970849
+               },
+               "southwest" : {
+                  "lat" : 42.3154011197085,
+                  "lng" : -83.02463918029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei04NjcgQ2F0YXJhcXVpIFN0LCBXaW5kc29yLCBPTiBOOUEgM1A1LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

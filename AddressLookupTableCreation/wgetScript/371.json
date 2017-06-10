@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1798",
+               "short_name" : "1798",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Southdale Drive",
+               "short_name" : "Southdale Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4W8",
+               "short_name" : "N8W 4W8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1798 Southdale Dr, Windsor, ON N8W 4W8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2882524,
+                  "lng" : -82.9918787
+               },
+               "southwest" : {
+                  "lat" : 42.28824729999999,
+                  "lng" : -82.9918962
+               }
+            },
+            "location" : {
+               "lat" : 42.28824729999999,
+               "lng" : -82.9918962
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2895988302915,
+                  "lng" : -82.9905384697085
+               },
+               "southwest" : {
+                  "lat" : 42.2869008697085,
+                  "lng" : -82.9932364302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNzk4IFNvdXRoZGFsZSBEciwgV2luZHNvciwgT04gTjhXIDRXOCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1798",
+               "short_name" : "1798",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Southdale Court",
+               "short_name" : "Southdale Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5E3",
+               "short_name" : "N8W 5E3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1798 Southdale Ct, Windsor, ON N8W 5E3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2892708,
+                  "lng" : -82.99770359999999
+               },
+               "southwest" : {
+                  "lat" : 42.2892647,
+                  "lng" : -82.99772040000001
+               }
+            },
+            "location" : {
+               "lat" : 42.2892647,
+               "lng" : -82.99772040000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2906167302915,
+                  "lng" : -82.9963630197085
+               },
+               "southwest" : {
+                  "lat" : 42.2879187697085,
+                  "lng" : -82.9990609802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNzk4IFNvdXRoZGFsZSBDdCwgV2luZHNvciwgT04gTjhXIDVFMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

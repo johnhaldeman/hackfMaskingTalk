@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1010",
+               "short_name" : "1010",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Talbot Road",
+               "short_name" : "Talbot Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9H 1A4",
+               "short_name" : "N9H 1A4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1010 Talbot Rd, Windsor, ON N9H 1A4, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.238923,
+               "lng" : -83.00240699999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2402719802915,
+                  "lng" : -83.00105801970848
+               },
+               "southwest" : {
+                  "lat" : 42.2375740197085,
+                  "lng" : -83.0037559802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJWx0rPcguO4gRheYQW5FPY28",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

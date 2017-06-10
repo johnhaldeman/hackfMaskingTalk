@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "766",
+               "short_name" : "766",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Elliott Street East",
+               "short_name" : "Elliott St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3S4",
+               "short_name" : "N9A 3S4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "766 Elliott St E, Windsor, ON N9A 3S4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3156646,
+                  "lng" : -83.02439679999999
+               },
+               "southwest" : {
+                  "lat" : 42.3154926,
+                  "lng" : -83.0245776
+               }
+            },
+            "location" : {
+               "lat" : 42.31557859999999,
+               "lng" : -83.0244872
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3169275802915,
+                  "lng" : -83.0231382197085
+               },
+               "southwest" : {
+                  "lat" : 42.3142296197085,
+                  "lng" : -83.02583618029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJa72xvegsO4gR5DN30XreU24",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

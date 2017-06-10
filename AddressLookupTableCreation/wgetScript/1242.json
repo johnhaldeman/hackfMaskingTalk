@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "659",
+               "short_name" : "659",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riverside Drive East",
+               "short_name" : "Riverside Dr E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 2T2",
+               "short_name" : "N9A 2T2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "659 Riverside Dr E, Windsor, ON N9A 2T2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3216804,
+                  "lng" : -83.03047169999999
+               },
+               "southwest" : {
+                  "lat" : 42.321667,
+                  "lng" : -83.0304764
+               }
+            },
+            "location" : {
+               "lat" : 42.3216804,
+               "lng" : -83.0304764
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32302268029149,
+                  "lng" : -83.02912506970848
+               },
+               "southwest" : {
+                  "lat" : 42.3203247197085,
+                  "lng" : -83.03182303029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei82NTkgUml2ZXJzaWRlIERyIEUsIFdpbmRzb3IsIE9OIE45QSAyVDIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4039",
+               "short_name" : "4039",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tecumseh Road East",
+               "short_name" : "Tecumseh Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 1J7",
+               "short_name" : "N8W 1J7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4039 Tecumseh Rd E, Windsor, ON N8W 1J7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3060752,
+                  "lng" : -82.974902
+               },
+               "southwest" : {
+                  "lat" : 42.30606179999999,
+                  "lng" : -82.97490719999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3060752,
+               "lng" : -82.97490719999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30741748029149,
+                  "lng" : -82.97355561970849
+               },
+               "southwest" : {
+                  "lat" : 42.30471951970849,
+                  "lng" : -82.9762535802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei80MDM5IFRlY3Vtc2VoIFJkIEUsIFdpbmRzb3IsIE9OIE44VyAxSjcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

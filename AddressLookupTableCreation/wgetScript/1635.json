@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1520",
+               "short_name" : "1520",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Gladstone Avenue",
+               "short_name" : "Gladstone Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2R1",
+               "short_name" : "N8X 2R1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1520 Gladstone Ave, Windsor, ON N8X 2R1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3069909,
+                  "lng" : -83.007713
+               },
+               "southwest" : {
+                  "lat" : 42.306985,
+                  "lng" : -83.0077299
+               }
+            },
+            "location" : {
+               "lat" : 42.306985,
+               "lng" : -83.0077299
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3083369302915,
+                  "lng" : -83.00637246970848
+               },
+               "southwest" : {
+                  "lat" : 42.3056389697085,
+                  "lng" : -83.00907043029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xNTIwIEdsYWRzdG9uZSBBdmUsIFdpbmRzb3IsIE9OIE44WCAyUjEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

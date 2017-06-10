@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "854",
+               "short_name" : "854",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wyandotte Street East",
+               "short_name" : "Wyandotte St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3J6",
+               "short_name" : "N9A 3J6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "854 Wyandotte St E, Windsor, ON N9A 3J6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3184797,
+                  "lng" : -83.0245623
+               },
+               "southwest" : {
+                  "lat" : 42.3184672,
+                  "lng" : -83.02457040000002
+               }
+            },
+            "location" : {
+               "lat" : 42.3184672,
+               "lng" : -83.0245623
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3198224302915,
+                  "lng" : -83.0232173697085
+               },
+               "southwest" : {
+                  "lat" : 42.3171244697085,
+                  "lng" : -83.02591533029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei84NTQgV3lhbmRvdHRlIFN0IEUsIFdpbmRzb3IsIE9OIE45QSAzSjYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "854",
+               "short_name" : "854",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wyandotte Street West",
+               "short_name" : "Wyandotte St W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 5Y1",
+               "short_name" : "N9A 5Y1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "854 Wyandotte St W, Windsor, ON N9A 5Y1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3108326,
+                  "lng" : -83.04604150000002
+               },
+               "southwest" : {
+                  "lat" : 42.3108201,
+                  "lng" : -83.04604979999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3108201,
+               "lng" : -83.04604150000002
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3121753302915,
+                  "lng" : -83.0446966697085
+               },
+               "southwest" : {
+                  "lat" : 42.3094773697085,
+                  "lng" : -83.04739463029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei84NTQgV3lhbmRvdHRlIFN0IFcsIFdpbmRzb3IsIE9OIE45QSA1WTEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

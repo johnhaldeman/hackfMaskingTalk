@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3298-3202",
+               "short_name" : "3298-3202",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Turner Road",
+               "short_name" : "Turner Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3M1",
+               "short_name" : "N8W 3M1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3298-3202 Turner Rd, Windsor, ON N8W 3M1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2787954,
+                  "lng" : -82.9805179
+               },
+               "southwest" : {
+                  "lat" : 42.2787896,
+                  "lng" : -82.980535
+               }
+            },
+            "location" : {
+               "lat" : 42.2787896,
+               "lng" : -82.980535
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2801414802915,
+                  "lng" : -82.97917746970849
+               },
+               "southwest" : {
+                  "lat" : 42.2774435197085,
+                  "lng" : -82.98187543029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAzMjk4LTMyMDIgVHVybmVyIFJkLCBXaW5kc29yLCBPTiBOOFcgM00xLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

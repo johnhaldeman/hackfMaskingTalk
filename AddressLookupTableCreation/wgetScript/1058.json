@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1024",
+               "short_name" : "1024",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Frank Avenue",
+               "short_name" : "Frank Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3P7",
+               "short_name" : "N8S 3P7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1024 Frank Ave, Windsor, ON N8S 3P7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.329339,
+                  "lng" : -82.9400443
+               },
+               "southwest" : {
+                  "lat" : 42.32933329999999,
+                  "lng" : -82.94006139999999
+               }
+            },
+            "location" : {
+               "lat" : 42.32933329999999,
+               "lng" : -82.94006139999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.33068513029151,
+                  "lng" : -82.93870386970849
+               },
+               "southwest" : {
+                  "lat" : 42.32798716970851,
+                  "lng" : -82.9414018302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxMDI0IEZyYW5rIEF2ZSwgV2luZHNvciwgT04gTjhTIDNQNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

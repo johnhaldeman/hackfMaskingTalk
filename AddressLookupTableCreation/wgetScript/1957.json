@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4733",
+               "short_name" : "4733",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Juliet Crescent",
+               "short_name" : "Juliet Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 3A7",
+               "short_name" : "N9G 3A7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4733 Juliet Crescent, Windsor, ON N9G 3A7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2470593,
+                  "lng" : -82.9673153
+               },
+               "southwest" : {
+                  "lat" : 42.246948,
+                  "lng" : -82.9675012
+               }
+            },
+            "location" : {
+               "lat" : 42.2470037,
+               "lng" : -82.96740819999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2483526302915,
+                  "lng" : -82.9660592697085
+               },
+               "southwest" : {
+                  "lat" : 42.2456546697085,
+                  "lng" : -82.96875723029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJET0MoWgpO4gR4rBaLlM5meU",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

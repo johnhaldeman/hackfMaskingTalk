@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1627",
+               "short_name" : "1627",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "York Street",
+               "short_name" : "York St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1W6",
+               "short_name" : "N8X 1W6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1627 York St, Windsor, ON N8X 1W6, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2960121,
+               "lng" : -83.0309712
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2973610802915,
+                  "lng" : -83.02962221970849
+               },
+               "southwest" : {
+                  "lat" : 42.2946631197085,
+                  "lng" : -83.03232018029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ60D4HFQsO4gRaki-jNsV-_w",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

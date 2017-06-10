@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1017",
+               "short_name" : "1017",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lexington Circle",
+               "short_name" : "Lexington Cir",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S",
+               "short_name" : "N8S",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1017 Lexington Cir, Windsor, ON N8S, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3284385,
+                  "lng" : -82.9364044
+               },
+               "southwest" : {
+                  "lat" : 42.3284326,
+                  "lng" : -82.9364214
+               }
+            },
+            "location" : {
+               "lat" : 42.3284326,
+               "lng" : -82.9364214
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3297845302915,
+                  "lng" : -82.9350639197085
+               },
+               "southwest" : {
+                  "lat" : 42.3270865697085,
+                  "lng" : -82.9377618802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxMDE3IExleGluZ3RvbiBDaXIsIFdpbmRzb3IsIE9OIE44UywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

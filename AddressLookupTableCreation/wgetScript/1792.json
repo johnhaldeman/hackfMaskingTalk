@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1336",
+               "short_name" : "1336",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Giselle Crescent",
+               "short_name" : "Giselle Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5P5",
+               "short_name" : "N8W 5P5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1336 Giselle Crescent, Windsor, ON N8W 5P5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2739032,
+                  "lng" : -82.98765589999999
+               },
+               "southwest" : {
+                  "lat" : 42.2737676,
+                  "lng" : -82.98781679999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2738354,
+               "lng" : -82.9877364
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2751843802915,
+                  "lng" : -82.9863873697085
+               },
+               "southwest" : {
+                  "lat" : 42.2724864197085,
+                  "lng" : -82.9890853302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJa3A99vMrO4gRoXzZLjrI9CM",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3446",
+               "short_name" : "3446",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cross Street",
+               "short_name" : "Cross St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1N3",
+               "short_name" : "N9C 1N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3446 Cross St, Windsor, ON N9C 1N3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2954416,
+                  "lng" : -83.0757447
+               },
+               "southwest" : {
+                  "lat" : 42.2954358,
+                  "lng" : -83.0757617
+               }
+            },
+            "location" : {
+               "lat" : 42.2954358,
+               "lng" : -83.0757447
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2967876802915,
+                  "lng" : -83.07440421970848
+               },
+               "southwest" : {
+                  "lat" : 42.2940897197085,
+                  "lng" : -83.0771021802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozNDQ2IENyb3NzIFN0LCBXaW5kc29yLCBPTiBOOUMgMU4zLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

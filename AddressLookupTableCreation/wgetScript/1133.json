@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2460",
+               "short_name" : "2460",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dominion Boulevard",
+               "short_name" : "Dominion Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2M4",
+               "short_name" : "N9E 2M4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2460 Dominion Blvd, Windsor, ON N9E 2M4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2763369,
+                  "lng" : -83.03052679999999
+               },
+               "southwest" : {
+                  "lat" : 42.2762065,
+                  "lng" : -83.03068239999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2762717,
+               "lng" : -83.0306046
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2776206802915,
+                  "lng" : -83.02925561970848
+               },
+               "southwest" : {
+                  "lat" : 42.27492271970851,
+                  "lng" : -83.03195358029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJex_NpzYsO4gRC03TWSHM4g8",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

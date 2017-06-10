@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3193",
+               "short_name" : "3193",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Robinet Road",
+               "short_name" : "Robinet Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R",
+               "short_name" : "N8R",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3193 Robinet Rd, Windsor, ON N8R, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3059912,
+                  "lng" : -82.9046635
+               },
+               "southwest" : {
+                  "lat" : 42.3059887,
+                  "lng" : -82.90468199999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3059912,
+               "lng" : -82.9046635
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3073389302915,
+                  "lng" : -82.90332376970849
+               },
+               "southwest" : {
+                  "lat" : 42.3046409697085,
+                  "lng" : -82.9060217302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigzMTkzIFJvYmluZXQgUmQsIFdpbmRzb3IsIE9OIE44UiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

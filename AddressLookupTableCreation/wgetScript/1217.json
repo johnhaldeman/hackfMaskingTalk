@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "378",
+               "short_name" : "378",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Elm Avenue",
+               "short_name" : "Elm Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 5H1",
+               "short_name" : "N9A 5H1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "378 Elm Ave, Windsor, ON N9A 5H1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.312886,
+                  "lng" : -83.0508492
+               },
+               "southwest" : {
+                  "lat" : 42.3127721,
+                  "lng" : -83.0510469
+               }
+            },
+            "location" : {
+               "lat" : 42.312829,
+               "lng" : -83.0509481
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3141780302915,
+                  "lng" : -83.04959906970851
+               },
+               "southwest" : {
+                  "lat" : 42.3114800697085,
+                  "lng" : -83.05229703029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJlS4wlhEtO4gRaL03H8epqxg",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

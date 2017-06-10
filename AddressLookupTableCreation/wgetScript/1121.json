@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2237",
+               "short_name" : "2237",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Charl Avenue",
+               "short_name" : "Charl Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2A1",
+               "short_name" : "N8X 2A1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2237 Charl Ave, Windsor, ON N8X 2A1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2921322,
+                  "lng" : -83.02934160000001
+               },
+               "southwest" : {
+                  "lat" : 42.2921263,
+                  "lng" : -83.02935859999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2921322,
+               "lng" : -83.02934160000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2934782302915,
+                  "lng" : -83.02800111970849
+               },
+               "southwest" : {
+                  "lat" : 42.2907802697085,
+                  "lng" : -83.0306990802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyMjM3IENoYXJsIEF2ZSwgV2luZHNvciwgT04gTjhYIDJBMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

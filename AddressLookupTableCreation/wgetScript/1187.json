@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "583",
+               "short_name" : "583",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Edinborough Street",
+               "short_name" : "Edinborough St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3C5",
+               "short_name" : "N8X 3C5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "583 Edinborough St, Windsor, ON N8X 3C5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.28392119999999,
+                  "lng" : -83.0096059
+               },
+               "southwest" : {
+                  "lat" : 42.2839086,
+                  "lng" : -83.00961389999999
+               }
+            },
+            "location" : {
+               "lat" : 42.28392119999999,
+               "lng" : -83.00961389999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2852638802915,
+                  "lng" : -83.00826091970848
+               },
+               "southwest" : {
+                  "lat" : 42.2825659197085,
+                  "lng" : -83.0109588802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei81ODMgRWRpbmJvcm91Z2ggU3QsIFdpbmRzb3IsIE9OIE44WCAzQzUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

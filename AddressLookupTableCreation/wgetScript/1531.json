@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3077",
+               "short_name" : "3077",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stillmeadow Road",
+               "short_name" : "Stillmeadow Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 1N2",
+               "short_name" : "N8R 1N2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3077 Stillmeadow Rd, Windsor, ON N8R 1N2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3072839,
+                  "lng" : -82.91004119999999
+               },
+               "southwest" : {
+                  "lat" : 42.3072788,
+                  "lng" : -82.91005869999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3072839,
+               "lng" : -82.91004119999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3086303302915,
+                  "lng" : -82.90870096970849
+               },
+               "southwest" : {
+                  "lat" : 42.3059323697085,
+                  "lng" : -82.91139893029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAzMDc3IFN0aWxsbWVhZG93IFJkLCBXaW5kc29yLCBPTiBOOFIgMU4yLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

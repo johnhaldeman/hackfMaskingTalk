@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1526",
+               "short_name" : "1526",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Janette Avenue",
+               "short_name" : "Janette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1Z6",
+               "short_name" : "N8X 1Z6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1526 Janette Ave, Windsor, ON N8X 1Z6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2976215,
+                  "lng" : -83.0338514
+               },
+               "southwest" : {
+                  "lat" : 42.2975202,
+                  "lng" : -83.03400139999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2975709,
+               "lng" : -83.0339264
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2989198302915,
+                  "lng" : -83.03257741970849
+               },
+               "southwest" : {
+                  "lat" : 42.2962218697085,
+                  "lng" : -83.03527538029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJzQ2H-1QsO4gRRdN0ta29QW4",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

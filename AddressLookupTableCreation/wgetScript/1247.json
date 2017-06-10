@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2517",
+               "short_name" : "2517",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "California Avenue",
+               "short_name" : "California Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2517 California Ave, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2712357,
+                  "lng" : -83.04180359999999
+               },
+               "southwest" : {
+                  "lat" : 42.2712296,
+                  "lng" : -83.0418205
+               }
+            },
+            "location" : {
+               "lat" : 42.2712357,
+               "lng" : -83.04180359999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2725816302915,
+                  "lng" : -83.04046306970848
+               },
+               "southwest" : {
+                  "lat" : 42.26988366970851,
+                  "lng" : -83.0431610302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyNTE3IENhbGlmb3JuaWEgQXZlLCBXaW5kc29yLCBPTiBOOUUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

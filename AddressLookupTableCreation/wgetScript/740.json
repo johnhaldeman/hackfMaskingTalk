@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1085",
+               "short_name" : "1085",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Felix Avenue",
+               "short_name" : "Felix Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 3L5",
+               "short_name" : "N9C 3L5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1085 Felix Ave, Windsor, ON N9C 3L5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2935916,
+                  "lng" : -83.0661966
+               },
+               "southwest" : {
+                  "lat" : 42.2935851,
+                  "lng" : -83.06621319999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2935916,
+               "lng" : -83.0661966
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2949373302915,
+                  "lng" : -83.06485591970849
+               },
+               "southwest" : {
+                  "lat" : 42.2922393697085,
+                  "lng" : -83.0675538802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxMDg1IEZlbGl4IEF2ZSwgV2luZHNvciwgT04gTjlDIDNMNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

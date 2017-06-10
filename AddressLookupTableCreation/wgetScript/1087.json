@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Northwood Street",
+               "short_name" : "Northwood St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Northwood St, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.27998669999999,
+                  "lng" : -83.0194078
+               },
+               "southwest" : {
+                  "lat" : 42.272495,
+                  "lng" : -83.0505708
+               }
+            },
+            "location" : {
+               "lat" : 42.2760753,
+               "lng" : -83.03445139999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27998669999999,
+                  "lng" : -83.0194078
+               },
+               "southwest" : {
+                  "lat" : 42.272495,
+                  "lng" : -83.0505708
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJCUh8oTQsO4gRvicZ-CS1qek",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

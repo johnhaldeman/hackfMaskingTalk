@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1531",
+               "short_name" : "1531",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "University Avenue West",
+               "short_name" : "University Ave W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1C1",
+               "short_name" : "N9B 1C1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1531 University Ave W, Windsor, ON N9B 1C1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3123881,
+                  "lng" : -83.05689289999999
+               },
+               "southwest" : {
+                  "lat" : 42.3123753,
+                  "lng" : -83.0569003
+               }
+            },
+            "location" : {
+               "lat" : 42.3123881,
+               "lng" : -83.0569003
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3137306802915,
+                  "lng" : -83.05554761970849
+               },
+               "southwest" : {
+                  "lat" : 42.3110327197085,
+                  "lng" : -83.05824558029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjIxNTMxIFVuaXZlcnNpdHkgQXZlIFcsIFdpbmRzb3IsIE9OIE45QiAxQzEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

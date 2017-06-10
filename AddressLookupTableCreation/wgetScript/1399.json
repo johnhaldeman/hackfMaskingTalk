@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3117",
+               "short_name" : "3117",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mark Avenue",
+               "short_name" : "Mark Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2W9",
+               "short_name" : "N9E 2W9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3117 Mark Ave, Windsor, ON N9E 2W9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2644668,
+                  "lng" : -83.02818119999999
+               },
+               "southwest" : {
+                  "lat" : 42.26446079999999,
+                  "lng" : -83.02819819999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2644668,
+               "lng" : -83.02818119999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2658127802915,
+                  "lng" : -83.02684071970849
+               },
+               "southwest" : {
+                  "lat" : 42.26311481970851,
+                  "lng" : -83.02953868029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozMTE3IE1hcmsgQXZlLCBXaW5kc29yLCBPTiBOOUUgMlc5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3117",
+               "short_name" : "3117",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mark Avenue",
+               "short_name" : "Mark Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3G7",
+               "short_name" : "N9B 3G7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3117 Mark Ave, Windsor, ON N9B 3G7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2879928,
+                  "lng" : -83.043308
+               },
+               "southwest" : {
+                  "lat" : 42.2879869,
+                  "lng" : -83.043325
+               }
+            },
+            "location" : {
+               "lat" : 42.2879928,
+               "lng" : -83.043308
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2893388302915,
+                  "lng" : -83.04196751970849
+               },
+               "southwest" : {
+                  "lat" : 42.2866408697085,
+                  "lng" : -83.0446654802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozMTE3IE1hcmsgQXZlLCBXaW5kc29yLCBPTiBOOUIgM0c3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

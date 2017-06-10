@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3957",
+               "short_name" : "3957",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Seminole Street",
+               "short_name" : "Seminole St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1Z1",
+               "short_name" : "N8Y 1Z1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3957 Seminole St, Windsor, ON N8Y 1Z1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3158895,
+                  "lng" : -82.98299209999999
+               },
+               "southwest" : {
+                  "lat" : 42.315877,
+                  "lng" : -82.9830003
+               }
+            },
+            "location" : {
+               "lat" : 42.3158895,
+               "lng" : -82.9830003
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3172322302915,
+                  "lng" : -82.98164721970848
+               },
+               "southwest" : {
+                  "lat" : 42.3145342697085,
+                  "lng" : -82.9843451802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0zOTU3IFNlbWlub2xlIFN0LCBXaW5kc29yLCBPTiBOOFkgMVoxLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

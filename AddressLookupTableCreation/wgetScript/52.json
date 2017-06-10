@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "173",
+               "short_name" : "173",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Louis Avenue",
+               "short_name" : "Louis Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 1V8",
+               "short_name" : "N9A 1V8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "173 Louis Ave, Windsor, ON N9A 1V8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3211687,
+                  "lng" : -83.0294452
+               },
+               "southwest" : {
+                  "lat" : 42.3211629,
+                  "lng" : -83.02946229999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3211687,
+               "lng" : -83.0294452
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3225147802915,
+                  "lng" : -83.02810476970849
+               },
+               "southwest" : {
+                  "lat" : 42.3198168197085,
+                  "lng" : -83.0308027302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EioxNzMgTG91aXMgQXZlLCBXaW5kc29yLCBPTiBOOUEgMVY4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

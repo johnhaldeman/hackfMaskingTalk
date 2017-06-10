@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "7271",
+               "short_name" : "7271",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tranby Avenue",
+               "short_name" : "Tranby Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 4J5",
+               "short_name" : "N8S 4J5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "7271 Tranby Ave, Windsor, ON N8S 4J5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3213928,
+                  "lng" : -82.9451493
+               },
+               "southwest" : {
+                  "lat" : 42.3213793,
+                  "lng" : -82.9451533
+               }
+            },
+            "location" : {
+               "lat" : 42.3213928,
+               "lng" : -82.9451533
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3227350302915,
+                  "lng" : -82.94380231970851
+               },
+               "southwest" : {
+                  "lat" : 42.3200370697085,
+                  "lng" : -82.94650028029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw3MjcxIFRyYW5ieSBBdmUsIFdpbmRzb3IsIE9OIE44UyA0SjUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

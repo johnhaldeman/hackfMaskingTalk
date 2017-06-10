@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1292",
+               "short_name" : "1292",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Windermere Road",
+               "short_name" : "Windermere Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3E8",
+               "short_name" : "N8Y 3E8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1292 Windermere Rd, Windsor, ON N8Y 3E8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3116715,
+                  "lng" : -83.00827079999999
+               },
+               "southwest" : {
+                  "lat" : 42.3116655,
+                  "lng" : -83.00828779999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3116655,
+               "lng" : -83.00828779999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31301748029149,
+                  "lng" : -83.00693031970847
+               },
+               "southwest" : {
+                  "lat" : 42.3103195197085,
+                  "lng" : -83.00962828029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xMjkyIFdpbmRlcm1lcmUgUmQsIFdpbmRzb3IsIE9OIE44WSAzRTgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

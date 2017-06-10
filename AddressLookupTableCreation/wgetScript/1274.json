@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4832",
+               "short_name" : "4832",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Southwood Lakes Boulevard",
+               "short_name" : "Southwood Lakes Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Southwood Lakes",
+               "short_name" : "Southwood Lakes",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2T2",
+               "short_name" : "N9G 2T2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4832 Southwood Lakes Blvd, Windsor, ON N9G 2T2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.236944,
+                  "lng" : -82.9874399
+               },
+               "southwest" : {
+                  "lat" : 42.2368153,
+                  "lng" : -82.9876115
+               }
+            },
+            "location" : {
+               "lat" : 42.23687959999999,
+               "lng" : -82.98752569999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.23822863029149,
+                  "lng" : -82.9861767197085
+               },
+               "southwest" : {
+                  "lat" : 42.2355306697085,
+                  "lng" : -82.9888746802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJd1M-dzYpO4gRJ0tsCCAtQH4",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

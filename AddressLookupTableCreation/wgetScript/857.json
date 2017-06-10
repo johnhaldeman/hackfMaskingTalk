@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "8121",
+               "short_name" : "8121",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Little River Boulevard",
+               "short_name" : "Little River Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P",
+               "short_name" : "N8P",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "8121 Little River Blvd, Windsor, ON N8P, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3254828,
+                  "lng" : -82.90695099999999
+               },
+               "southwest" : {
+                  "lat" : 42.325469,
+                  "lng" : -82.90695319999999
+               }
+            },
+            "location" : {
+               "lat" : 42.325469,
+               "lng" : -82.90695099999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3268248802915,
+                  "lng" : -82.90560311970849
+               },
+               "southwest" : {
+                  "lat" : 42.3241269197085,
+                  "lng" : -82.90830108029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei84MTIxIExpdHRsZSBSaXZlciBCbHZkLCBXaW5kc29yLCBPTiBOOFAsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "8121",
+               "short_name" : "8121",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Little River Road",
+               "short_name" : "Little River Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 4P1",
+               "short_name" : "N8S 4P1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "8121 Little River Rd, Windsor, ON N8S 4P1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.32722769999999,
+                  "lng" : -82.93738399999999
+               },
+               "southwest" : {
+                  "lat" : 42.3272138,
+                  "lng" : -82.9373847
+               }
+            },
+            "location" : {
+               "lat" : 42.32722769999999,
+               "lng" : -82.93738399999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3285697302915,
+                  "lng" : -82.93603536970848
+               },
+               "southwest" : {
+                  "lat" : 42.3258717697085,
+                  "lng" : -82.93873333029148
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjE4MTIxIExpdHRsZSBSaXZlciBSZCwgV2luZHNvciwgT04gTjhTIDRQMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5252",
+               "short_name" : "5252",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Queen Elizabeth Drive",
+               "short_name" : "Queen Elizabeth Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 1N3",
+               "short_name" : "N8T 1N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5252 Queen Elizabeth Dr, Windsor, ON N8T 1N3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2931235,
+                  "lng" : -82.9522846
+               },
+               "southwest" : {
+                  "lat" : 42.293111,
+                  "lng" : -82.9522927
+               }
+            },
+            "location" : {
+               "lat" : 42.293111,
+               "lng" : -82.9522846
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.29446623029149,
+                  "lng" : -82.9509396697085
+               },
+               "southwest" : {
+                  "lat" : 42.2917682697085,
+                  "lng" : -82.95363763029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjQ1MjUyIFF1ZWVuIEVsaXphYmV0aCBEciwgV2luZHNvciwgT04gTjhUIDFOMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

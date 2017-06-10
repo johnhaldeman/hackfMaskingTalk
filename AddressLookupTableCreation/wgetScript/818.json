@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1287",
+               "short_name" : "1287",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Labour Crescent",
+               "short_name" : "Labour Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W",
+               "short_name" : "N8W",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1287 Labour Crescent, Windsor, ON N8W, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.276185,
+                  "lng" : -82.99002179999999
+               },
+               "southwest" : {
+                  "lat" : 42.2761712,
+                  "lng" : -82.9900244
+               }
+            },
+            "location" : {
+               "lat" : 42.2761712,
+               "lng" : -82.9900244
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2775270802915,
+                  "lng" : -82.98867411970849
+               },
+               "southwest" : {
+                  "lat" : 42.27482911970851,
+                  "lng" : -82.9913720802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xMjg3IExhYm91ciBDcmVzY2VudCwgV2luZHNvciwgT04gTjhXLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

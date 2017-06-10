@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1354",
+               "short_name" : "1354",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hansen Crescent",
+               "short_name" : "Hansen Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5M5",
+               "short_name" : "N8W 5M5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1354 Hansen Crescent, Windsor, ON N8W 5M5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2767945,
+                  "lng" : -82.9877807
+               },
+               "southwest" : {
+                  "lat" : 42.2767822,
+                  "lng" : -82.9877894
+               }
+            },
+            "location" : {
+               "lat" : 42.2767822,
+               "lng" : -82.9877807
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2781373302915,
+                  "lng" : -82.98643606970849
+               },
+               "southwest" : {
+                  "lat" : 42.2754393697085,
+                  "lng" : -82.9891340302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjExMzU0IEhhbnNlbiBDcmVzY2VudCwgV2luZHNvciwgT04gTjhXIDVNNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

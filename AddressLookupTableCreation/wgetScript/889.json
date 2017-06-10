@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1083",
+               "short_name" : "1083",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Grand Marais Road East",
+               "short_name" : "Grand Marais Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 1W3",
+               "short_name" : "N8W 1W3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1083 Grand Marais Rd E, Windsor, ON N8W 1W3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2838207,
+                  "lng" : -82.9979601
+               },
+               "southwest" : {
+                  "lat" : 42.2836826,
+                  "lng" : -82.9981449
+               }
+            },
+            "location" : {
+               "lat" : 42.2837516,
+               "lng" : -82.9980525
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2851006302915,
+                  "lng" : -82.99670351970849
+               },
+               "southwest" : {
+                  "lat" : 42.2824026697085,
+                  "lng" : -82.99940148029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJPX_TrnYsO4gRHMYPs8HMUbo",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

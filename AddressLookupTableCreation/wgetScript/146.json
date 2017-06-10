@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1560",
+               "short_name" : "1560",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bruce Avenue",
+               "short_name" : "Bruce Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1X9",
+               "short_name" : "N8X 1X9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1560 Bruce Ave, Windsor, ON N8X 1X9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2973826,
+                  "lng" : -83.0327977
+               },
+               "southwest" : {
+                  "lat" : 42.2973766,
+                  "lng" : -83.0328147
+               }
+            },
+            "location" : {
+               "lat" : 42.2973766,
+               "lng" : -83.0328147
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2987285802915,
+                  "lng" : -83.03145721970849
+               },
+               "southwest" : {
+                  "lat" : 42.2960306197085,
+                  "lng" : -83.03415518029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxNTYwIEJydWNlIEF2ZSwgV2luZHNvciwgT04gTjhYIDFYOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

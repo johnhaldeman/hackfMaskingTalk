@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "616",
+               "short_name" : "616",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Vanier Street",
+               "short_name" : "Vanier St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3E3",
+               "short_name" : "N8X 3E3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "616 Vanier St, Windsor, ON N8X 3E3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2836303,
+                  "lng" : -83.0083271
+               },
+               "southwest" : {
+                  "lat" : 42.2834756,
+                  "lng" : -83.0085055
+               }
+            },
+            "location" : {
+               "lat" : 42.283553,
+               "lng" : -83.00841629999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2849019302915,
+                  "lng" : -83.00706731970848
+               },
+               "southwest" : {
+                  "lat" : 42.2822039697085,
+                  "lng" : -83.0097652802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJMfFbGmwsO4gRP1ThFDFhS48",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

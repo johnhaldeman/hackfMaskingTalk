@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2274",
+               "short_name" : "2274",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Roxborough Boulevard",
+               "short_name" : "Roxborough Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2274 Roxborough Blvd, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2782567,
+                  "lng" : -83.0394515
+               },
+               "southwest" : {
+                  "lat" : 42.2782508,
+                  "lng" : -83.0394685
+               }
+            },
+            "location" : {
+               "lat" : 42.2782508,
+               "lng" : -83.0394685
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2796027302915,
+                  "lng" : -83.0381110197085
+               },
+               "southwest" : {
+                  "lat" : 42.2769047697085,
+                  "lng" : -83.0408089802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0yMjc0IFJveGJvcm91Z2ggQmx2ZCwgV2luZHNvciwgT04gTjlCLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

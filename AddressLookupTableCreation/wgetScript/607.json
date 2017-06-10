@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2871",
+               "short_name" : "2871",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mangin Crescent",
+               "short_name" : "Mangin Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4K8",
+               "short_name" : "N9E 4K8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2871 Mangin Crescent, Windsor, ON N9E 4K8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2649415,
+               "lng" : -83.04301599999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2662904802915,
+                  "lng" : -83.04166701970848
+               },
+               "southwest" : {
+                  "lat" : 42.2635925197085,
+                  "lng" : -83.04436498029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ91r17NYtO4gRJ9XK3hLY7iM",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

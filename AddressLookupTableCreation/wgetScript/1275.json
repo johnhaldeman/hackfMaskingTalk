@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1467",
+               "short_name" : "1467",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pierre Avenue",
+               "short_name" : "Pierre Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4P4",
+               "short_name" : "N8X 4P4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1467 Pierre Ave, Windsor, ON N8X 4P4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3068991,
+                  "lng" : -83.01164489999999
+               },
+               "southwest" : {
+                  "lat" : 42.3068931,
+                  "lng" : -83.01166189999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3068991,
+               "lng" : -83.01164489999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3082450802915,
+                  "lng" : -83.01030441970849
+               },
+               "southwest" : {
+                  "lat" : 42.3055471197085,
+                  "lng" : -83.0130023802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxNDY3IFBpZXJyZSBBdmUsIFdpbmRzb3IsIE9OIE44WCA0UDQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "529",
+               "short_name" : "529",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sprucewood Avenue",
+               "short_name" : "Sprucewood Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Ojibway",
+               "short_name" : "Ojibway",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9J",
+               "short_name" : "N9J",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "529 Sprucewood Ave, Windsor, ON N9J, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2597225,
+                  "lng" : -83.09682769999999
+               },
+               "southwest" : {
+                  "lat" : 42.2597093,
+                  "lng" : -83.09683369999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2597225,
+               "lng" : -83.09682769999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2610648802915,
+                  "lng" : -83.09548171970849
+               },
+               "southwest" : {
+                  "lat" : 42.2583669197085,
+                  "lng" : -83.09817968029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eis1MjkgU3BydWNld29vZCBBdmUsIFdpbmRzb3IsIE9OIE45SiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2253",
+               "short_name" : "2253",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parkwood Avenue",
+               "short_name" : "Parkwood Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2K1",
+               "short_name" : "N8W 2K1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2253 Parkwood Ave, Windsor, ON N8W 2K1, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.29658209999999,
+               "lng" : -83.0050936
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2979310802915,
+                  "lng" : -83.0037446197085
+               },
+               "southwest" : {
+                  "lat" : 42.2952331197085,
+                  "lng" : -83.00644258029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJF2Kq3WIsO4gRAwcXMNaNQfs",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

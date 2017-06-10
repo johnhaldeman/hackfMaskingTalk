@@ -1,0 +1,2862 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/5/2017 8:12:00 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-4S74LDC"
+  DTS:CreatorName="DESKTOP-4S74LDC\john.haldeman"
+  DTS:DTSID="{593A925E-5173-4D56-ACC7-29B1B5DCCD40}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0500.272"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="59"
+  DTS:VersionGUID="{2872A685-48F0-456C-AD85-D423089AD763}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F9D96310-0938-485C-A393-A0052DDA699E}"
+      DTS:ObjectName="10.10.9.20.lookup.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=10.10.9.20;User ID=sa;Initial Catalog=lookup;Provider=SQLNCLI11.1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[10.10.9.20.proddb.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{426E12FF-1B62-42B0-B593-E62E393D7C01}"
+      DTS:ObjectName="10.10.9.20.proddb.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=10.10.9.20;User ID=sa;Initial Catalog=proddb;Provider=SQLNCLI11.1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[RawIDs]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{94BFFCE4-E7C6-4FA1-8E7E-6F64C5FD3ABC}"
+      DTS:ObjectName="RawIDs">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\john.haldeman\Desktop\Number.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID"
+              DTS:DTSID="{263EDD88-1F23-4B8E-B7F4-ECAE305987B1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstNameRandom"
+              DTS:DTSID="{2E0FCD14-4EF3-401E-8650-0EAA282C7674}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastNameRandom"
+              DTS:DTSID="{3502EF6D-D16F-45BF-9826-C01B6B2AB4A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AddressRandom"
+              DTS:DTSID="{D6578DC3-8E45-4C19-BDCD-5B8995BBB5B1}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[TestFile]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{0E51A41B-3A48-47A7-88C4-1C07B18FD4F9}"
+      DTS:ObjectName="TestFile">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\john.haldeman\Desktop\test.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID"
+              DTS:DTSID="{9553CAFB-081D-4416-960D-DEEC276AB432}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstNameRandom"
+              DTS:DTSID="{E97FF2A6-96E6-4EA4-9BC8-6890138D1712}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastNameRandom"
+              DTS:DTSID="{BAA7E54B-5328-4A4E-A02D-48E8E668D9C2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AddressRandom"
+              DTS:DTSID="{19FD4DA3-DEF2-4AEC-92E5-5A811A63FAAA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FIRST_NAME"
+              DTS:DTSID="{C72F9CC6-426C-4598-8253-F5529F067CB8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LAST_NAME"
+              DTS:DTSID="{CD7D3FCC-ED6D-4FCE-B0FF-303BF70037B9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="511"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ADDRESS1"
+              DTS:DTSID="{CA959311-3677-4E95-BE51-85D51E6DB4A1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="511"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ADDRESS2"
+              DTS:DTSID="{35AE171F-75FC-4A18-9DC6-8E7FF0066525}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="63"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="CITY"
+              DTS:DTSID="{17390DEB-C2DF-41EC-9174-CF3B6AC9A938}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="POSTAL_CODE"
+              DTS:DTSID="{035B4CD1-320C-4C23-9BA1-B2987DFF488B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="EMAIL"
+              DTS:DTSID="{7E480F71-3177-4D72-A466-2CE31DF26439}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="9"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SIN"
+              DTS:DTSID="{80788601-8CF5-4B34-B008-6A0B4AA86B04}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="10"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PHONE"
+              DTS:DTSID="{CB873A69-FC33-4DD3-A4A1-63219BDFCBE8}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Generate And Load"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{42A5CE07-E989-4403-9E07-737632D20BAB}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Generate And Load"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Generate And Load\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate And Load\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[RawIDs]"
+                  connectionManagerRefId="Package.ConnectionManagers[RawIDs]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      length="50"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      name="ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[FirstNameRandom]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FirstNameRandom]"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[FirstNameRandom]"
+                      name="FirstNameRandom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[LastNameRandom]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LastNameRandom]"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[LastNameRandom]"
+                      name="LastNameRandom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[AddressRandom]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AddressRandom]"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[AddressRandom]"
+                      name="AddressRandom"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[FirstNameRandom]"
+                      dataType="i4"
+                      name="FirstNameRandom" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[LastNameRandom]"
+                      dataType="i4"
+                      name="LastNameRandom" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[AddressRandom]"
+                      dataType="i4"
+                      name="AddressRandom" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate And Load\Gen Address"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Gen Address"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[ADDRESS_LOOKUP]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[ADDRESS_LOOKUP]) [refTable]
+where [refTable].[LK_ID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="LK_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ADDRESS1" dataType="DT_STR" length="511" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="ADDRESS2" dataType="DT_STR" length="511" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="CITY" dataType="DT_STR" length="63" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="POSTAL_CODE" dataType="DT_STR" length="7" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[AddressRandom]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate And Load\Gen Address.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Generate And Load\Gen Address.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Address.Inputs[Lookup Input].Columns[AddressRandom]"
+                      cachedDataType="i4"
+                      cachedName="AddressRandom"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[AddressRandom]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">LK_ID</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Generate And Load\Gen Address.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS1]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="511"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS1]"
+                      name="ADDRESS1"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">ADDRESS1</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS2]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="511"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS2]"
+                      name="ADDRESS2"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">ADDRESS2</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="63"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[CITY]"
+                      name="CITY"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">CITY</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[POSTAL_CODE]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="7"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[POSTAL_CODE]"
+                      name="POSTAL_CODE"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">POSTAL_CODE</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate And Load\Gen Address.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Generate And Load\Gen Address.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate And Load\Gen Address.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Generate And Load\Gen Address.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Address.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Address.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate And Load\Gen Email, Phone, SIN"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;11"
+              description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
+              name="Gen Email, Phone, SIN"
+              version="11">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Stores the source code of the component"
+                  isArray="true"
+                  name="SourceCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="30">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+    {
+
+        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
+        {
+            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
+        }
+
+    }
+
+    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
+    {
+        while (Buffer.NextRow())
+        {
+            Input0_ProcessInputRow(Buffer);
+        }
+    }
+
+    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[main.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
+/* The Script Component allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services data flow.
+ *
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script component. */
+#endregion
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+#endregion
+
+/// <summary>
+/// This is the class to which to add your code.  Do not change the name, attributes, or parent
+/// of this class.
+/// </summary>
+[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
+public class ScriptMain : UserComponent
+{
+    #region Help:  Using Integration Services variables and parameters
+    /* To use a variable in this script, first ensure that the variable has been added to
+     * either the list contained in the ReadOnlyVariables property or the list contained in
+     * the ReadWriteVariables property of this script component, according to whether or not your
+     * code needs to write into the variable.  To do so, save this script, close this instance of
+     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+     * Script Transformation Editor window.
+     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+     *
+     * Example of reading from a variable or parameter:
+     *  DateTime startTime = Variables.MyStartTime;
+     *
+     * Example of writing to a variable:
+     *  Variables.myStringVariable = "new value";
+     */
+    #endregion
+
+    #region Help:  Using Integration Services Connnection Managers
+    /* Some types of connection managers can be used in this script component.  See the help topic
+     * "Working with Connection Managers Programatically" for details.
+     *
+     * To use a connection manager in this script, first ensure that the connection manager has
+     * been added to either the list of connection managers on the Connection Managers page of the
+     * script component editor.  To add the connection manager, save this script, close this instance of
+     * Visual Studio, and add the Connection Manager to the list.
+     *
+     * If the component needs to hold a connection open while processing rows, override the
+     * AcquireConnections and ReleaseConnections methods.
+     * 
+     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+     *
+     * Example of using a File connection manager to acquire a file path:
+     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+     *  string filePath = (string)rawConnection;
+     *
+     * Example of releasing a connection manager:
+     *  Connections.SalesDB.ReleaseConnection(rawConnection);
+     */
+    #endregion
+
+    #region Help:  Firing Integration Services Events
+    /* This script component can fire events.
+     *
+     * Example of firing an error event:
+     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+     *
+     * Example of firing an information event:
+     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+     *
+     * Example of firing a warning event:
+     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+     */
+    #endregion
+
+    /// <summary>
+    /// This method is called once, before rows begin to be processed in the data flow.
+    ///
+    /// You can remove this method if you don't need to do anything here.
+    /// </summary>
+    /// 
+    public override void PreExecute()
+    {
+        base.PreExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called after all the rows have passed through this component.
+    ///
+    /// You can delete this method if you don't need to do anything here.
+    /// </summary>
+    public override void PostExecute()
+    {
+        base.PostExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called once for every row that passes through the component from Input0.
+    ///
+    /// Example of reading a value from a column in the the row:
+    ///  string zipCode = Row.ZipCode
+    ///
+    /// Example of writing a value to a column in the row:
+    ///  Row.ZipCode = zipCode
+    /// </summary>
+    /// <param name="Row">The row that is currently passing through the component</param>
+    public override void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+        Row.EMAIL = getNewEmail(Row.FIRSTNAME, Row.LASTNAME).ToLower();
+        Row.SIN = getNewSIN();
+        Row.PHONE = getNewPhone();
+    }
+
+
+    public String getNewEmail(String firstName, String lastName)
+    {
+        String[] emailPostfixes = { "gmail.com", "hotmail.com", "uwindsor.ca", "hackf.org" };
+        int postfixIndex = this.rnd.Next(0, emailPostfixes.Length);
+        String emailPostfix = emailPostfixes[postfixIndex];
+
+        int newRand = this.rnd.Next(1, 4);
+        String firstNameInEmail = firstName;
+        if (newRand == 1)
+            firstNameInEmail = firstName + ".";
+        else if (newRand == 2)
+            firstNameInEmail = firstName.ToCharArray()[0] + "";
+
+        return firstNameInEmail + lastName + "@" + emailPostfix;
+    }
+
+    public String getNewPhone()
+    {
+        int newRand = this.rnd.Next(1, 3);
+        String areaCode = "519";
+        if (newRand == 1)
+            areaCode = "226";
+
+        String randString = this.rnd.Next(1, 9999999) + "";
+        // pad the generated number with zeros if less than 7 digits
+        for(int i = 0; i < 7 - randString.Length; i++)
+        {
+            randString = '0' + randString;
+        }
+
+        return areaCode + randString;
+    }
+
+    Random rnd = new Random();
+    public String getNewSIN()
+    {
+        int[] sinNums = new int[8];
+        int luhnTotal = 0;
+        for (int i = 0; i < sinNums.Length; i++)
+        {
+            int newRand = this.rnd.Next(0, 10);
+            sinNums[i] = newRand;
+            if (i % 2 == 1)
+            {
+                int randDoubled = newRand * 2;
+                if (randDoubled >= 10)
+                    luhnTotal += randDoubled - 9;
+                else
+                    luhnTotal += randDoubled;
+            }
+            else
+            {
+                luhnTotal += newRand;
+            }
+        }
+
+        int checkDigit = 10 - (luhnTotal % 10);
+        if (checkDigit == 10)
+            checkDigit = 0;
+        String sin = 
+           "" + sinNums[0] + sinNums[1] + sinNums[2] +
+           "" + sinNums[3] + sinNums[4] + sinNums[5] +
+           "" + sinNums[6] + sinNums[7] + checkDigit;
+
+        return sin;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services buffer wrappers
+*  This module defines classes for accessing data flow buffers
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+
+public class Input0Buffer: ScriptBuffer
+
+{
+    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+        : base(Buffer, BufferColumnIndexes, OutputMap)
+    {
+    }
+
+    public String ID
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[0]);
+        }
+        set
+        {
+            this[0] = value;
+        }
+    }
+    public bool ID_IsNull
+    {
+        get
+        {
+            return IsNull(0);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(0);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public Int32 FirstNameRandom
+    {
+        get
+        {
+            return Buffer.GetInt32(BufferColumnIndexes[1]);
+        }
+    }
+    public bool FirstNameRandom_IsNull
+    {
+        get
+        {
+            return IsNull(1);
+        }
+    }
+
+    public Int32 LastNameRandom
+    {
+        get
+        {
+            return Buffer.GetInt32(BufferColumnIndexes[2]);
+        }
+    }
+    public bool LastNameRandom_IsNull
+    {
+        get
+        {
+            return IsNull(2);
+        }
+    }
+
+    public Int32 AddressRandom
+    {
+        get
+        {
+            return Buffer.GetInt32(BufferColumnIndexes[3]);
+        }
+    }
+    public bool AddressRandom_IsNull
+    {
+        get
+        {
+            return IsNull(3);
+        }
+    }
+
+    public String FIRSTNAME
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[4]);
+        }
+        set
+        {
+            this[4] = value;
+        }
+    }
+    public bool FIRSTNAME_IsNull
+    {
+        get
+        {
+            return IsNull(4);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(4);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String LASTNAME
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[5]);
+        }
+        set
+        {
+            this[5] = value;
+        }
+    }
+    public bool LASTNAME_IsNull
+    {
+        get
+        {
+            return IsNull(5);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(5);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String ADDRESS1
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[6]);
+        }
+        set
+        {
+            this[6] = value;
+        }
+    }
+    public bool ADDRESS1_IsNull
+    {
+        get
+        {
+            return IsNull(6);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(6);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String ADDRESS2
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[7]);
+        }
+        set
+        {
+            this[7] = value;
+        }
+    }
+    public bool ADDRESS2_IsNull
+    {
+        get
+        {
+            return IsNull(7);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(7);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String CITY
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[8]);
+        }
+        set
+        {
+            this[8] = value;
+        }
+    }
+    public bool CITY_IsNull
+    {
+        get
+        {
+            return IsNull(8);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(8);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String POSTALCODE
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[9]);
+        }
+        set
+        {
+            this[9] = value;
+        }
+    }
+    public bool POSTALCODE_IsNull
+    {
+        get
+        {
+            return IsNull(9);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(9);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String EMAIL
+    {
+        set
+        {
+            this[10] = value;
+        }
+    }
+    public bool EMAIL_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(10);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String SIN
+    {
+        set
+        {
+            this[11] = value;
+        }
+    }
+    public bool SIN_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(11);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String PHONE
+    {
+        set
+        {
+            this[12] = value;
+        }
+    }
+    public bool PHONE_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(12);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    new public bool NextRow()
+    {
+        return base.NextRow();
+    }
+
+    new public bool EndOfRowset()
+    {
+        return base.EndOfRowset();
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_062924ded8ac4023a8feb953a87c15c5.Properties.Settings.get_Default():SC_062924ded8ac4023a8feb953a87c15c5.Properties.Sett" +
+    "ings")]
+
+namespace SC_062924ded8ac4023a8feb953a87c15c5.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_062924ded8ac4023a8feb953a87c15c5.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_062924ded8ac4023a8feb953a87c15c5.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_062924ded8ac4023a8feb953a87c15c5.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace SC_062924ded8ac4023a8feb953a87c15c5.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_062924ded8ac4023a8feb953a87c15c5.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Project]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+	<msb:PropertyGroup>
+		<msb:CodeName>SC_062924ded8ac4023a8feb953a87c15c5</msb:CodeName>
+		<msb:Language>msBuild</msb:Language>
+		<msb:DisplayName>SC_062924ded8ac4023a8feb953a87c15c5</msb:DisplayName>
+		<msb:ProjectId>{077D1BAF-E593-4E8C-86A3-CED9CBA0D16B}</msb:ProjectId>
+	</msb:PropertyGroup>
+	<msb:ItemGroup>
+		<msb:Project Include="SC_062924ded8ac4023a8feb953a87c15c5.csproj"/>
+		<msb:File Include="Properties\Settings.Designer.cs"/>
+		<msb:File Include="BufferWrapper.cs"/>
+		<msb:File Include="main.cs"/>
+		<msb:File Include="ComponentWrapper.cs"/>
+		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Resources.resx"/>
+		<msb:File Include="Properties\Resources.Designer.cs"/>
+	</msb:ItemGroup>
+</c:Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("SC_062924ded8ac4023a8feb953a87c15c5")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SC_062924ded8ac4023a8feb953a87c15c5")]
+[assembly: AssemblyCopyright("Copyright @  2017")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.0.0")]
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_062924ded8ac4023a8feb953a87c15c5.csproj]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48F72454-36B9-4603-8B6F-DD48E2AF4F5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_062924ded8ac4023a8feb953a87c15c5</RootNamespace>
+    <AssemblyName>SC_062924ded8ac4023a8feb953a87c15c5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.TxScript, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Compile Include="main.cs" />
+    <Compile Include="BufferWrapper.cs" />
+    <Compile Include="ComponentWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptComponent" IconIndex="0" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_SC130</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Stores the binary representation of the component"
+                  isArray="true"
+                  name="BinaryCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="2">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_062924ded8ac4023a8feb953a87c15c5.dll]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAHVNN1kAAAAAAAAAAOAAIiALATAAAB4AAAAIAAAAAAAA7j0A
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAJw9AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAA9B0AAAAgAAAAHgAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAgAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAJgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADQ
+PQAAAAAAAEgAAAACAAUAFCYAANAWAAABAAAAAAAAAOQ8AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACiraAwIDbxMAAAYDbxcAAAYoBAAA
+Bm8SAAAKbysAAAYDAigGAAAGby0AAAYDAigFAAAGby8AAAYqABMwBACUAAAAAQAAERqNGwAAASUW
+cgEAAHCiJRdyFQAAcKIlGHItAABwoiUZckUAAHCiCgJ7AQAABBYGjmlvEwAACgsGB5oMAnsBAAAE
+FxpvEwAACg0DEwQJFzMPA3JZAABwKBQAAAoTBCsmCRgzIgNvFQAAChaPHAAAAf4WHAAAAW8WAAAK
+JS0GJnJdAABwEwQRBARyXwAAcAgoFwAACioTMAMAXwAAAAIAABECewEAAAQXGW8TAAAKcmMAAHAK
+FzMGcmsAAHAKAnsBAAAEFyB/lpgAbxMAAAqMHQAAASgYAAAKCxYMKxBycwAAcAcoFAAACgsIF1gM
+CB0HbxkAAApZMuUGBygUAAAKKgATMAoA3QAAAAMAABEejR0AAAEKFgsWDStBAnsBAAAEFh8KbxMA
+AAoTBAYJEQSeCRhdFzMdEQQYWhMFEQUfCjIKBxEFHwlZWAsrDAcRBVgLKwUHEQRYCwkXWA0JBo5p
+MrkfCgcfCl1ZDAgfCjMCFgwajRMAAAElFhqNEwAAASUWBhaUjB0AAAEGF5SMHQAAAQYYlIwdAAAB
+KBoAAAqiJRcGGZSMHQAAAaIlGAYalIwdAAABoiUZBhuUjB0AAAGiKBsAAAqiJRcGHJSMHQAAAaIl
+GAYdlIwdAAABoiUZCIwdAAABoigbAAAKKkoCcxwAAAp9AQAABAIoMwAABioqAgMEBSgdAAAKKlIC
+ex4AAAoCex8AAAoWlG8gAAAKKiYCFgMoIQAACioiAhYoIgAACipaAywIAhYoIwAACipydwAAcHMk
+AAAKelICex4AAAoCex8AAAoXlG8lAAAKKiICFygiAAAKKlICex4AAAoCex8AAAoYlG8lAAAKKiIC
+GCgiAAAKKlICex4AAAoCex8AAAoZlG8lAAAKKiICGSgiAAAKKlICex4AAAoCex8AAAoalG8gAAAK
+KiYCGgMoIQAACioiAhooIgAACipaAywIAhooIwAACipydwAAcHMkAAAKelICex4AAAoCex8AAAob
+lG8gAAAKKiYCGwMoIQAACioiAhsoIgAACipaAywIAhsoIwAACipydwAAcHMkAAAKelICex4AAAoC
+ex8AAAoclG8gAAAKKiYCHAMoIQAACioiAhwoIgAACipaAywIAhwoIwAACipydwAAcHMkAAAKelIC
+ex4AAAoCex8AAAodlG8gAAAKKiYCHQMoIQAACioiAh0oIgAACipaAywIAh0oIwAACipydwAAcHMk
+AAAKelICex4AAAoCex8AAAoelG8gAAAKKiYCHgMoIQAACioiAh4oIgAACipaAywIAh4oIwAACipy
+dwAAcHMkAAAKelYCex4AAAoCex8AAAofCZRvIAAACioqAh8JAyghAAAKKiYCHwkoIgAACipeAywJ
+Ah8JKCMAAAoqcncAAHBzJAAACnoqAh8KAyghAAAKKl4DLAkCHwooIwAACipydwAAcHMkAAAKeioC
+HwsDKCEAAAoqXgMsCQIfCygjAAAKKnJ3AABwcyQAAAp6KgIfDAMoIQAACipeAywJAh8MKCMAAAoq
+cncAAHBzJAAACnoeAigmAAAKKh4CKCcAAAoqfgIoKAAACgICczcAAAZ9AgAABAICczgAAAZ9AwAA
+BCqSBHIUAQBwGm8pAAAKLBUCBQIDKCoAAAoOBHMIAAAGbzUAAAYqSisHAgNvNgAABgNvMQAABi3x
+KgYqOgIoKwAACgIDfQQAAAQqOgIoKwAACgIDfQUAAAQqHgIoKwAACiqufgYAAAQtHnIkAQBw0AcA
+AAIoLAAACm8tAAAKcy4AAAqABgAABH4GAAAEKhp+BwAABCoeAoAHAAAEKhp+CAAABCoeAigvAAAK
+Ki5zPgAABoAIAAAEKgAAAEJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAAMQJAAAj
+fgAAMAoAAPgIAAAjU3RyaW5ncwAAAAAoEwAAmAEAACNVUwDAFAAAEAAAACNHVUlEAAAA0BQAAAAC
+AAAjQmxvYgAAAAAAAAACAAABVxWiAQkBAAAA+gEzABYAAAEAAAAiAAAACAAAAAgAAAA/AAAAIwAA
+AC8AAAAQAAAAAwAAAAMAAAAdAAAALAAAAAEAAAAEAAAAAQAAAAAABwQBAAAAAAAGAN4CFQcGAHID
+FQcGACoCAgcPAIkHAAAGAFcCSgYGAMECSgYGAKICSgYGAFkDSgYGAP4CSgYGABcDSgYGAG4CSgYG
+AIkCrQMKADIDawEGAAIGyQUKAMwGawEOAL0GawEKAJMGawEKAFYIawEGABkIyQUGAA0CAgcGAN0G
+NQcGAIcGNQYSAN0B5QMSAD4C5QMSAMUBIAYGAPIBFQcGANMDyQUGAKsGyQUGAB4AyQUGAFwGyQUG
+AHYGyQUGAJgByQUGACoByQUGAOwISgYAAAAAYgAAAAAAAQABAAEAEAAVBgAAEAABAAEAAQAQALAG
+AAA9AAIACAABABAAOAgAAEkAAgAzAAEAEAAGCAAATQAEADcAAQAQAMcHAABNAAUAOAAAABAAPAeY
+B00ABgA5AAABEAD2B5gHZQAIAD0AAQAWAcgABgAGCMwABgDHB9AAAQBGCNQAAQBGCNQAEQAJBtgA
+EQC1AdwAEQAaAeAAUCAAAAAAxgCQAwYAAQBYIAAAAADGAJsDBgABAGAgAAAAAMYAvQjkAAEAmCAA
+AAAAhgD7A+oAAgA4IQAAAACGAIwBGwAEAKQhAAAAAIYA8QAbAAQAjSIAAAAAhhj1BgYABACgIgAA
+AACGGPUGZwAEAKsiAAAAAIYIawAbAAcAwCIAAAAAhghyABAABwDKIgAAAACGCH8EjgAIANMiAAAA
+AIYIjQTwAAgA6iIAAAAAhgjjBUwACQD/IgAAAACGCIQFjgAJAAgjAAAAAIYI0AVMAAkAHSMAAAAA
+hghqBY4ACQAmIwAAAACGCPcFTAAJADsjAAAAAIYInwWOAAkARCMAAAAAhgi5ABsACQBZIwAAAACG
+CMcAEAAJAGMjAAAAAIYI7wSOAAoAbCMAAAAAhggEBfAACgCDIwAAAACGCJ8AGwALAJgjAAAAAIYI
+rAAQAAsAoiMAAAAAhgjHBI4ADACrIwAAAACGCNsE8AAMAMIjAAAAAIYIAQAbAA0A1yMAAAAAhggO
+ABAADQDhIwAAAACGCC8EjgAOAOojAAAAAIYIQwTwAA4AASQAAAAAhggkABsADwAWJAAAAACGCDEA
+EAAPACAkAAAAAIYIVwSOABAAKSQAAAAAhghrBPAAEABAJAAAAACGCPsAGwARAFUkAAAAAIYIBAEQ
+ABEAXyQAAAAAhghKBY4AEgBoJAAAAACGCFoF8AASAH8kAAAAAIYIgQAbABMAlSQAAAAAhgiQABAA
+EwCgJAAAAACGCJsEjgAUAKokAAAAAIYIsQTwABQAwiQAAAAAhgjfABAAFQDNJAAAAACGCCoF8AAW
+AOUkAAAAAIYI6QAQABcA8CQAAAAAhgg7BfAAGAAIJQAAAACGCNUAEAAZABMlAAAAAIYIGQXwABoA
+KyUAAAAAhgDUCI4AGwAzJQAAAACGACAIjgAbADslAAAAAIYY9QYGABsAWyUAAAAAxgCrCPUAGwCA
+JQAAAADGAaQI5AAfAJMlAAAAAMYBvQjkACAAlSUAAAAAhhj1Bv8AIQCkJQAAAACGGPUG/wAiALMl
+AAAAAIMY9QYGACMAuyUAAAAAkwjZBgUBIwDnJQAAAACTCJ0BCgEjAO4lAAAAAJMIqQEPASMA9iUA
+AAAAlggsCBUBJAD9JQAAAACGGPUGBgAkAAUmAAAAAJEY+wYaASQAAAABANgIAAABAFcBAAACAE4B
+AAABANIGAAACANEHAAADAKEGAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAAB
+AKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAKcD
+AAABAKcDAAABAKcDAAABAKcDAAABAKcDAAABAHkAAAACAGEBAAADANIGAAAEAKEGAAABANIGAAAB
+ANgIAAABAFwIAAABAFwIAAABAKcDCQD1BgEAEQD1BgYAGQD1BgoAKQD1BhAAMQD1BhAAOQD1BhAA
+QQD1BhAASQD1BhAAUQD1BhAAWQD1BhAAYQD1BhAAaQD1BgYAoQD1BgYAwQD1BhUA0QD1BgYAkQCQ
+AwYAkQCbAwYA2QDtBhsAcQC4CCgA2QASCC4A2QDcCDQAmQDHAxsA2QASCDkA2QASCEcA2QDaA0wA
+2QASCFoA2QASCGEAcQD1BgYAeQD1BmcAeQDSBnEAeQDRB3UAgQDQA3kAeQDABX4AeQCxBYQAeQC4
+BQEA8QD1BhAAgQAbAIkAeQDUCI4AeQAgCI4AkQD1BgYA2QD/B5IAkQDlB5kAmQD1BgYAAQE8AZ8A
+AQHoCKgAqQD1Bq4AyQD1BgYALgALADkBLgATAEIBLgAbAGEBLgAjAGoBLgArAJMBLgAzAJMBLgA7
+AJMBLgBDAGoBLgBLAJkBLgBTAJMBLgBbALABQwBjAPoB4wBrAPoBAQF7APoBaQNzAGEBiQNzAGEB
+HwBBAFAAAwABAAcAGwAIAB0AAAB+AB4BAACRBCIBAADnBSYBAACIBSIBAADUBSYBAABuBSIBAAD7
+BSYBAACjBSIBAADLAB4BAAAIBSIBAACwAB4BAADfBCIBAAASAB4BAABHBCIBAAA1AB4BAABvBCIB
+AAAIAR4BAABeBSIBAACUAB4BAAC1BCIBAADjAB4BAAAuBSIBAAD3AB4BAAA/BSIBAADZAB4BAAAd
+BSIBAADdBioBAAC9AS8BAAAwCDQBAgAJAAMAAQAKAAMAAgALAAUAAQAMAAUAAgANAAcAAgAOAAkA
+AgAPAAsAAgAQAA0AAgARAA8AAgASABEAAgATABMAAQAUABMAAgAVABUAAQAWABUAAgAXABcAAQAY
+ABcAAgAZABkAAQAaABkAAgAbABsAAQAcABsAAgAdAB0AAQAeAB0AAgAfAB8AAQAgAB8AAgAhACEA
+AQAiACEAAgAjACMAAQAkACMAAgAlACUAAQAmACUAAgAnACcAAQAoACcAAgApACkAAQAqACkAAQAr
+ACsAAQAsAC0AAQAtAC8AAQAuADEAAQAvADMAAQAwADUAAgA6ADcAAgA7ADkAAQA8ADkAAgA9ADsA
+BIAAAAEAAAAAAAAAAAAAAAAAPgAAAAQAAAAAAAAAAAAAALYADQEAAAAADgAAAAAAAAAAAAAAvwBm
+CAAAAAAOAAAAAAAAAAAAAAC/AIMIAAAAAAQAAAAAAAAAAAAAALYAyQUAAAAAAAAAAAEAAABGBwAA
+AAAAZ2V0X0FERFJFU1MxAHNldF9BRERSRVNTMQBHZXRJbnQzMgBnZXRfQUREUkVTUzIAc2V0X0FE
+RFJFU1MyAFNDXzA2MjkyNGRlZDhhYzQwMjNhOGZlYjk1M2E4N2MxNWM1ADxNb2R1bGU+AGdldF9J
+RABzZXRfSUQASW5wdXRJRABnZXRfUE9TVEFMQ09ERQBzZXRfUE9TVEFMQ09ERQBnZXRfTEFTVE5B
+TUUAc2V0X0xBU1ROQU1FAGdldF9GSVJTVE5BTUUAc2V0X0ZJUlNUTkFNRQBzZXRfUEhPTkUAc2V0
+X0VNQUlMAHNldF9TSU4AZ2V0TmV3U0lOAGdldF9DSVRZAHNldF9DSVRZAG1zY29ybGliAHJuZABk
+ZWZhdWx0SW5zdGFuY2UAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUAbGFzdE5h
+bWUAZmlyc3ROYW1lAElucHV0TmFtZQBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5QaXBlbGluZQBn
+ZXROZXdQaG9uZQBUeXBlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBB
+cHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVy
+YXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRy
+aWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNz
+ZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5
+Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBp
+bGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2Vt
+Ymx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNTY3JpcHRDb21wb25lbnRFbnRyeVBvaW50QXR0cmli
+dXRlAEFzc2VtYmx5Q29tcGFueUF0dHJpYnV0ZQBSdW50aW1lQ29tcGF0aWJpbGl0eUF0dHJpYnV0
+ZQBQcmVFeGVjdXRlAFBvc3RFeGVjdXRlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcA
+VG9TdHJpbmcAR2V0U3RyaW5nAGdldF9MZW5ndGgAU3lzdGVtLkNvbXBvbmVudE1vZGVsAGdldE5l
+d0VtYWlsAFNDXzA2MjkyNGRlZDhhYzQwMjNhOGZlYjk1M2E4N2MxNWM1LmRsbABnZXRfQUREUkVT
+UzFfSXNOdWxsAHNldF9BRERSRVNTMV9Jc051bGwAZ2V0X0FERFJFU1MyX0lzTnVsbABzZXRfQURE
+UkVTUzJfSXNOdWxsAGdldF9JRF9Jc051bGwAc2V0X0lEX0lzTnVsbABnZXRfUE9TVEFMQ09ERV9J
+c051bGwAc2V0X1BPU1RBTENPREVfSXNOdWxsAGdldF9MQVNUTkFNRV9Jc051bGwAc2V0X0xBU1RO
+QU1FX0lzTnVsbABnZXRfRklSU1ROQU1FX0lzTnVsbABzZXRfRklSU1ROQU1FX0lzTnVsbABzZXRf
+UEhPTkVfSXNOdWxsAHNldF9FTUFJTF9Jc051bGwAc2V0X1NJTl9Jc051bGwAZ2V0X0NJVFlfSXNO
+dWxsAHNldF9DSVRZX0lzTnVsbABnZXRfTGFzdE5hbWVSYW5kb21fSXNOdWxsAGdldF9GaXJzdE5h
+bWVSYW5kb21fSXNOdWxsAGdldF9BZGRyZXNzUmFuZG9tX0lzTnVsbABTZXROdWxsAHNldF9JdGVt
+AFN5c3RlbQBnZXRfTGFzdE5hbWVSYW5kb20AZ2V0X0ZpcnN0TmFtZVJhbmRvbQBnZXRfQWRkcmVz
+c1JhbmRvbQByZXNvdXJjZU1hbgBTY3JpcHRNYWluAFN5c3RlbS5Db25maWd1cmF0aW9uAFN5c3Rl
+bS5HbG9iYWxpemF0aW9uAFN5c3RlbS5SZWZsZWN0aW9uAEludmFsaWRPcGVyYXRpb25FeGNlcHRp
+b24AU3RyaW5nQ29tcGFyaXNvbgBDdWx0dXJlSW5mbwBPdXRwdXROYW1lTWFwAE91dHB1dE1hcABD
+aGFyAElucHV0MEJ1ZmZlcgBQaXBlbGluZUJ1ZmZlcgBTY3JpcHRCdWZmZXIAZ2V0X1Jlc291cmNl
+TWFuYWdlcgBUb0xvd2VyAC5jdG9yAC5jY3RvcgBTeXN0ZW0uRGlhZ25vc3RpY3MAU3lzdGVtLlJ1
+bnRpbWUuQ29tcGlsZXJTZXJ2aWNlcwBTeXN0ZW0uUmVzb3VyY2VzAFNDXzA2MjkyNGRlZDhhYzQw
+MjNhOGZlYjk1M2E4N2MxNWM1LlByb3BlcnRpZXMuUmVzb3VyY2VzLnJlc291cmNlcwBEZWJ1Z2dp
+bmdNb2RlcwBTQ18wNjI5MjRkZWQ4YWM0MDIzYThmZWI5NTNhODdjMTVjNS5Qcm9wZXJ0aWVzAFZh
+cmlhYmxlcwBCdWZmZXJDb2x1bW5JbmRleGVzAEdldENvbHVtbkluZGV4ZXMAU2V0dGluZ3MARXF1
+YWxzAENvbm5lY3Rpb25zAENvbmNhdABPYmplY3QARW5kT2ZSb3dzZXQAZ2V0X0RlZmF1bHQAVXNl
+ckNvbXBvbmVudABQYXJlbnRDb21wb25lbnQAU2NyaXB0Q29tcG9uZW50AE1pY3Jvc29mdC5TcWxT
+ZXJ2ZXIuVHhTY3JpcHQATWljcm9zb2Z0LlNxbFNlcnZlci5QaXBlbGluZUhvc3QASW5wdXQwX1By
+b2Nlc3NJbnB1dABOZXh0AElucHV0MF9Qcm9jZXNzSW5wdXRSb3cATmV4dFJvdwBUb0NoYXJBcnJh
+eQBnZXRfQXNzZW1ibHkAAAAAABNnAG0AYQBpAGwALgBjAG8AbQAAF2gAbwB0AG0AYQBpAGwALgBj
+AG8AbQAAF3UAdwBpAG4AZABzAG8AcgAuAGMAYQAAE2gAYQBjAGsAZgAuAG8AcgBnAAADLgAAAQAD
+QAAABzUAMQA5AAAHMgAyADYAAAMwAACAm0kAcwBOAHUAbABsACAAcAByAG8AcABlAHIAdAB5ACAA
+YwBhAG4AbgBvAHQAIABiAGUAIABzAGUAdAAgAHQAbwAgAEYAYQBsAHMAZQAuACAAQQBzAHMAaQBn
+AG4AIABhACAAdgBhAGwAdQBlACAAdABvACAAdABoAGUAIABjAG8AbAB1AG0AbgAgAGkAbgBzAHQA
+ZQBhAGQALgAAD0kAbgBwAHUAdAAgADAAAHFTAEMAXwAwADYAMgA5ADIANABkAGUAZAA4AGEAYwA0
+ADAAMgAzAGEAOABmAGUAYgA5ADUAMwBhADgANwBjADEANQBjADUALgBQAHIAbwBwAGUAcgB0AGkA
+ZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAmT04ty9vEUK9cJX5RZaJRwAEIAEBCAMgAAEFIAEB
+EREEIAEBDgUgAQERXQMgAA4IBwUdDggOCA4FIAIICAgFAAIODg4EIAAdAwcABA4ODg4OBQcDDg4I
+BAABDhwDIAAICQcGHQgICAgICAYAAw4cHBwFAAEOHRwJIAMBEkEdCBJFAwYSQQMGHQgEIAEOCAUg
+AgEIHAQgAQIIBCABCAgDIAACBiACAg4RfQUgAR0ICAgAARKAgRGAhQUgABKAiQcgAgEOEoCJCLd6
+XFYZNOCJCImEXc2AgMyRAwYSOQMGEhQDBhIYAwYSSQMGElUDBhJZAwYSIAUgAQESDAUgAg4ODgQg
+AQECCSAEAQgOEkESRQUgAQESSQQAABJVBAAAElkFAAEBElkEAAASIAMAAAEDKAAOAygAAgMoAAgE
+CAASVQQIABJZBAgAEiAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEA
+AgAAAAAAKAEAI1NDXzA2MjkyNGRlZDhhYzQwMjNhOGZlYjk1M2E4N2MxNWM1AAAFAQAAAAAWAQAR
+Q29weXJpZ2h0IEAgIDIwMTcAAEkBABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuNQEAVA4URnJh
+bWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC41BAEAAAAAtAAAAM7K774BAAAAkQAA
+AGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lz
+dGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAMQ9
+AAAAAAAAAAAAAN49AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQPQAAAAAAAAAAAAAAAF9Db3JE
+bGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+EAAAABgAAIAAAAAAAAAAAAAAAAAAAAEAAQAAADAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAAEgAAABY
+QAAA7AMAAAAAAAAAAAAA7AM0AAAAVgBTAF8AVgBFAFIAUwBJAE8ATgBfAEkATgBGAE8AAAAAAL0E
+7/4AAAEAAAABAAAAAAAAAAEAAAAAAD8AAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAABEAAAAAQBW
+AGEAcgBGAGkAbABlAEkAbgBmAG8AAAAAACQABAAAAFQAcgBhAG4AcwBsAGEAdABpAG8AbgAAAAAA
+AACwBEwDAAABAFMAdAByAGkAbgBnAEYAaQBsAGUASQBuAGYAbwAAACgDAAABADAAMAAwADAAMAA0
+AGIAMAAAABoAAQABAEMAbwBtAG0AZQBuAHQAcwAAAAAAAAAiAAEAAQBDAG8AbQBwAGEAbgB5AE4A
+YQBtAGUAAAAAAAAAAABwACQAAQBGAGkAbABlAEQAZQBzAGMAcgBpAHAAdABpAG8AbgAAAAAAUwBD
+AF8AMAA2ADIAOQAyADQAZABlAGQAOABhAGMANAAwADIAMwBhADgAZgBlAGIAOQA1ADMAYQA4ADcA
+YwAxADUAYwA1AAAAMAAIAAEARgBpAGwAZQBWAGUAcgBzAGkAbwBuAAAAAAAxAC4AMAAuADAALgAw
+AAAAcAAoAAEASQBuAHQAZQByAG4AYQBsAE4AYQBtAGUAAABTAEMAXwAwADYAMgA5ADIANABkAGUA
+ZAA4AGEAYwA0ADAAMgAzAGEAOABmAGUAYgA5ADUAMwBhADgANwBjADEANQBjADUALgBkAGwAbAAA
+AEgAEgABAEwAZQBnAGEAbABDAG8AcAB5AHIAaQBnAGgAdAAAAEMAbwBwAHkAcgBpAGcAaAB0ACAA
+QAAgACAAMgAwADEANwAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBkAGUAbQBhAHIAawBzAAAAAAAA
+AAAAeAAoAAEATwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAFMAQwBfADAANgAyADkA
+MgA0AGQAZQBkADgAYQBjADQAMAAyADMAYQA4AGYAZQBiADkANQAzAGEAOAA3AGMAMQA1AGMANQAu
+AGQAbABsAAAAaAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAAAABTAEMAXwAwADYAMgA5ADIA
+NABkAGUAZAA4AGEAYwA0ADAAMgAzAGEAOABmAGUAYgA5ADUAMwBhADgANwBjADEANQBjADUAAAA0
+AAgAAQBQAHIAbwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADAALgAwAAAAOAAIAAEA
+QQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAAPA9AAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
+                  name="VSTAProjectName"
+                  typeConverter="NOTBROWSABLE">SC_062924ded8ac4023a8feb953a87c15c5</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the programming language used by the script."
+                  name="ScriptLanguage"
+                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read-only variables."
+                  name="ReadOnlyVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read/write variables."
+                  name="ReadWriteVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="List of breakpoints present on the script."
+                  isArray="true"
+                  name="BreakpointCollection"
+                  typeConverter="NOTBROWSABLE">
+                  <arrayElements
+                    arrayElementCount="0" />
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Checksum to match component metedata against compiled codes."
+                  name="MetadataChecksum140"
+                  typeConverter="NOTBROWSABLE">0D</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0]"
+                  hasSideEffects="true"
+                  name="Input 0">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[ID]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[FirstNameRandom]"
+                      cachedDataType="i4"
+                      cachedName="FirstNameRandom"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[FirstNameRandom]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[LastNameRandom]"
+                      cachedDataType="i4"
+                      cachedName="LastNameRandom"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[LastNameRandom]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[AddressRandom]"
+                      cachedDataType="i4"
+                      cachedName="AddressRandom"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[AddressRandom]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[FIRST_NAME]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="FIRST_NAME"
+                      lineageId="Package\Generate And Load\Gen First Names.Outputs[Lookup Match Output].Columns[FIRST_NAME]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[LAST_NAME]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="LAST_NAME"
+                      lineageId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Match Output].Columns[LAST_NAME]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[ADDRESS1]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="511"
+                      cachedName="ADDRESS1"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS1]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[ADDRESS2]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="511"
+                      cachedName="ADDRESS2"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS2]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[CITY]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="63"
+                      cachedName="CITY"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[CITY]"
+                      usageType="readWrite" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0].Columns[POSTAL_CODE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="7"
+                      cachedName="POSTAL_CODE"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[POSTAL_CODE]"
+                      usageType="readWrite" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0]"
+                  name="Output 0"
+                  synchronousInputId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[EMAIL]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      lineageId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[EMAIL]"
+                      name="EMAIL" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[SIN]"
+                      codePage="1252"
+                      dataType="str"
+                      length="9"
+                      lineageId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[SIN]"
+                      name="SIN" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[PHONE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      lineageId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[PHONE]"
+                      name="PHONE" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate And Load\Gen First Names"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Gen First Names"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[FIRST_NAME_LOOKUP]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[FIRST_NAME_LOOKUP]) [refTable]
+where [refTable].[LK_ID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="LK_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="FIRST_NAME" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[FirstNameRandom]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate And Load\Gen First Names.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Generate And Load\Gen First Names.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen First Names.Inputs[Lookup Input].Columns[FirstNameRandom]"
+                      cachedDataType="i4"
+                      cachedName="FirstNameRandom"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[FirstNameRandom]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">LK_ID</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate And Load\Gen First Names.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Generate And Load\Gen First Names.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen First Names.Outputs[Lookup Match Output].Columns[FIRST_NAME]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="255"
+                      lineageId="Package\Generate And Load\Gen First Names.Outputs[Lookup Match Output].Columns[FIRST_NAME]"
+                      name="FIRST_NAME"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">FIRST_NAME</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate And Load\Gen First Names.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Generate And Load\Gen First Names.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate And Load\Gen First Names.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Generate And Load\Gen First Names.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen First Names.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Gen First Names.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen First Names.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Gen First Names.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate And Load\Gen Last Names"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Gen Last Names"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[LAST_NAME_LOOKUP]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[LAST_NAME_LOOKUP]) [refTable]
+where [refTable].[LK_ID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="LK_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="LAST_NAME" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[LastNameRandom]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate And Load\Gen Last Names.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[10.10.9.20.lookup.sa]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Generate And Load\Gen Last Names.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate And Load\Gen Last Names.Inputs[Lookup Input].Columns[LastNameRandom]"
+                      cachedDataType="i4"
+                      cachedName="LastNameRandom"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[LastNameRandom]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">LK_ID</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="IgnoreFailure"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Generate And Load\Gen Last Names.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Match Output].Columns[LAST_NAME]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="255"
+                      lineageId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Match Output].Columns[LAST_NAME]"
+                      name="LAST_NAME"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">LAST_NAME</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate And Load\Gen Last Names.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Generate And Load\Gen Last Names.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Generate And Load\Gen Last Names.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate And Load\Populate DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Populate DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[CUSTOMER]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate And Load\Populate DB.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[10.10.9.20.proddb.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[10.10.9.20.proddb.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[FIRST_NAME]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="FIRST_NAME"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[FIRST_NAME]"
+                      lineageId="Package\Generate And Load\Gen First Names.Outputs[Lookup Match Output].Columns[FIRST_NAME]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[LAST_NAME]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="LAST_NAME"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[LAST_NAME]"
+                      lineageId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Match Output].Columns[LAST_NAME]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[ADDRESS1]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="511"
+                      cachedName="ADDRESS1"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[ADDRESS1]"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS1]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[ADDRESS2]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="511"
+                      cachedName="ADDRESS2"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[ADDRESS2]"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[ADDRESS2]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[CITY]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="63"
+                      cachedName="CITY"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[CITY]"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[CITY]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[POSTAL_CODE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="7"
+                      cachedName="POSTAL_CODE"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[POSTAL_CODE]"
+                      lineageId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output].Columns[POSTAL_CODE]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[EMAIL]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="255"
+                      cachedName="EMAIL"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[EMAIL]"
+                      lineageId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[EMAIL]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[PHONE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="10"
+                      cachedName="PHONE"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[PHONE]"
+                      lineageId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[PHONE]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[ID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[CUST_ID]"
+                      lineageId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output].Columns[ID]" />
+                    <inputColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].Columns[SIN]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="9"
+                      cachedName="SIN"
+                      externalMetadataColumnId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[SINNUM]"
+                      lineageId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0].Columns[SIN]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[CUST_ID]"
+                      dataType="i4"
+                      name="CUST_ID" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[FIRST_NAME]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="FIRST_NAME" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[LAST_NAME]"
+                      codePage="1252"
+                      dataType="str"
+                      length="255"
+                      name="LAST_NAME" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[PHONE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="10"
+                      name="PHONE" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[EMAIL]"
+                      codePage="1252"
+                      dataType="str"
+                      length="511"
+                      name="EMAIL" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[ADDRESS1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="511"
+                      name="ADDRESS1" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[ADDRESS2]"
+                      codePage="1252"
+                      dataType="str"
+                      length="511"
+                      name="ADDRESS2" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[CITY]"
+                      codePage="1252"
+                      dataType="str"
+                      length="63"
+                      name="CITY" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[POSTAL_CODE]"
+                      codePage="1252"
+                      dataType="str"
+                      length="7"
+                      name="POSTAL_CODE" />
+                    <externalMetadataColumn
+                      refId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input].ExternalColumns[SINNUM]"
+                      codePage="1252"
+                      dataType="str"
+                      length="9"
+                      name="SINNUM" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate And Load\Populate DB.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate And Load\Populate DB.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Populate DB.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate And Load\Populate DB.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate And Load\Populate DB.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Generate And Load.Paths[Flat File Source Output]"
+              endId="Package\Generate And Load\Gen First Names.Inputs[Lookup Input]"
+              name="Flat File Source Output"
+              startId="Package\Generate And Load\Flat File Source.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Generate And Load.Paths[Lookup Match Output]"
+              endId="Package\Generate And Load\Gen Last Names.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Generate And Load\Gen First Names.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Generate And Load.Paths[Lookup Match Output1]"
+              endId="Package\Generate And Load\Gen Address.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Generate And Load\Gen Last Names.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Generate And Load.Paths[Lookup Match Output2]"
+              endId="Package\Generate And Load\Gen Email, Phone, SIN.Inputs[Input 0]"
+              name="Lookup Match Output"
+              startId="Package\Generate And Load\Gen Address.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Generate And Load.Paths[Output 0]"
+              endId="Package\Generate And Load\Populate DB.Inputs[OLE DB Destination Input]"
+              name="Output 0"
+              startId="Package\Generate And Load\Gen Email, Phone, SIN.Outputs[Output 0]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="169.5,42"
+          Id="Package\Generate And Load"
+          TopLeft="145.5,50.75" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Generate And Load">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Generate And Load\Gen Email, Phone, SIN"
+          TopLeft="238.125,403.125" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Generate And Load\Flat File Source"
+          TopLeft="238.25,19" />
+        <NodeLayout
+          Size="155.5,42"
+          Id="Package\Generate And Load\Gen Last Names"
+          TopLeft="239.75,193.25" />
+        <NodeLayout
+          Size="138,42"
+          Id="Package\Generate And Load\Gen Address"
+          TopLeft="254.583333333333,287.083333333333" />
+        <NodeLayout
+          Size="156.5,42"
+          Id="Package\Generate And Load\Gen First Names"
+          TopLeft="226.25,90.5" />
+        <EdgeLayout
+          Id="Package\Generate And Load.Paths[Lookup Match Output2]"
+          TopLeft="327.354166666667,329.083333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,74.0416666666671"
+              Start="0,0"
+              End="0,66.5416666666671">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,66.5416666666671" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,27.4661458333336,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Generate And Load.Paths[Lookup Match Output1]"
+          TopLeft="320.541666666667,235.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.8333333333334"
+              Start="0,0"
+              End="0,44.3333333333334">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.3333333333334" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,16.3619791666667,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Generate And Load.Paths[Lookup Match Output]"
+          TopLeft="304.5,132.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13,60.75"
+              Start="0,0"
+              End="13,53.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.375"
+                    Point2="0,30.375"
+                    Point3="4,30.375" />
+                  <mssgle:LineSegment
+                    End="9,30.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9,30.375"
+                    Point2="13,30.375"
+                    Point3="13,34.375" />
+                  <mssgle:LineSegment
+                    End="13,53.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-41.69138671875,35.375,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Generate And Load.Paths[Flat File Source Output]"
+          TopLeft="313.75,61">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.25,29.5"
+              Start="0,0"
+              End="-9.25,22">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.75"
+                    Point2="0,14.75"
+                    Point3="-4,14.75" />
+                  <mssgle:LineSegment
+                    End="-5.25,14.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.25,14.75"
+                    Point2="-9.25,14.75"
+                    Point3="-9.25,18.75" />
+                  <mssgle:LineSegment
+                    End="-9.25,22" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="136.5,42"
+          Id="Package\Generate And Load\Populate DB"
+          TopLeft="260,514.375" />
+        <EdgeLayout
+          Id="Package\Generate And Load.Paths[Output 0]"
+          TopLeft="329.6875,445.125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,69.25"
+              Start="0,0"
+              End="0,61.75">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,61.75" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Generate And Load\Gen First Names">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[FIRST_NAME_LOOKUP]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Generate And Load\Populate DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Generate And Load\Gen Address">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[ADDRESS_LOOKUP]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Generate And Load\Gen Last Names">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[LAST_NAME_LOOKUP]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "423",
+               "short_name" : "423",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Randolph Avenue",
+               "short_name" : "Randolph Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2T5",
+               "short_name" : "N9B 2T5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "423 Randolph Ave, Windsor, ON N9B 2T5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30768339999999,
+                  "lng" : -83.0622815
+               },
+               "southwest" : {
+                  "lat" : 42.3076774,
+                  "lng" : -83.0622985
+               }
+            },
+            "location" : {
+               "lat" : 42.30768339999999,
+               "lng" : -83.0622815
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30902938029149,
+                  "lng" : -83.06094101970849
+               },
+               "southwest" : {
+                  "lat" : 42.30633141970849,
+                  "lng" : -83.0636389802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei00MjMgUmFuZG9scGggQXZlLCBXaW5kc29yLCBPTiBOOUIgMlQ1LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

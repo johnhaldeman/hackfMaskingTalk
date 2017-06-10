@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2671",
+               "short_name" : "2671",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Richmond Street",
+               "short_name" : "Richmond St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1M1",
+               "short_name" : "N8Y 1M1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2671 Richmond St, Windsor, ON N8Y 1M1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.319553,
+                  "lng" : -83.0002657
+               },
+               "southwest" : {
+                  "lat" : 42.3195404,
+                  "lng" : -83.0002736
+               }
+            },
+            "location" : {
+               "lat" : 42.319553,
+               "lng" : -83.0002736
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3208956802915,
+                  "lng" : -82.9989206697085
+               },
+               "southwest" : {
+                  "lat" : 42.3181977197085,
+                  "lng" : -83.00161863029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0yNjcxIFJpY2htb25kIFN0LCBXaW5kc29yLCBPTiBOOFkgMU0xLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

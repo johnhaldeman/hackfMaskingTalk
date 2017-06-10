@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2154",
+               "short_name" : "2154",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Church Street",
+               "short_name" : "Church St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1V7",
+               "short_name" : "N8X 1V7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2154 Church St, Windsor, ON N8X 1V7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.294534,
+                  "lng" : -83.028937
+               },
+               "southwest" : {
+                  "lat" : 42.294528,
+                  "lng" : -83.028954
+               }
+            },
+            "location" : {
+               "lat" : 42.294528,
+               "lng" : -83.028954
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2958799802915,
+                  "lng" : -83.02759651970848
+               },
+               "southwest" : {
+                  "lat" : 42.2931820197085,
+                  "lng" : -83.0302944802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyMTU0IENodXJjaCBTdCwgV2luZHNvciwgT04gTjhYIDFWNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

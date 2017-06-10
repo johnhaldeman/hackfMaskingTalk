@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Howard Avenue",
+               "short_name" : "Howard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Howard Ave, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3151057,
+                  "lng" : -82.99248919999999
+               },
+               "southwest" : {
+                  "lat" : 42.1625941,
+                  "lng" : -83.02826689999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2380046,
+               "lng" : -82.9968188
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3151057,
+                  "lng" : -82.99248919999999
+               },
+               "southwest" : {
+                  "lat" : 42.1625941,
+                  "lng" : -83.02826689999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eh9Ib3dhcmQgQXZlLCBXaW5kc29yLCBPTiwgQ2FuYWRh",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

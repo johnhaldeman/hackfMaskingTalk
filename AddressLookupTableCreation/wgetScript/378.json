@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "969",
+               "short_name" : "969",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saint Marys Boulevard",
+               "short_name" : "St Marys Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2V1",
+               "short_name" : "N8S 2V1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "969 St Marys Blvd, Windsor, ON N8S 2V1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3272695,
+                  "lng" : -82.9569049
+               },
+               "southwest" : {
+                  "lat" : 42.3271626,
+                  "lng" : -82.95707
+               }
+            },
+            "location" : {
+               "lat" : 42.32721600000001,
+               "lng" : -82.9569875
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32856503029149,
+                  "lng" : -82.95563846970849
+               },
+               "southwest" : {
+                  "lat" : 42.32586706970849,
+                  "lng" : -82.9583364302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJh-owHy8rO4gRWS7TLNX0Tvw",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

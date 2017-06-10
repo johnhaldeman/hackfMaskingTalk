@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1944",
+               "short_name" : "1944",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Daytona Avenue",
+               "short_name" : "Daytona Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3V7",
+               "short_name" : "N9B 3V7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1944 Daytona Ave, Windsor, ON N9B 3V7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.280286,
+               "lng" : -83.05207999999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.28163498029149,
+                  "lng" : -83.05073101970849
+               },
+               "southwest" : {
+                  "lat" : 42.27893701970849,
+                  "lng" : -83.0534289802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ4fl_M8ctO4gRW8X-2al487c",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

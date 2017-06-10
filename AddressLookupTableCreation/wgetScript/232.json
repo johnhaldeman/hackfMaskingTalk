@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1025",
+               "short_name" : "1025",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Greenpark Boulevard",
+               "short_name" : "Greenpark Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1J5",
+               "short_name" : "N8P 1J5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1025 Greenpark Blvd, Windsor, ON N8P 1J5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.328229,
+                  "lng" : -82.9055645
+               },
+               "southwest" : {
+                  "lat" : 42.32805889999999,
+                  "lng" : -82.90579649999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3281439,
+               "lng" : -82.9056805
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32949293029149,
+                  "lng" : -82.90433151970848
+               },
+               "southwest" : {
+                  "lat" : 42.3267949697085,
+                  "lng" : -82.9070294802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ7dO4k1XVOogRLMKYzM4dTRk",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

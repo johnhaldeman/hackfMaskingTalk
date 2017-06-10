@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2391",
+               "short_name" : "2391",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parent Avenue",
+               "short_name" : "Parent Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 1R1",
+               "short_name" : "N8W 1R1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2391 Parent Ave, Windsor, ON N8W 1R1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2920665,
+                  "lng" : -83.00668449999999
+               },
+               "southwest" : {
+                  "lat" : 42.2920606,
+                  "lng" : -83.00670149999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2920665,
+               "lng" : -83.00668449999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2934125302915,
+                  "lng" : -83.00534401970849
+               },
+               "southwest" : {
+                  "lat" : 42.2907145697085,
+                  "lng" : -83.00804198029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMzkxIFBhcmVudCBBdmUsIFdpbmRzb3IsIE9OIE44VyAxUjEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

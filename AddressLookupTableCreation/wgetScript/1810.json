@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "186",
+               "short_name" : "186",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "University Avenue West",
+               "short_name" : "University Ave W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4M6",
+               "short_name" : "N9A 4M6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "186 University Ave W, Windsor, ON N9A 4M6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3171227,
+                  "lng" : -83.0409793
+               },
+               "southwest" : {
+                  "lat" : 42.3171094,
+                  "lng" : -83.0409849
+               }
+            },
+            "location" : {
+               "lat" : 42.3171094,
+               "lng" : -83.0409793
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31846503029149,
+                  "lng" : -83.03963311970851
+               },
+               "southwest" : {
+                  "lat" : 42.3157670697085,
+                  "lng" : -83.04233108029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjExODYgVW5pdmVyc2l0eSBBdmUgVywgV2luZHNvciwgT04gTjlBIDRNNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

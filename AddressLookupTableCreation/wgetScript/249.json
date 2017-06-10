@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "732",
+               "short_name" : "732",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hildegarde Street",
+               "short_name" : "Hildegarde St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2Z8",
+               "short_name" : "N8X 2Z8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "732 Hildegarde St, Windsor, ON N8X 2Z8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2885736,
+               "lng" : -83.00791710000001
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2899225802915,
+                  "lng" : -83.00656811970852
+               },
+               "southwest" : {
+                  "lat" : 42.2872246197085,
+                  "lng" : -83.00926608029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJF59eZ28sO4gRmCS3Fwf2MbQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

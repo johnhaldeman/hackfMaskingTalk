@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Malden Road",
+               "short_name" : "Malden Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Malden Rd, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.283001,
+                  "lng" : -83.05406699999999
+               },
+               "southwest" : {
+                  "lat" : 42.1860315,
+                  "lng" : -83.09146229999999
+               }
+            },
+            "location" : {
+               "lat" : 42.234116,
+               "lng" : -83.06163479999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.283001,
+                  "lng" : -83.05406699999999
+               },
+               "southwest" : {
+                  "lat" : 42.1860315,
+                  "lng" : -83.09146229999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eh5NYWxkZW4gUmQsIFdpbmRzb3IsIE9OLCBDYW5hZGE",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2487",
+               "short_name" : "2487",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Timbercrest Avenue",
+               "short_name" : "Timbercrest Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1S2",
+               "short_name" : "N8P 1S2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2487 Timbercrest Ave, Windsor, ON N8P 1S2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3141683,
+                  "lng" : -82.89717399999999
+               },
+               "southwest" : {
+                  "lat" : 42.3141657,
+                  "lng" : -82.8971925
+               }
+            },
+            "location" : {
+               "lat" : 42.3141683,
+               "lng" : -82.89717399999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3155159802915,
+                  "lng" : -82.89583426970849
+               },
+               "southwest" : {
+                  "lat" : 42.3128180197085,
+                  "lng" : -82.89853223029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjEyNDg3IFRpbWJlcmNyZXN0IEF2ZSwgV2luZHNvciwgT04gTjhQIDFTMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

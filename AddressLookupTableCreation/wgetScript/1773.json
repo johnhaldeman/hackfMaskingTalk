@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1520",
+               "short_name" : "1520",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wyandotte Street East",
+               "short_name" : "Wyandotte St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3L2",
+               "short_name" : "N9A 3L2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1520 Wyandotte St E, Windsor, ON N9A 3L2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3214585,
+               "lng" : -83.0167465
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32280748029149,
+                  "lng" : -83.0153975197085
+               },
+               "southwest" : {
+                  "lat" : 42.3201095197085,
+                  "lng" : -83.01809548029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJARU4-MAsO4gRJlx6r36Lu9M",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

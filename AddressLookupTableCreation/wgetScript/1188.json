@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1298",
+               "short_name" : "1298",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Partington Avenue",
+               "short_name" : "Partington Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2P4",
+               "short_name" : "N9B 2P4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1298 Partington Ave, Windsor, ON N9B 2P4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2960139,
+                  "lng" : -83.05236289999999
+               },
+               "southwest" : {
+                  "lat" : 42.2960079,
+                  "lng" : -83.05237989999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2960079,
+               "lng" : -83.05237989999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2973598802915,
+                  "lng" : -83.0510224197085
+               },
+               "southwest" : {
+                  "lat" : 42.2946619197085,
+                  "lng" : -83.05372038029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAxMjk4IFBhcnRpbmd0b24gQXZlLCBXaW5kc29yLCBPTiBOOUIgMlA0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

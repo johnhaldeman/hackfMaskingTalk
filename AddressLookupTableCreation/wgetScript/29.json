@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "837",
+               "short_name" : "837",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Thompson Boulevard",
+               "short_name" : "Thompson Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2G6",
+               "short_name" : "N8S 2G6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "837 Thompson Blvd, Windsor, ON N8S 2G6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.327451,
+                  "lng" : -82.97095639999999
+               },
+               "southwest" : {
+                  "lat" : 42.3274451,
+                  "lng" : -82.97097339999999
+               }
+            },
+            "location" : {
+               "lat" : 42.327451,
+               "lng" : -82.97095639999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3287970302915,
+                  "lng" : -82.96961591970849
+               },
+               "southwest" : {
+                  "lat" : 42.3260990697085,
+                  "lng" : -82.97231388029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei44MzcgVGhvbXBzb24gQmx2ZCwgV2luZHNvciwgT04gTjhTIDJHNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

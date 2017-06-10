@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "632",
+               "short_name" : "632",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hall Avenue",
+               "short_name" : "Hall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "632 Hall Ave, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3202122,
+               "lng" : -83.0186274
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3215611802915,
+                  "lng" : -83.01727841970849
+               },
+               "southwest" : {
+                  "lat" : 42.3188632197085,
+                  "lng" : -83.0199763802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJm-YOwMEsO4gRnjTJ0OWUbUI",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

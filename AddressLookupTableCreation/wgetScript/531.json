@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1541",
+               "short_name" : "1541",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "York Street",
+               "short_name" : "York St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1W5",
+               "short_name" : "N8X 1W5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1541 York St, Windsor, ON N8X 1W5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.29758220000001,
+                  "lng" : -83.0317044
+               },
+               "southwest" : {
+                  "lat" : 42.29757619999999,
+                  "lng" : -83.0317214
+               }
+            },
+            "location" : {
+               "lat" : 42.29758220000001,
+               "lng" : -83.0317044
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2989281802915,
+                  "lng" : -83.03036391970849
+               },
+               "southwest" : {
+                  "lat" : 42.29623021970851,
+                  "lng" : -83.0330618802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikxNTQxIFlvcmsgU3QsIFdpbmRzb3IsIE9OIE44WCAxVzUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2376",
+               "short_name" : "2376",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mercer Street",
+               "short_name" : "Mercer St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3R3",
+               "short_name" : "N8X 3R3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2376 Mercer St, Windsor, ON N8X 3R3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2935834,
+                  "lng" : -83.01697539999999
+               },
+               "southwest" : {
+                  "lat" : 42.2935775,
+                  "lng" : -83.01699239999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2935775,
+               "lng" : -83.01699239999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2949294302915,
+                  "lng" : -83.01563491970848
+               },
+               "southwest" : {
+                  "lat" : 42.2922314697085,
+                  "lng" : -83.0183328802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyMzc2IE1lcmNlciBTdCwgV2luZHNvciwgT04gTjhYIDNSMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

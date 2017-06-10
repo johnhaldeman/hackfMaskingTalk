@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1247",
+               "short_name" : "1247",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "High Street",
+               "short_name" : "High St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 4B1",
+               "short_name" : "N8Y 4B1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1247 High St, Windsor, ON N8Y 4B1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3190044,
+                  "lng" : -82.9915896
+               },
+               "southwest" : {
+                  "lat" : 42.3189983,
+                  "lng" : -82.9916065
+               }
+            },
+            "location" : {
+               "lat" : 42.3190044,
+               "lng" : -82.9915896
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3203503302915,
+                  "lng" : -82.99024906970851
+               },
+               "southwest" : {
+                  "lat" : 42.3176523697085,
+                  "lng" : -82.99294703029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikxMjQ3IEhpZ2ggU3QsIFdpbmRzb3IsIE9OIE44WSA0QjEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

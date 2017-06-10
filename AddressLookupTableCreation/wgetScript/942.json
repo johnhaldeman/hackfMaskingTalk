@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "637",
+               "short_name" : "637",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Vanier Street",
+               "short_name" : "Vanier St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3E4",
+               "short_name" : "N8X 3E4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "637 Vanier St, Windsor, ON N8X 3E4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.28360079999999,
+                  "lng" : -83.0076806
+               },
+               "southwest" : {
+                  "lat" : 42.2835883,
+                  "lng" : -83.0076887
+               }
+            },
+            "location" : {
+               "lat" : 42.28360079999999,
+               "lng" : -83.0076887
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2849435302915,
+                  "lng" : -83.00633566970849
+               },
+               "southwest" : {
+                  "lat" : 42.2822455697085,
+                  "lng" : -83.00903363029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio2MzcgVmFuaWVyIFN0LCBXaW5kc29yLCBPTiBOOFggM0U0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

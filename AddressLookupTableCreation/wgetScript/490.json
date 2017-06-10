@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "916",
+               "short_name" : "916",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Gladstone Avenue",
+               "short_name" : "Gladstone Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 2R6",
+               "short_name" : "N9A 2R6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "916 Gladstone Ave, Windsor, ON N9A 2R6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3176661,
+                  "lng" : -83.01423299999999
+               },
+               "southwest" : {
+                  "lat" : 42.3175603,
+                  "lng" : -83.0144165
+               }
+            },
+            "location" : {
+               "lat" : 42.3176132,
+               "lng" : -83.0143248
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3189621802915,
+                  "lng" : -83.01297576970849
+               },
+               "southwest" : {
+                  "lat" : 42.3162642197085,
+                  "lng" : -83.0156737302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJOfgjSpUsO4gRW1ukBYZ175Q",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4458",
+               "short_name" : "4458",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Villa Paradiso Crescent",
+               "short_name" : "Villa Paradiso Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2L7",
+               "short_name" : "N9G 2L7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4458 Villa Paradiso Crescent, Windsor, ON N9G 2L7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2414499,
+                  "lng" : -83.0088164
+               },
+               "southwest" : {
+                  "lat" : 42.241248,
+                  "lng" : -83.0090915
+               }
+            },
+            "location" : {
+               "lat" : 42.2413489,
+               "lng" : -83.00895389999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2426979302915,
+                  "lng" : -83.0076049697085
+               },
+               "southwest" : {
+                  "lat" : 42.2399999697085,
+                  "lng" : -83.0103029302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJDczVy7guO4gRk5VXu0b95KA",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

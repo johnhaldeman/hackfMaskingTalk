@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "766",
+               "short_name" : "766",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Alexandrine Street",
+               "short_name" : "Alexandrine St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3C2",
+               "short_name" : "N8X 3C2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "766 Alexandrine St, Windsor, ON N8X 3C2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.286101,
+                  "lng" : -83.00622319999999
+               },
+               "southwest" : {
+                  "lat" : 42.2860885,
+                  "lng" : -83.00623130000001
+               }
+            },
+            "location" : {
+               "lat" : 42.2860885,
+               "lng" : -83.00622319999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2874437302915,
+                  "lng" : -83.00487826970851
+               },
+               "southwest" : {
+                  "lat" : 42.2847457697085,
+                  "lng" : -83.00757623029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei83NjYgQWxleGFuZHJpbmUgU3QsIFdpbmRzb3IsIE9OIE44WCAzQzIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

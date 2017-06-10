@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1560",
+               "short_name" : "1560",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Benjamin Avenue",
+               "short_name" : "Benjamin Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4N4",
+               "short_name" : "N8X 4N4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1560 Benjamin Ave, Windsor, ON N8X 4N4, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3045628,
+               "lng" : -83.0111112
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3059117802915,
+                  "lng" : -83.00976221970849
+               },
+               "southwest" : {
+                  "lat" : 42.3032138197085,
+                  "lng" : -83.01246018029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJhzhMbowsO4gRaHk-b136txU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3079",
+               "short_name" : "3079",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Banwell Road",
+               "short_name" : "Banwell Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 1B1",
+               "short_name" : "N8R 1B1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3079 Banwell Rd, Windsor, ON N8R 1B1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3105403,
+                  "lng" : -82.90046029999999
+               },
+               "southwest" : {
+                  "lat" : 42.31053780000001,
+                  "lng" : -82.9004788
+               }
+            },
+            "location" : {
+               "lat" : 42.3105403,
+               "lng" : -82.90046029999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31188803029151,
+                  "lng" : -82.89912056970849
+               },
+               "southwest" : {
+                  "lat" : 42.30919006970851,
+                  "lng" : -82.90181853029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzMDc5IEJhbndlbGwgUmQsIFdpbmRzb3IsIE9OIE44UiAxQjEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2636",
+               "short_name" : "2636",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rivard Avenue",
+               "short_name" : "Rivard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2H5",
+               "short_name" : "N8T 2H5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2636 Rivard Ave, Windsor, ON N8T 2H5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30399209999999,
+                  "lng" : -82.9551202
+               },
+               "southwest" : {
+                  "lat" : 42.3039863,
+                  "lng" : -82.95513729999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3039863,
+               "lng" : -82.95513729999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30533818029149,
+                  "lng" : -82.95377976970848
+               },
+               "southwest" : {
+                  "lat" : 42.30264021970849,
+                  "lng" : -82.9564777302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyNjM2IFJpdmFyZCBBdmUsIFdpbmRzb3IsIE9OIE44VCAySDUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

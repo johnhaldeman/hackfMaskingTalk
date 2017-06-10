@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1071",
+               "short_name" : "1071",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Windsor Avenue",
+               "short_name" : "Windsor Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 1K3",
+               "short_name" : "N9A 1K3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1071 Windsor Ave, Windsor, ON N9A 1K3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3086597,
+                  "lng" : -83.0296439
+               },
+               "southwest" : {
+                  "lat" : 42.3086537,
+                  "lng" : -83.0296608
+               }
+            },
+            "location" : {
+               "lat" : 42.3086597,
+               "lng" : -83.0296439
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3100056802915,
+                  "lng" : -83.02830336970848
+               },
+               "southwest" : {
+                  "lat" : 42.3073077197085,
+                  "lng" : -83.0310013302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xMDcxIFdpbmRzb3IgQXZlLCBXaW5kc29yLCBPTiBOOUEgMUszLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "551",
+               "short_name" : "551",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Giles Boulevard East",
+               "short_name" : "Giles Blvd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4E1",
+               "short_name" : "N9A 4E1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "551 Giles Blvd E, Windsor, ON N9A 4E1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3086201,
+                  "lng" : -83.0230481
+               },
+               "southwest" : {
+                  "lat" : 42.30860759999999,
+                  "lng" : -83.02305629999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3086201,
+               "lng" : -83.02305629999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3099628302915,
+                  "lng" : -83.0217032197085
+               },
+               "southwest" : {
+                  "lat" : 42.3072648697085,
+                  "lng" : -83.02440118029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei01NTEgR2lsZXMgQmx2ZCBFLCBXaW5kc29yLCBPTiBOOUEgNEUxLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "551",
+               "short_name" : "551",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Giles Boulevard West",
+               "short_name" : "Giles Blvd W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 6H8",
+               "short_name" : "N9A 6H8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "551 Giles Blvd W, Windsor, ON N9A 6H8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3031415,
+                  "lng" : -83.03721729999999
+               },
+               "southwest" : {
+                  "lat" : 42.30312900000001,
+                  "lng" : -83.03722549999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3031415,
+               "lng" : -83.03722549999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3044842302915,
+                  "lng" : -83.0358724197085
+               },
+               "southwest" : {
+                  "lat" : 42.3017862697085,
+                  "lng" : -83.0385703802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei01NTEgR2lsZXMgQmx2ZCBXLCBXaW5kc29yLCBPTiBOOUEgNkg4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

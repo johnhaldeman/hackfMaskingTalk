@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5035",
+               "short_name" : "5035",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tecumseh Road East",
+               "short_name" : "Tecumseh Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 1C2",
+               "short_name" : "N8T 1C2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5035 Tecumseh Rd E, Windsor, ON N8T 1C2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.307944,
+                  "lng" : -82.96492569999999
+               },
+               "southwest" : {
+                  "lat" : 42.3079306,
+                  "lng" : -82.9649304
+               }
+            },
+            "location" : {
+               "lat" : 42.307944,
+               "lng" : -82.9649304
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3092862802915,
+                  "lng" : -82.96357906970849
+               },
+               "southwest" : {
+                  "lat" : 42.3065883197085,
+                  "lng" : -82.96627703029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei81MDM1IFRlY3Vtc2VoIFJkIEUsIFdpbmRzb3IsIE9OIE44VCAxQzIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5035",
+               "short_name" : "5035",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tecumseh Road West",
+               "short_name" : "Tecumseh Rd W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 2A1",
+               "short_name" : "N9C 2A1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5035 Tecumseh Rd W, Windsor, ON N9C 2A1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2875998,
+                  "lng" : -83.0666372
+               },
+               "southwest" : {
+                  "lat" : 42.2875875,
+                  "lng" : -83.0666459
+               }
+            },
+            "location" : {
+               "lat" : 42.2875998,
+               "lng" : -83.0666459
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2889426302915,
+                  "lng" : -83.06529256970849
+               },
+               "southwest" : {
+                  "lat" : 42.2862446697085,
+                  "lng" : -83.06799053029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei81MDM1IFRlY3Vtc2VoIFJkIFcsIFdpbmRzb3IsIE9OIE45QyAyQTEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

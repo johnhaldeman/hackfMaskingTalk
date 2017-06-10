@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "979",
+               "short_name" : "979",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Moy Avenue",
+               "short_name" : "Moy Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3Z7",
+               "short_name" : "N9A 3Z7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "979 Moy Ave, Windsor, ON N9A 3Z7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.315714,
+                  "lng" : -83.0146544
+               },
+               "southwest" : {
+                  "lat" : 42.315708,
+                  "lng" : -83.0146714
+               }
+            },
+            "location" : {
+               "lat" : 42.315714,
+               "lng" : -83.0146544
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3170599802915,
+                  "lng" : -83.01331391970849
+               },
+               "southwest" : {
+                  "lat" : 42.3143620197085,
+                  "lng" : -83.0160118802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eig5NzkgTW95IEF2ZSwgV2luZHNvciwgT04gTjlBIDNaNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

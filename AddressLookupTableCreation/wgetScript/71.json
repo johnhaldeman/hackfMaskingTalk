@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Handy Street",
+               "short_name" : "Handy St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S",
+               "short_name" : "N8S",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "Handy St, Windsor, ON N8S, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3388082,
+                  "lng" : -82.9455186
+               },
+               "southwest" : {
+                  "lat" : 42.3385012,
+                  "lng" : -82.9460545
+               }
+            },
+            "location" : {
+               "lat" : 42.33869440000001,
+               "lng" : -82.9455186
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3400036802915,
+                  "lng" : -82.9444375697085
+               },
+               "southwest" : {
+                  "lat" : 42.3373057197085,
+                  "lng" : -82.9471355302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJUw8q5CvVJIgRmu52n36z-9k",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

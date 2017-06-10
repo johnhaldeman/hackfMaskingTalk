@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3949",
+               "short_name" : "3949",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Acorn Crescent",
+               "short_name" : "Acorn Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5R4",
+               "short_name" : "N8W 5R4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3949 Acorn Crescent, Windsor, ON N8W 5R4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2590511,
+                  "lng" : -82.9781287
+               },
+               "southwest" : {
+                  "lat" : 42.2588732,
+                  "lng" : -82.9783217
+               }
+            },
+            "location" : {
+               "lat" : 42.2589621,
+               "lng" : -82.9782252
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2603111302915,
+                  "lng" : -82.9768762197085
+               },
+               "southwest" : {
+                  "lat" : 42.2576131697085,
+                  "lng" : -82.97957418029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJF53NP-IrO4gReAkwNvoh4pQ",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

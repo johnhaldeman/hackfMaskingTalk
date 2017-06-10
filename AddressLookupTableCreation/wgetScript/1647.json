@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3721",
+               "short_name" : "3721",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Montcalm Street",
+               "short_name" : "Montcalm St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 2B1",
+               "short_name" : "N9C 2B1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3721 Montcalm St, Windsor, ON N9C 2B1, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2868177,
+               "lng" : -83.06556429999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2881666802915,
+                  "lng" : -83.0642153197085
+               },
+               "southwest" : {
+                  "lat" : 42.2854687197085,
+                  "lng" : -83.0669132802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ6U0XzZMtO4gR-2nNnAFxKcw",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

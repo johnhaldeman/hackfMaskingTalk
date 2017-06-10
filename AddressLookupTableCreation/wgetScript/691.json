@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3016",
+               "short_name" : "3016",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Peace Court",
+               "short_name" : "Peace Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2J4",
+               "short_name" : "N8T 2J4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3016 Peace Ct, Windsor, ON N8T 2J4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2956412,
+                  "lng" : -82.949201
+               },
+               "southwest" : {
+                  "lat" : 42.2956356,
+                  "lng" : -82.94921819999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2956356,
+               "lng" : -82.94921819999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2969873802915,
+                  "lng" : -82.94786061970849
+               },
+               "southwest" : {
+                  "lat" : 42.2942894197085,
+                  "lng" : -82.9505585802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozMDE2IFBlYWNlIEN0LCBXaW5kc29yLCBPTiBOOFQgMko0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

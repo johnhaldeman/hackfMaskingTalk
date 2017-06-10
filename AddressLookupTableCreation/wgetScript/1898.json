@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3530",
+               "short_name" : "3530",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Huntington Avenue",
+               "short_name" : "Huntington Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3M8",
+               "short_name" : "N9E 3M8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3530 Huntington Ave, Windsor, ON N9E 3M8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2646744,
+                  "lng" : -83.00328909999999
+               },
+               "southwest" : {
+                  "lat" : 42.2644902,
+                  "lng" : -83.00348489999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2645823,
+               "lng" : -83.00338699999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2659312802915,
+                  "lng" : -83.00203801970848
+               },
+               "southwest" : {
+                  "lat" : 42.2632333197085,
+                  "lng" : -83.00473598029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJlSMBrwQsO4gRNwG1z0jJAvk",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1690",
+               "short_name" : "1690",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ford Boulevard",
+               "short_name" : "Ford Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2E1",
+               "short_name" : "N8T 2E1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1690 Ford Blvd, Windsor, ON N8T 2E1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3165972,
+                  "lng" : -82.9655593
+               },
+               "southwest" : {
+                  "lat" : 42.3165913,
+                  "lng" : -82.9655763
+               }
+            },
+            "location" : {
+               "lat" : 42.3165913,
+               "lng" : -82.9655763
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3179432302915,
+                  "lng" : -82.96421881970848
+               },
+               "southwest" : {
+                  "lat" : 42.31524526970851,
+                  "lng" : -82.9669167802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxNjkwIEZvcmQgQmx2ZCwgV2luZHNvciwgT04gTjhUIDJFMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

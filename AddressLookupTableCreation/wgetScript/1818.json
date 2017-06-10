@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1691",
+               "short_name" : "1691",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Niagara Street",
+               "short_name" : "Niagara St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y",
+               "short_name" : "N8Y",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1691 Niagara St, Windsor, ON N8Y, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.318412,
+                  "lng" : -83.01327069999999
+               },
+               "southwest" : {
+                  "lat" : 42.3183996,
+                  "lng" : -83.0132792
+               }
+            },
+            "location" : {
+               "lat" : 42.318412,
+               "lng" : -83.0132792
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3197547802915,
+                  "lng" : -83.0119259697085
+               },
+               "southwest" : {
+                  "lat" : 42.3170568197085,
+                  "lng" : -83.01462393029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigxNjkxIE5pYWdhcmEgU3QsIFdpbmRzb3IsIE9OIE44WSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1512",
+               "short_name" : "1512",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Marentette Avenue",
+               "short_name" : "Marentette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4E3",
+               "short_name" : "N8X 4E3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1512 Marentette Ave, Windsor, ON N8X 4E3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3040661,
+                  "lng" : -83.0167422
+               },
+               "southwest" : {
+                  "lat" : 42.3039596,
+                  "lng" : -83.0169008
+               }
+            },
+            "location" : {
+               "lat" : 42.3040128,
+               "lng" : -83.01682149999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3053618302915,
+                  "lng" : -83.0154725197085
+               },
+               "southwest" : {
+                  "lat" : 42.3026638697085,
+                  "lng" : -83.0181704802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJNUTRgvQsO4gROgaRaO7a6Ao",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

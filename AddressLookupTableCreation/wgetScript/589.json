@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3440",
+               "short_name" : "3440",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Harris Street",
+               "short_name" : "Harris St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1N5",
+               "short_name" : "N9C 1N5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3440 Harris St, Windsor, ON N9C 1N5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2953195,
+                  "lng" : -83.0749673
+               },
+               "southwest" : {
+                  "lat" : 42.2952064,
+                  "lng" : -83.07515339999999
+               }
+            },
+            "location" : {
+               "lat" : 42.295263,
+               "lng" : -83.0750604
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2966119302915,
+                  "lng" : -83.07371136970849
+               },
+               "southwest" : {
+                  "lat" : 42.2939139697085,
+                  "lng" : -83.0764093302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJkQCeYIYtO4gRhAXS8_qYTd0",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

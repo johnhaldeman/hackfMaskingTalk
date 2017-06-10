@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3274",
+               "short_name" : "3274",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Blairwood Court",
+               "short_name" : "Blairwood Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5M7",
+               "short_name" : "N8W 5M7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3274 Blairwood Ct, Windsor, ON N8W 5M7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2768536,
+               "lng" : -82.98578169999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2782025802915,
+                  "lng" : -82.98443271970848
+               },
+               "southwest" : {
+                  "lat" : 42.2755046197085,
+                  "lng" : -82.98713068029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJAViqPPMrO4gRZ3Yhpbe2VHs",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

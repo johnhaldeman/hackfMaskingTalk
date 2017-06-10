@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "986",
+               "short_name" : "986",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Thompson Boulevard",
+               "short_name" : "Thompson Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2G8",
+               "short_name" : "N8S 2G8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "986 Thompson Blvd, Windsor, ON N8S 2G8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3246297,
+               "lng" : -82.9686382
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32597868029149,
+                  "lng" : -82.96728921970849
+               },
+               "southwest" : {
+                  "lat" : 42.32328071970849,
+                  "lng" : -82.9699871802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJFV8nyjkrO4gRJ1fWqpW1FkU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

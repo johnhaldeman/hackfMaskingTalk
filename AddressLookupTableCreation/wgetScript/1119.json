@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3444",
+               "short_name" : "3444",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Harris Street",
+               "short_name" : "Harris St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1N5",
+               "short_name" : "N9C 1N5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3444 Harris St, Windsor, ON N9C 1N5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2951749,
+                  "lng" : -83.07494170000001
+               },
+               "southwest" : {
+                  "lat" : 42.2951691,
+                  "lng" : -83.07495879999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2951691,
+               "lng" : -83.07494170000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2965209802915,
+                  "lng" : -83.07360126970849
+               },
+               "southwest" : {
+                  "lat" : 42.2938230197085,
+                  "lng" : -83.0762992302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszNDQ0IEhhcnJpcyBTdCwgV2luZHNvciwgT04gTjlDIDFONSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

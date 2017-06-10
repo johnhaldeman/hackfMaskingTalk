@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "549",
+               "short_name" : "549",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Clover Street",
+               "short_name" : "Clover St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1C5",
+               "short_name" : "N8P 1C5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "549 Clover St, Windsor, ON N8P 1C5, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3353818,
+               "lng" : -82.916005
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3367307802915,
+                  "lng" : -82.91465601970849
+               },
+               "southwest" : {
+                  "lat" : 42.3340328197085,
+                  "lng" : -82.91735398029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJtfksRVLVJIgRjA5U46mH_as",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1546",
+               "short_name" : "1546",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lincoln Road",
+               "short_name" : "Lincoln Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2J4",
+               "short_name" : "N8Y 2J4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1546 Lincoln Rd, Windsor, ON N8Y 2J4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3066844,
+                  "lng" : -83.00625649999999
+               },
+               "southwest" : {
+                  "lat" : 42.3066784,
+                  "lng" : -83.0062734
+               }
+            },
+            "location" : {
+               "lat" : 42.3066784,
+               "lng" : -83.0062734
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3080303802915,
+                  "lng" : -83.00491596970849
+               },
+               "southwest" : {
+                  "lat" : 42.3053324197085,
+                  "lng" : -83.0076139302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxNTQ2IExpbmNvbG4gUmQsIFdpbmRzb3IsIE9OIE44WSAySjQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

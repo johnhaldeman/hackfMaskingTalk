@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4677",
+               "short_name" : "4677",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lavender Avenue",
+               "short_name" : "Lavender Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "4677 Lavender Ave, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2483663,
+               "lng" : -82.9663537
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2497152802915,
+                  "lng" : -82.96500471970849
+               },
+               "southwest" : {
+                  "lat" : 42.2470173197085,
+                  "lng" : -82.9677026802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJcWi0CmYpO4gRgMBYU3J-U2Q",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

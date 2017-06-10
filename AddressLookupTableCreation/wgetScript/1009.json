@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "937",
+               "short_name" : "937",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cataraqui Street",
+               "short_name" : "Cataraqui St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3P7",
+               "short_name" : "N9A 3P7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "937 Cataraqui St, Windsor, ON N9A 3P7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3170214,
+               "lng" : -83.0221904
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3183703802915,
+                  "lng" : -83.02084141970849
+               },
+               "southwest" : {
+                  "lat" : 42.3156724197085,
+                  "lng" : -83.02353938029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJj5TeqOksO4gRfn58pchxmaU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

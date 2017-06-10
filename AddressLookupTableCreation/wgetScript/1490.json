@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "592",
+               "short_name" : "592",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rodfam Drive",
+               "short_name" : "Rodfam Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "592 Rodfam Dr, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2421297,
+                  "lng" : -83.0027578
+               },
+               "southwest" : {
+                  "lat" : 42.2421241,
+                  "lng" : -83.00277489999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2421241,
+               "lng" : -83.00277489999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2434758802915,
+                  "lng" : -83.00141736970849
+               },
+               "southwest" : {
+                  "lat" : 42.2407779197085,
+                  "lng" : -83.0041153302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiY1OTIgUm9kZmFtIERyLCBXaW5kc29yLCBPTiBOOUcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "592",
+               "short_name" : "592",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rodfam Court",
+               "short_name" : "Rodfam Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2W3",
+               "short_name" : "N9G 2W3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "592 Rodfam Ct, Windsor, ON N9G 2W3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2429972,
+                  "lng" : -83.0032978
+               },
+               "southwest" : {
+                  "lat" : 42.2429917,
+                  "lng" : -83.003315
+               }
+            },
+            "location" : {
+               "lat" : 42.2429917,
+               "lng" : -83.003315
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2443434302915,
+                  "lng" : -83.00195741970849
+               },
+               "southwest" : {
+                  "lat" : 42.2416454697085,
+                  "lng" : -83.00465538029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio1OTIgUm9kZmFtIEN0LCBXaW5kc29yLCBPTiBOOUcgMlczLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

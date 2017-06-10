@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3487",
+               "short_name" : "3487",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Byng Road",
+               "short_name" : "Byng Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3H6",
+               "short_name" : "N8W 3H6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3487 Byng Rd, Windsor, ON N8W 3H6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.273678,
+                  "lng" : -82.97855319999999
+               },
+               "southwest" : {
+                  "lat" : 42.2736721,
+                  "lng" : -82.9785703
+               }
+            },
+            "location" : {
+               "lat" : 42.273678,
+               "lng" : -82.97855319999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2750240302915,
+                  "lng" : -82.97721276970849
+               },
+               "southwest" : {
+                  "lat" : 42.2723260697085,
+                  "lng" : -82.97991073029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikzNDg3IEJ5bmcgUmQsIFdpbmRzb3IsIE9OIE44VyAzSDYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

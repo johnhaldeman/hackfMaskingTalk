@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "11257",
+               "short_name" : "11257",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Wyandotte Street East",
+               "short_name" : "Wyandotte St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P",
+               "short_name" : "N8P",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "11257 Wyandotte St E, Windsor, ON N8P, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3336547,
+                  "lng" : -82.9194249
+               },
+               "southwest" : {
+                  "lat" : 42.3336408,
+                  "lng" : -82.9194251
+               }
+            },
+            "location" : {
+               "lat" : 42.3336547,
+               "lng" : -82.9194251
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3349967302915,
+                  "lng" : -82.91807601970849
+               },
+               "southwest" : {
+                  "lat" : 42.3322987697085,
+                  "lng" : -82.9207739802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xMTI1NyBXeWFuZG90dGUgU3QgRSwgV2luZHNvciwgT04gTjhQLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

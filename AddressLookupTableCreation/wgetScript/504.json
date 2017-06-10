@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2583",
+               "short_name" : "2583",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saint Patricks Avenue",
+               "short_name" : "St Patricks Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3G5",
+               "short_name" : "N9E 3G5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2583 St Patricks Ave, Windsor, ON N9E 3G5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2709132,
+                  "lng" : -83.0392761
+               },
+               "southwest" : {
+                  "lat" : 42.2709072,
+                  "lng" : -83.039293
+               }
+            },
+            "location" : {
+               "lat" : 42.2709132,
+               "lng" : -83.0392761
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2722591802915,
+                  "lng" : -83.03793556970849
+               },
+               "southwest" : {
+                  "lat" : 42.2695612197085,
+                  "lng" : -83.04063353029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjEyNTgzIFN0IFBhdHJpY2tzIEF2ZSwgV2luZHNvciwgT04gTjlFIDNHNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

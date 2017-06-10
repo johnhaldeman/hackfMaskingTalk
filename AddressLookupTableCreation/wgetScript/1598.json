@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1293",
+               "short_name" : "1293",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Oak Street",
+               "short_name" : "Oak St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2B2",
+               "short_name" : "N8X 2B2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1293 Oak St, Windsor, ON N8X 2B2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3000525,
+                  "lng" : -83.0418066
+               },
+               "southwest" : {
+                  "lat" : 42.3000465,
+                  "lng" : -83.0418236
+               }
+            },
+            "location" : {
+               "lat" : 42.3000525,
+               "lng" : -83.0418066
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3013984802915,
+                  "lng" : -83.0404661197085
+               },
+               "southwest" : {
+                  "lat" : 42.2987005197085,
+                  "lng" : -83.0431640802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigxMjkzIE9hayBTdCwgV2luZHNvciwgT04gTjhYIDJCMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

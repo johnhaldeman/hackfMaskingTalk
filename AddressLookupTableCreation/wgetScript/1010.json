@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "969",
+               "short_name" : "969",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Belle Isle View Boulevard",
+               "short_name" : "Belle Isle View Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3G6",
+               "short_name" : "N8S 3G6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "969 Belle Isle View Blvd, Windsor, ON N8S 3G6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3286652,
+                  "lng" : -82.9461699
+               },
+               "southwest" : {
+                  "lat" : 42.3286593,
+                  "lng" : -82.9461869
+               }
+            },
+            "location" : {
+               "lat" : 42.3286652,
+               "lng" : -82.9461699
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3300112302915,
+                  "lng" : -82.9448294197085
+               },
+               "southwest" : {
+                  "lat" : 42.3273132697085,
+                  "lng" : -82.9475273802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjU5NjkgQmVsbGUgSXNsZSBWaWV3IEJsdmQsIFdpbmRzb3IsIE9OIE44UyAzRzYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

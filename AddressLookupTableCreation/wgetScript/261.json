@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1254",
+               "short_name" : "1254",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lakeview Avenue",
+               "short_name" : "Lakeview Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1K9",
+               "short_name" : "N8P 1K9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1254 Lakeview Ave, Windsor, ON N8P 1K9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.32620199999999,
+                  "lng" : -82.8959893
+               },
+               "southwest" : {
+                  "lat" : 42.3261995,
+                  "lng" : -82.89600779999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3261995,
+               "lng" : -82.89600779999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32754973029149,
+                  "lng" : -82.89464956970849
+               },
+               "southwest" : {
+                  "lat" : 42.32485176970849,
+                  "lng" : -82.8973475302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xMjU0IExha2V2aWV3IEF2ZSwgV2luZHNvciwgT04gTjhQIDFLOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

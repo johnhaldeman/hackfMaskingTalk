@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2087",
+               "short_name" : "2087",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Willistead Crescent",
+               "short_name" : "Willistead Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1K5",
+               "short_name" : "N8Y 1K5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2087 Willistead Crescent, Windsor, ON N8Y 1K5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3181933,
+                  "lng" : -83.00814629999999
+               },
+               "southwest" : {
+                  "lat" : 42.3181808,
+                  "lng" : -83.00815460000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3181808,
+               "lng" : -83.00814629999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3195360302915,
+                  "lng" : -83.00680146970851
+               },
+               "southwest" : {
+                  "lat" : 42.3168380697085,
+                  "lng" : -83.00949943029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjUyMDg3IFdpbGxpc3RlYWQgQ3Jlc2NlbnQsIFdpbmRzb3IsIE9OIE44WSAxSzUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

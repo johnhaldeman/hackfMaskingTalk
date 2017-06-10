@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1051",
+               "short_name" : "1051",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4R6",
+               "short_name" : "N9A 4R6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1051 Dougall Ave, Windsor, ON N9A 4R6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3070979,
+                  "lng" : -83.0360953
+               },
+               "southwest" : {
+                  "lat" : 42.3069915,
+                  "lng" : -83.0362583
+               }
+            },
+            "location" : {
+               "lat" : 42.3070447,
+               "lng" : -83.03617679999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30839368029149,
+                  "lng" : -83.0348278197085
+               },
+               "southwest" : {
+                  "lat" : 42.3056957197085,
+                  "lng" : -83.0375257802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJUx4ydgItO4gRgJO2NT20RsU",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3089",
+               "short_name" : "3089",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Suffolk Street",
+               "short_name" : "Suffolk St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 1P1",
+               "short_name" : "N8R 1P1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3089 Suffolk St, Windsor, ON N8R 1P1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3076567,
+                  "lng" : -82.90750779999999
+               },
+               "southwest" : {
+                  "lat" : 42.30765419999999,
+                  "lng" : -82.9075263
+               }
+            },
+            "location" : {
+               "lat" : 42.3076567,
+               "lng" : -82.90750779999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3090044302915,
+                  "lng" : -82.9061680697085
+               },
+               "southwest" : {
+                  "lat" : 42.3063064697085,
+                  "lng" : -82.90886603029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzMDg5IFN1ZmZvbGsgU3QsIFdpbmRzb3IsIE9OIE44UiAxUDEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

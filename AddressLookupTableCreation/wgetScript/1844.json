@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "984",
+               "short_name" : "984",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ouellette Avenue",
+               "short_name" : "Ouellette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4J5",
+               "short_name" : "N9A 4J5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "984 Ouellette Ave, Windsor, ON N9A 4J5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3093268,
+                  "lng" : -83.0337267
+               },
+               "southwest" : {
+                  "lat" : 42.309321,
+                  "lng" : -83.0337438
+               }
+            },
+            "location" : {
+               "lat" : 42.309321,
+               "lng" : -83.0337438
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3106728802915,
+                  "lng" : -83.0323862697085
+               },
+               "southwest" : {
+                  "lat" : 42.30797491970851,
+                  "lng" : -83.03508423029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei45ODQgT3VlbGxldHRlIEF2ZSwgV2luZHNvciwgT04gTjlBIDRKNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

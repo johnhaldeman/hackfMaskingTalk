@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3146",
+               "short_name" : "3146",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mulberry Court",
+               "short_name" : "Mulberry Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 2A4",
+               "short_name" : "N8R 2A4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3146 Mulberry Ct, Windsor, ON N8R 2A4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.305915,
+                  "lng" : -82.90613379999999
+               },
+               "southwest" : {
+                  "lat" : 42.3057895,
+                  "lng" : -82.9063829
+               }
+            },
+            "location" : {
+               "lat" : 42.3058523,
+               "lng" : -82.9062584
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30720123029149,
+                  "lng" : -82.90490936970848
+               },
+               "southwest" : {
+                  "lat" : 42.3045032697085,
+                  "lng" : -82.9076073302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJJZD7bGLVOogRbYRRSqJCMwU",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1220",
+               "short_name" : "1220",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Albert Road",
+               "short_name" : "Albert Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3P7",
+               "short_name" : "N8Y 3P7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1220 Albert Rd, Windsor, ON N8Y 3P7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3172455,
+               "lng" : -82.9993626
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3185944802915,
+                  "lng" : -82.99801361970849
+               },
+               "southwest" : {
+                  "lat" : 42.3158965197085,
+                  "lng" : -83.00071158029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ-3YppZgsO4gRny-6aAT6ztE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

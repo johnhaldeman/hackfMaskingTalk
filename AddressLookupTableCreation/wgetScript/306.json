@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1118",
+               "short_name" : "1118",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Victoria Avenue",
+               "short_name" : "Victoria Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4N8",
+               "short_name" : "N9A 4N8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1118 Victoria Ave, Windsor, ON N9A 4N8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3062018,
+               "lng" : -83.03387050000001
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30755078029149,
+                  "lng" : -83.03252151970851
+               },
+               "southwest" : {
+                  "lat" : 42.30485281970849,
+                  "lng" : -83.03521948029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJfauly_0sO4gR1TB-B-yB3B8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

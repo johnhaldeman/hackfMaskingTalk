@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "797",
+               "short_name" : "797",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lynn Street",
+               "short_name" : "Lynn St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1G6",
+               "short_name" : "N9G 1G6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "797 Lynn St, Windsor, ON N9G 1G6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2579779,
+                  "lng" : -82.9875708
+               },
+               "southwest" : {
+                  "lat" : 42.257964,
+                  "lng" : -82.9875716
+               }
+            },
+            "location" : {
+               "lat" : 42.2579779,
+               "lng" : -82.9875708
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2593199302915,
+                  "lng" : -82.98622221970848
+               },
+               "southwest" : {
+                  "lat" : 42.2566219697085,
+                  "lng" : -82.98892018029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eig3OTcgTHlubiBTdCwgV2luZHNvciwgT04gTjlHIDFHNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

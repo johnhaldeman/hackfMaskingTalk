@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2947",
+               "short_name" : "2947",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riviera Drive",
+               "short_name" : "Riviera Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3A5",
+               "short_name" : "N9E 3A5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2947 Riviera Dr, Windsor, ON N9E 3A5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2660819,
+                  "lng" : -83.03269759999999
+               },
+               "southwest" : {
+                  "lat" : 42.266076,
+                  "lng" : -83.03271459999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2660819,
+               "lng" : -83.03269759999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2674279302915,
+                  "lng" : -83.03135711970847
+               },
+               "southwest" : {
+                  "lat" : 42.2647299697085,
+                  "lng" : -83.03405508029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyOTQ3IFJpdmllcmEgRHIsIFdpbmRzb3IsIE9OIE45RSAzQTUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

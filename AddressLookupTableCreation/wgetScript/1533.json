@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "922",
+               "short_name" : "922",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Banwell Road",
+               "short_name" : "Banwell Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1J1",
+               "short_name" : "N8P 1J1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "922 Banwell Rd, Windsor, ON N8P 1J1, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.331469,
+               "lng" : -82.9047487
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3328179802915,
+                  "lng" : -82.9033997197085
+               },
+               "southwest" : {
+                  "lat" : 42.3301200197085,
+                  "lng" : -82.90609768029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJbSx_K1XVOogRIQz12MVar-c",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

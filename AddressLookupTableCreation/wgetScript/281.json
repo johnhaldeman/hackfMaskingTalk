@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "915",
+               "short_name" : "915",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parent Avenue",
+               "short_name" : "Parent Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 2E2",
+               "short_name" : "N9A 2E2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "915 Parent Ave, Windsor, ON N9A 2E2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3150465,
+                  "lng" : -83.0217528
+               },
+               "southwest" : {
+                  "lat" : 42.3149186,
+                  "lng" : -83.02199829999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3149826,
+               "lng" : -83.02187549999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3163315302915,
+                  "lng" : -83.02052656970849
+               },
+               "southwest" : {
+                  "lat" : 42.3136335697085,
+                  "lng" : -83.0232245302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ7V1uOuksO4gR_19OPZANPu4",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

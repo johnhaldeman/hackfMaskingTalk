@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3660",
+               "short_name" : "3660",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Huntington Avenue",
+               "short_name" : "Huntington Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3N3",
+               "short_name" : "N9E 3N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3660 Huntington Ave, Windsor, ON N9E 3N3, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2621078,
+               "lng" : -83.0018839
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2634567802915,
+                  "lng" : -83.0005349197085
+               },
+               "southwest" : {
+                  "lat" : 42.2607588197085,
+                  "lng" : -83.00323288029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ6QwzBQMsO4gRuPdPkUoWOd4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

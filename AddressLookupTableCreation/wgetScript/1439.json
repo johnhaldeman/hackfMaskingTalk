@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1179",
+               "short_name" : "1179",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Windsor Avenue",
+               "short_name" : "Windsor Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 1K3",
+               "short_name" : "N9A 1K3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1179 Windsor Ave, Windsor, ON N9A 1K3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3069625,
+                  "lng" : -83.0285428
+               },
+               "southwest" : {
+                  "lat" : 42.3069567,
+                  "lng" : -83.02855989999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3069625,
+               "lng" : -83.0285428
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3083085802915,
+                  "lng" : -83.02720236970848
+               },
+               "southwest" : {
+                  "lat" : 42.3056106197085,
+                  "lng" : -83.0299003302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xMTc5IFdpbmRzb3IgQXZlLCBXaW5kc29yLCBPTiBOOUEgMUszLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

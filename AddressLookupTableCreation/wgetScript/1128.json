@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "850",
+               "short_name" : "850",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mercer Street",
+               "short_name" : "Mercer St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3R9",
+               "short_name" : "N9A 3R9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "850 Mercer St, Windsor, ON N9A 3R9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3135972,
+                  "lng" : -83.0294828
+               },
+               "southwest" : {
+                  "lat" : 42.3135914,
+                  "lng" : -83.0294999
+               }
+            },
+            "location" : {
+               "lat" : 42.3135914,
+               "lng" : -83.0294999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31494328029149,
+                  "lng" : -83.0281423697085
+               },
+               "southwest" : {
+                  "lat" : 42.3122453197085,
+                  "lng" : -83.03084033029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio4NTAgTWVyY2VyIFN0LCBXaW5kc29yLCBPTiBOOUEgM1I5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

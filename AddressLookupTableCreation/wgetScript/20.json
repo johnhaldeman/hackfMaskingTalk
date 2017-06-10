@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2441",
+               "short_name" : "2441",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Labelle Street",
+               "short_name" : "Labelle St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4K4",
+               "short_name" : "N9E 4K4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2441 Labelle St, Windsor, ON N9E 4K4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2667365,
+                  "lng" : -83.0400585
+               },
+               "southwest" : {
+                  "lat" : 42.2667239,
+                  "lng" : -83.04006649999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2667239,
+               "lng" : -83.0400585
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.26807918029149,
+                  "lng" : -83.03871351970849
+               },
+               "southwest" : {
+                  "lat" : 42.26538121970849,
+                  "lng" : -83.04141148029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyNDQxIExhYmVsbGUgU3QsIFdpbmRzb3IsIE9OIE45RSA0SzQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

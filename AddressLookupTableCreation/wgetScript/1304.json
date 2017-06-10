@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2275",
+               "short_name" : "2275",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Howard Avenue",
+               "short_name" : "Howard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3V2",
+               "short_name" : "N8X 3V2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2275 Howard Ave, Windsor, ON N8X 3V2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2957572,
+                  "lng" : -83.0159812
+               },
+               "southwest" : {
+                  "lat" : 42.2957516,
+                  "lng" : -83.01599829999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2957572,
+               "lng" : -83.0159812
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2971033802915,
+                  "lng" : -83.01464076970849
+               },
+               "southwest" : {
+                  "lat" : 42.2944054197085,
+                  "lng" : -83.01733873029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMjc1IEhvd2FyZCBBdmUsIFdpbmRzb3IsIE9OIE44WCAzVjIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

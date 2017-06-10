@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4430",
+               "short_name" : "4430",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hunt Club Crescent",
+               "short_name" : "Hunt Club Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2P6",
+               "short_name" : "N9G 2P6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4430 Hunt Club Crescent, Windsor, ON N9G 2P6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2433558,
+                  "lng" : -82.99911089999999
+               },
+               "southwest" : {
+                  "lat" : 42.2433422,
+                  "lng" : -82.9991148
+               }
+            },
+            "location" : {
+               "lat" : 42.2433422,
+               "lng" : -82.99911089999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.24469798029151,
+                  "lng" : -82.99776386970849
+               },
+               "southwest" : {
+                  "lat" : 42.24200001970851,
+                  "lng" : -83.0004618302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjQ0NDMwIEh1bnQgQ2x1YiBDcmVzY2VudCwgV2luZHNvciwgT04gTjlHIDJQNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

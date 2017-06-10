@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3218",
+               "short_name" : "3218",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Walker Road",
+               "short_name" : "Walker Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3R8",
+               "short_name" : "N8W 3R8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3218 Walker Rd, Windsor, ON N8W 3R8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2800897,
+                  "lng" : -82.98005649999999
+               },
+               "southwest" : {
+                  "lat" : 42.2800833,
+                  "lng" : -82.98007319999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2800833,
+               "lng" : -82.98007319999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2814354802915,
+                  "lng" : -82.97871586970848
+               },
+               "southwest" : {
+                  "lat" : 42.2787375197085,
+                  "lng" : -82.98141383029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszMjE4IFdhbGtlciBSZCwgV2luZHNvciwgT04gTjhXIDNSOCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

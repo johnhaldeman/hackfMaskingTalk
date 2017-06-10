@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2262",
+               "short_name" : "2262",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Maitland Avenue",
+               "short_name" : "Maitland Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1Y9",
+               "short_name" : "N8P 1Y9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2262 Maitland Ave, Windsor, ON N8P 1Y9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3158436,
+                  "lng" : -82.8922874
+               },
+               "southwest" : {
+                  "lat" : 42.315841,
+                  "lng" : -82.8923059
+               }
+            },
+            "location" : {
+               "lat" : 42.315841,
+               "lng" : -82.8923059
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3171912802915,
+                  "lng" : -82.89094766970848
+               },
+               "southwest" : {
+                  "lat" : 42.3144933197085,
+                  "lng" : -82.8936456302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4yMjYyIE1haXRsYW5kIEF2ZSwgV2luZHNvciwgT04gTjhQIDFZOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

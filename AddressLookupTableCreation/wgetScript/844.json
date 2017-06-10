@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Ivanhill Avenue",
+               "short_name" : "Ivanhill Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P",
+               "short_name" : "N8P",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "Ivanhill Ave, Windsor, ON N8P, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3291787,
+                  "lng" : -82.9143256
+               },
+               "southwest" : {
+                  "lat" : 42.3248949,
+                  "lng" : -82.9153627
+               }
+            },
+            "location" : {
+               "lat" : 42.3291787,
+               "lng" : -82.9153627
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3291787,
+                  "lng" : -82.9134951697085
+               },
+               "southwest" : {
+                  "lat" : 42.3248949,
+                  "lng" : -82.9161931302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJYUEPhK4qO4gRRaoApGnJay4",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

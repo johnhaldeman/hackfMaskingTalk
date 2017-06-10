@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1262",
+               "short_name" : "1262",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lincoln Road",
+               "short_name" : "Lincoln Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2H8",
+               "short_name" : "N8Y 2H8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1262 Lincoln Rd, Windsor, ON N8Y 2H8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.31192799999999,
+                  "lng" : -83.0095956
+               },
+               "southwest" : {
+                  "lat" : 42.311922,
+                  "lng" : -83.0096125
+               }
+            },
+            "location" : {
+               "lat" : 42.311922,
+               "lng" : -83.0096125
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31327398029149,
+                  "lng" : -83.00825506970851
+               },
+               "southwest" : {
+                  "lat" : 42.31057601970849,
+                  "lng" : -83.01095303029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxMjYyIExpbmNvbG4gUmQsIFdpbmRzb3IsIE9OIE44WSAySDgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

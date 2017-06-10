@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "962",
+               "short_name" : "962",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cataraqui Street",
+               "short_name" : "Cataraqui St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "962 Cataraqui St, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3173312,
+                  "lng" : -83.02170529999999
+               },
+               "southwest" : {
+                  "lat" : 42.3173188,
+                  "lng" : -83.02171360000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3173188,
+               "lng" : -83.02170529999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31867398029149,
+                  "lng" : -83.02036046970851
+               },
+               "southwest" : {
+                  "lat" : 42.3159760197085,
+                  "lng" : -83.02305843029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eik5NjIgQ2F0YXJhcXVpIFN0LCBXaW5kc29yLCBPTiBOOUEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

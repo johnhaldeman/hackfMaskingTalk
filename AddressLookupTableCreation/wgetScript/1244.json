@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1435",
+               "short_name" : "1435",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Southdale Drive",
+               "short_name" : "Southdale Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5N3",
+               "short_name" : "N8W 5N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1435 Southdale Dr, Windsor, ON N8W 5N3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2891566,
+                  "lng" : -82.99684309999999
+               },
+               "southwest" : {
+                  "lat" : 42.2891428,
+                  "lng" : -82.9968439
+               }
+            },
+            "location" : {
+               "lat" : 42.2891566,
+               "lng" : -82.99684309999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2904986802915,
+                  "lng" : -82.9954945197085
+               },
+               "southwest" : {
+                  "lat" : 42.2878007197085,
+                  "lng" : -82.99819248029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNDM1IFNvdXRoZGFsZSBEciwgV2luZHNvciwgT04gTjhXIDVOMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

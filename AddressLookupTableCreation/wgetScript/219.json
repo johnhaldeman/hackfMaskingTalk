@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "433",
+               "short_name" : "433",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "University Avenue West",
+               "short_name" : "University Ave W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 5R2",
+               "short_name" : "N9A 5R2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "433 University Ave W, Windsor, ON N9A 5R2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3164273,
+                  "lng" : -83.04371309999999
+               },
+               "southwest" : {
+                  "lat" : 42.3164141,
+                  "lng" : -83.0437189
+               }
+            },
+            "location" : {
+               "lat" : 42.3164273,
+               "lng" : -83.0437189
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31776968029151,
+                  "lng" : -83.04236701970849
+               },
+               "southwest" : {
+                  "lat" : 42.31507171970851,
+                  "lng" : -83.0450649802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjE0MzMgVW5pdmVyc2l0eSBBdmUgVywgV2luZHNvciwgT04gTjlBIDVSMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "433",
+               "short_name" : "433",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "University Avenue East",
+               "short_name" : "University Ave E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "433 University Ave E, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3190305,
+                  "lng" : -83.0317944
+               },
+               "southwest" : {
+                  "lat" : 42.319018,
+                  "lng" : -83.0318025
+               }
+            },
+            "location" : {
+               "lat" : 42.3190305,
+               "lng" : -83.0318025
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32037323029149,
+                  "lng" : -83.0304494697085
+               },
+               "southwest" : {
+                  "lat" : 42.3176752697085,
+                  "lng" : -83.03314743029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei00MzMgVW5pdmVyc2l0eSBBdmUgRSwgV2luZHNvciwgT04gTjlBLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

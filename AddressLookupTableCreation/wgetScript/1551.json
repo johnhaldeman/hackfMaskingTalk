@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1759",
+               "short_name" : "1759",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Vicky Circle",
+               "short_name" : "Vicky Cir",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5P7",
+               "short_name" : "N8W 5P7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1759 Vicky Cir, Windsor, ON N8W 5P7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.274841,
+                  "lng" : -82.9840181
+               },
+               "southwest" : {
+                  "lat" : 42.2748285,
+                  "lng" : -82.98402609999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2748285,
+               "lng" : -82.9840181
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27618373029151,
+                  "lng" : -82.98267311970849
+               },
+               "southwest" : {
+                  "lat" : 42.27348576970851,
+                  "lng" : -82.9853710802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxNzU5IFZpY2t5IENpciwgV2luZHNvciwgT04gTjhXIDVQNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2461",
+               "short_name" : "2461",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lloyd George Boulevard",
+               "short_name" : "Lloyd George Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2T3",
+               "short_name" : "N8T 2T3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2461 Lloyd George Blvd, Windsor, ON N8T 2T3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3091809,
+                  "lng" : -82.95269829999999
+               },
+               "southwest" : {
+                  "lat" : 42.3090457,
+                  "lng" : -82.95287780000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3091133,
+               "lng" : -82.952788
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3104622802915,
+                  "lng" : -82.9514390697085
+               },
+               "southwest" : {
+                  "lat" : 42.3077643197085,
+                  "lng" : -82.95413703029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ__FEyx0rO4gR_U-IxC0aAlM",
+         "types" : [ "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2461",
+               "short_name" : "2461",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "George Avenue",
+               "short_name" : "George Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4M6",
+               "short_name" : "N8W 4M6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2461 George Ave, Windsor, ON N8W 4M6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3025331,
+                  "lng" : -82.97303409999999
+               },
+               "southwest" : {
+                  "lat" : 42.3025271,
+                  "lng" : -82.97305109999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3025331,
+               "lng" : -82.97303409999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30387908029149,
+                  "lng" : -82.97169361970847
+               },
+               "southwest" : {
+                  "lat" : 42.3011811197085,
+                  "lng" : -82.9743915802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyNDYxIEdlb3JnZSBBdmUsIFdpbmRzb3IsIE9OIE44VyA0TTYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

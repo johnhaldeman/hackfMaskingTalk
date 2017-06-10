@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1685",
+               "short_name" : "1685",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pierre Avenue",
+               "short_name" : "Pierre Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4P7",
+               "short_name" : "N8X 4P7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1685 Pierre Ave, Windsor, ON N8X 4P7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3024221,
+               "lng" : -83.0089885
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3037710802915,
+                  "lng" : -83.00763951970849
+               },
+               "southwest" : {
+                  "lat" : 42.30107311970851,
+                  "lng" : -83.0103374802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ9SS4YIksO4gREd7skP7Qduw",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

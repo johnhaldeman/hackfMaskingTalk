@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3634",
+               "short_name" : "3634",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Byng Road",
+               "short_name" : "Byng Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3H9",
+               "short_name" : "N8W 3H9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3634 Byng Rd, Windsor, ON N8W 3H9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2704041,
+                  "lng" : -82.9764857
+               },
+               "southwest" : {
+                  "lat" : 42.2703983,
+                  "lng" : -82.9765027
+               }
+            },
+            "location" : {
+               "lat" : 42.2703983,
+               "lng" : -82.9765027
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27175018029151,
+                  "lng" : -82.97514521970849
+               },
+               "southwest" : {
+                  "lat" : 42.26905221970851,
+                  "lng" : -82.97784318029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikzNjM0IEJ5bmcgUmQsIFdpbmRzb3IsIE9OIE44VyAzSDksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

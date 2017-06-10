@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "995",
+               "short_name" : "995",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hall Avenue",
+               "short_name" : "Hall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 2M4",
+               "short_name" : "N9A 2M4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "995 Hall Ave, Windsor, ON N9A 2M4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.315751,
+                  "lng" : -83.0159872
+               },
+               "southwest" : {
+                  "lat" : 42.3157451,
+                  "lng" : -83.0160042
+               }
+            },
+            "location" : {
+               "lat" : 42.315751,
+               "lng" : -83.0159872
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3170970302915,
+                  "lng" : -83.01464671970849
+               },
+               "southwest" : {
+                  "lat" : 42.3143990697085,
+                  "lng" : -83.0173446802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eik5OTUgSGFsbCBBdmUsIFdpbmRzb3IsIE9OIE45QSAyTTQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

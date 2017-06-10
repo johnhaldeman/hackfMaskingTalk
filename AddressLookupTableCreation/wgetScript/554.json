@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "891",
+               "short_name" : "891",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Brant Street",
+               "short_name" : "Brant St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3G2",
+               "short_name" : "N9A 3G2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "891 Brant St, Windsor, ON N9A 3G2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3195146,
+                  "lng" : -83.0247308
+               },
+               "southwest" : {
+                  "lat" : 42.3195021,
+                  "lng" : -83.024739
+               }
+            },
+            "location" : {
+               "lat" : 42.3195146,
+               "lng" : -83.024739
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3208573302915,
+                  "lng" : -83.02338591970849
+               },
+               "southwest" : {
+                  "lat" : 42.3181593697085,
+                  "lng" : -83.02608388029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eik4OTEgQnJhbnQgU3QsIFdpbmRzb3IsIE9OIE45QSAzRzIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

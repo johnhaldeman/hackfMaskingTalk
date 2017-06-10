@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3889",
+               "short_name" : "3889",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riverside Drive East",
+               "short_name" : "Riverside Dr E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1B3",
+               "short_name" : "N8Y 1B3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3889 Riverside Dr E, Windsor, ON N8Y 1B3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3267992,
+                  "lng" : -82.9906848
+               },
+               "southwest" : {
+                  "lat" : 42.3267854,
+                  "lng" : -82.99068629999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3267992,
+               "lng" : -82.99068629999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3281412802915,
+                  "lng" : -82.9893365697085
+               },
+               "southwest" : {
+                  "lat" : 42.3254433197085,
+                  "lng" : -82.99203453029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAzODg5IFJpdmVyc2lkZSBEciBFLCBXaW5kc29yLCBPTiBOOFkgMUIzLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

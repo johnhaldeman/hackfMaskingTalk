@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "981",
+               "short_name" : "981",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fairview Boulevard",
+               "short_name" : "Fairview Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3E6",
+               "short_name" : "N8S 3E6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "981 Fairview Blvd, Windsor, ON N8S 3E6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3282461,
+                  "lng" : -82.9471473
+               },
+               "southwest" : {
+                  "lat" : 42.3282403,
+                  "lng" : -82.9471643
+               }
+            },
+            "location" : {
+               "lat" : 42.3282461,
+               "lng" : -82.9471473
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3295921802915,
+                  "lng" : -82.94580681970849
+               },
+               "southwest" : {
+                  "lat" : 42.3268942197085,
+                  "lng" : -82.9485047802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei45ODEgRmFpcnZpZXcgQmx2ZCwgV2luZHNvciwgT04gTjhTIDNFNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

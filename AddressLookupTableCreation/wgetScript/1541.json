@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3111",
+               "short_name" : "3111",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fletcher Crescent",
+               "short_name" : "Fletcher Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3111 Fletcher Crescent, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2712347,
+                  "lng" : -83.0085928
+               },
+               "southwest" : {
+                  "lat" : 42.2712277,
+                  "lng" : -83.00860910000002
+               }
+            },
+            "location" : {
+               "lat" : 42.2712347,
+               "lng" : -83.0085928
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2725801802915,
+                  "lng" : -83.00725196970852
+               },
+               "southwest" : {
+                  "lat" : 42.2698822197085,
+                  "lng" : -83.00994993029153
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8zMTExIEZsZXRjaGVyIENyZXNjZW50LCBXaW5kc29yLCBPTiBOOUUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

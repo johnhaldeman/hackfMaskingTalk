@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "California Avenue",
+               "short_name" : "California Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "California Ave, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.311191,
+                  "lng" : -83.02963269999999
+               },
+               "southwest" : {
+                  "lat" : 42.2524502,
+                  "lng" : -83.0674456
+               }
+            },
+            "location" : {
+               "lat" : 42.285048,
+               "lng" : -83.0506616
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.311191,
+                  "lng" : -83.02963269999999
+               },
+               "southwest" : {
+                  "lat" : 42.2524502,
+                  "lng" : -83.0674456
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJC8KddrgtO4gRaIsLCotHqGQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

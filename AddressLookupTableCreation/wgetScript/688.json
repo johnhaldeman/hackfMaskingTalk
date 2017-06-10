@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1492",
+               "short_name" : "1492",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Erie Street East",
+               "short_name" : "Erie St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3Z9",
+               "short_name" : "N9A 3Z9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1492 Erie St E, Windsor, ON N9A 3Z9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3160983,
+                  "lng" : -83.013577
+               },
+               "southwest" : {
+                  "lat" : 42.3160856,
+                  "lng" : -83.0135846
+               }
+            },
+            "location" : {
+               "lat" : 42.3160856,
+               "lng" : -83.013577
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3174409302915,
+                  "lng" : -83.01223181970849
+               },
+               "southwest" : {
+                  "lat" : 42.3147429697085,
+                  "lng" : -83.0149297802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxNDkyIEVyaWUgU3QgRSwgV2luZHNvciwgT04gTjlBIDNaOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1492",
+               "short_name" : "1492",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Erie Street West",
+               "short_name" : "Erie St W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1492 Erie St W, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3044893,
+                  "lng" : -83.0463894
+               },
+               "southwest" : {
+                  "lat" : 42.3044767,
+                  "lng" : -83.0463973
+               }
+            },
+            "location" : {
+               "lat" : 42.3044767,
+               "lng" : -83.0463894
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30583198029149,
+                  "lng" : -83.04504436970849
+               },
+               "southwest" : {
+                  "lat" : 42.30313401970849,
+                  "lng" : -83.04774233029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EicxNDkyIEVyaWUgU3QgVywgV2luZHNvciwgT04gTjlBLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

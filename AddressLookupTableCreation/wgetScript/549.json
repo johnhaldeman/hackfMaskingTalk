@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3036",
+               "short_name" : "3036",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Church Street",
+               "short_name" : "Church St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 1T8",
+               "short_name" : "N9E 1T8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3036 Church St, Windsor, ON N9E 1T8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.27178190000001,
+               "lng" : -83.0142901
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27313088029151,
+                  "lng" : -83.0129411197085
+               },
+               "southwest" : {
+                  "lat" : 42.27043291970851,
+                  "lng" : -83.01563908029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJu99J0RcsO4gRuINZnv9_bnQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

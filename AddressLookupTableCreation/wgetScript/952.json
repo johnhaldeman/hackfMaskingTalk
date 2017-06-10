@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3353",
+               "short_name" : "3353",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Boxwood Court",
+               "short_name" : "Boxwood Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 1Z7",
+               "short_name" : "N8R 1Z7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3353 Boxwood Ct, Windsor, ON N8R 1Z7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.29723389999999,
+                  "lng" : -82.9168033
+               },
+               "southwest" : {
+                  "lat" : 42.2972304,
+                  "lng" : -82.9168215
+               }
+            },
+            "location" : {
+               "lat" : 42.29723389999999,
+               "lng" : -82.9168033
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2985811302915,
+                  "lng" : -82.91546341970849
+               },
+               "southwest" : {
+                  "lat" : 42.2958831697085,
+                  "lng" : -82.91816138029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzMzUzIEJveHdvb2QgQ3QsIFdpbmRzb3IsIE9OIE44UiAxWjcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

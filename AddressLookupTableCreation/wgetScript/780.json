@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3821",
+               "short_name" : "3821",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Aristotle Court",
+               "short_name" : "Aristotle Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2P1",
+               "short_name" : "N9G 2P1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3821 Aristotle Ct, Windsor, ON N9G 2P1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2591165,
+                  "lng" : -82.98201
+               },
+               "southwest" : {
+                  "lat" : 42.2589415,
+                  "lng" : -82.98222419999999
+               }
+            },
+            "location" : {
+               "lat" : 42.259029,
+               "lng" : -82.9821171
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.26037798029149,
+                  "lng" : -82.9807681197085
+               },
+               "southwest" : {
+                  "lat" : 42.25768001970849,
+                  "lng" : -82.98346608029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJz5_RteIrO4gRqnbfaaPSq0k",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1537",
+               "short_name" : "1537",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chateau Avenue",
+               "short_name" : "Chateau Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Tecumseh",
+               "short_name" : "Tecumseh",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1M3",
+               "short_name" : "N8P 1M3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1537 Chateau Ave, Tecumseh, ON N8P 1M3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3225129,
+                  "lng" : -82.9062534
+               },
+               "southwest" : {
+                  "lat" : 42.3225105,
+                  "lng" : -82.90627189999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3225129,
+               "lng" : -82.9062534
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3238606802915,
+                  "lng" : -82.90491366970849
+               },
+               "southwest" : {
+                  "lat" : 42.3211627197085,
+                  "lng" : -82.9076116302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNTM3IENoYXRlYXUgQXZlLCBUZWN1bXNlaCwgT04gTjhQIDFNMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

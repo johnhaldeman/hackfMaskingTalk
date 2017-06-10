@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "963",
+               "short_name" : "963",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Curry Avenue",
+               "short_name" : "Curry Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2C4",
+               "short_name" : "N9B 2C4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "963 Curry Ave, Windsor, ON N9B 2C4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3029516,
+                  "lng" : -83.05049889999999
+               },
+               "southwest" : {
+                  "lat" : 42.3029456,
+                  "lng" : -83.0505158
+               }
+            },
+            "location" : {
+               "lat" : 42.3029516,
+               "lng" : -83.05049889999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3042975802915,
+                  "lng" : -83.04915836970848
+               },
+               "southwest" : {
+                  "lat" : 42.3015996197085,
+                  "lng" : -83.05185633029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio5NjMgQ3VycnkgQXZlLCBXaW5kc29yLCBPTiBOOUIgMkM0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

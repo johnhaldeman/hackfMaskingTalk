@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1190",
+               "short_name" : "1190",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mercer Street",
+               "short_name" : "Mercer St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1190 Mercer St, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30769,
+                  "lng" : -83.02571619999999
+               },
+               "southwest" : {
+                  "lat" : 42.3076841,
+                  "lng" : -83.02573319999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3076841,
+               "lng" : -83.02573319999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3090360302915,
+                  "lng" : -83.02437571970849
+               },
+               "southwest" : {
+                  "lat" : 42.3063380697085,
+                  "lng" : -83.02707368029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EicxMTkwIE1lcmNlciBTdCwgV2luZHNvciwgT04gTjlBLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

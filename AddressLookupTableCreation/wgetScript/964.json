@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "291",
+               "short_name" : "291",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Prado Place",
+               "short_name" : "Prado Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2G9",
+               "short_name" : "N8S 2G9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "291 Prado Pl, Windsor, ON N8S 2G9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3284127,
+                  "lng" : -82.97037780000001
+               },
+               "southwest" : {
+                  "lat" : 42.3284069,
+                  "lng" : -82.9703949
+               }
+            },
+            "location" : {
+               "lat" : 42.3284127,
+               "lng" : -82.97037780000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3297587802915,
+                  "lng" : -82.9690373697085
+               },
+               "southwest" : {
+                  "lat" : 42.32706081970851,
+                  "lng" : -82.97173533029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikyOTEgUHJhZG8gUGwsIFdpbmRzb3IsIE9OIE44UyAyRzksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

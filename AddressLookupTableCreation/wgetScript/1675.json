@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1479",
+               "short_name" : "1479",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cabana Road West",
+               "short_name" : "Cabana Rd W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1C3",
+               "short_name" : "N9G 1C3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1479 Cabana Rd W, Windsor, ON N9G 1C3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.25436149999999,
+                  "lng" : -83.01934439999999
+               },
+               "southwest" : {
+                  "lat" : 42.254348,
+                  "lng" : -83.0193491
+               }
+            },
+            "location" : {
+               "lat" : 42.25436149999999,
+               "lng" : -83.0193491
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2557037302915,
+                  "lng" : -83.01799776970849
+               },
+               "southwest" : {
+                  "lat" : 42.2530057697085,
+                  "lng" : -83.02069573029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xNDc5IENhYmFuYSBSZCBXLCBXaW5kc29yLCBPTiBOOUcgMUMzLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

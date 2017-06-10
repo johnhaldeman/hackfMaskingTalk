@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3330",
+               "short_name" : "3330",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pineview Crescent",
+               "short_name" : "Pineview Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 2A7",
+               "short_name" : "N8R 2A7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3330 Pineview Crescent, Windsor, ON N8R 2A7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.298699,
+                  "lng" : -82.9136809
+               },
+               "southwest" : {
+                  "lat" : 42.2986959,
+                  "lng" : -82.9136992
+               }
+            },
+            "location" : {
+               "lat" : 42.2986959,
+               "lng" : -82.9136992
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3000464302915,
+                  "lng" : -82.91234106970849
+               },
+               "southwest" : {
+                  "lat" : 42.2973484697085,
+                  "lng" : -82.9150390302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjMzMzMwIFBpbmV2aWV3IENyZXNjZW50LCBXaW5kc29yLCBPTiBOOFIgMkE3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

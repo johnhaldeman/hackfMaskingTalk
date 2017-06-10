@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3265",
+               "short_name" : "3265",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Virginia Park Avenue",
+               "short_name" : "Virginia Park Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2C4",
+               "short_name" : "N9E 2C4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3265 Virginia Park Ave, Windsor, ON N9E 2C4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.265203,
+                  "lng" : -83.01750969999999
+               },
+               "southwest" : {
+                  "lat" : 42.265197,
+                  "lng" : -83.0175266
+               }
+            },
+            "location" : {
+               "lat" : 42.265203,
+               "lng" : -83.01750969999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2665489802915,
+                  "lng" : -83.0161691697085
+               },
+               "southwest" : {
+                  "lat" : 42.2638510197085,
+                  "lng" : -83.01886713029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjMzMjY1IFZpcmdpbmlhIFBhcmsgQXZlLCBXaW5kc29yLCBPTiBOOUUgMkM0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

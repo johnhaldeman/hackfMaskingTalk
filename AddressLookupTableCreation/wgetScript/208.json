@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "866",
+               "short_name" : "866",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Elliott Street East",
+               "short_name" : "Elliott St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 3S7",
+               "short_name" : "N9A 3S7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "866 Elliott St E, Windsor, ON N9A 3S7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3159576,
+                  "lng" : -83.02286599999999
+               },
+               "southwest" : {
+                  "lat" : 42.315945,
+                  "lng" : -83.0228738
+               }
+            },
+            "location" : {
+               "lat" : 42.315945,
+               "lng" : -83.02286599999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3173002802915,
+                  "lng" : -83.02152091970849
+               },
+               "southwest" : {
+                  "lat" : 42.31460231970851,
+                  "lng" : -83.02421888029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei04NjYgRWxsaW90dCBTdCBFLCBXaW5kc29yLCBPTiBOOUEgM1M3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

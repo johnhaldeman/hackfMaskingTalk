@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "541",
+               "short_name" : "541",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Janette Avenue",
+               "short_name" : "Janette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4Z6",
+               "short_name" : "N9A 4Z6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "541 Janette Ave, Windsor, ON N9A 4Z6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3126521,
+                  "lng" : -83.04398049999999
+               },
+               "southwest" : {
+                  "lat" : 42.31264609999999,
+                  "lng" : -83.04399739999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3126521,
+               "lng" : -83.04398049999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3139980802915,
+                  "lng" : -83.04263996970849
+               },
+               "southwest" : {
+                  "lat" : 42.31130011970851,
+                  "lng" : -83.04533793029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw1NDEgSmFuZXR0ZSBBdmUsIFdpbmRzb3IsIE9OIE45QSA0WjYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

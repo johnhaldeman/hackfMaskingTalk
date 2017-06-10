@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3358",
+               "short_name" : "3358",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Morris Drive",
+               "short_name" : "Morris Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2K2",
+               "short_name" : "N9E 2K2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3358 Morris Dr, Windsor, ON N9E 2K2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2629796,
+                  "lng" : -83.0196716
+               },
+               "southwest" : {
+                  "lat" : 42.2629736,
+                  "lng" : -83.01968859999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2629736,
+               "lng" : -83.01968859999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2643255802915,
+                  "lng" : -83.01833111970851
+               },
+               "southwest" : {
+                  "lat" : 42.26162761970851,
+                  "lng" : -83.02102908029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszMzU4IE1vcnJpcyBEciwgV2luZHNvciwgT04gTjlFIDJLMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

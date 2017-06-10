@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1074",
+               "short_name" : "1074",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Marjorie Drive",
+               "short_name" : "Marjorie Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S",
+               "short_name" : "N8S",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1074 Marjorie Dr, Windsor, ON N8S, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3278098,
+                  "lng" : -82.9307295
+               },
+               "southwest" : {
+                  "lat" : 42.3278074,
+                  "lng" : -82.93074799999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3278074,
+               "lng" : -82.93074799999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32915758029149,
+                  "lng" : -82.92938976970851
+               },
+               "southwest" : {
+                  "lat" : 42.3264596197085,
+                  "lng" : -82.93208773029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikxMDc0IE1hcmpvcmllIERyLCBXaW5kc29yLCBPTiBOOFMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

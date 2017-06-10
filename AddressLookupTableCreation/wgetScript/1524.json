@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1762",
+               "short_name" : "1762",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Westcott Road",
+               "short_name" : "Westcott Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 4C9",
+               "short_name" : "N8Y 4C9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1762 Westcott Rd, Windsor, ON N8Y 4C9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3101871,
+                  "lng" : -82.98103429999999
+               },
+               "southwest" : {
+                  "lat" : 42.3100732,
+                  "lng" : -82.981218
+               }
+            },
+            "location" : {
+               "lat" : 42.3101302,
+               "lng" : -82.98112620000001
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3114791302915,
+                  "lng" : -82.9797771697085
+               },
+               "southwest" : {
+                  "lat" : 42.3087811697085,
+                  "lng" : -82.9824751302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJz1cobW8rO4gRAg9BU4awsWg",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

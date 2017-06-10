@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Manitoba Street",
+               "short_name" : "Manitoba St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "Manitoba St, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2861187,
+                  "lng" : -83.03941810000001
+               },
+               "southwest" : {
+                  "lat" : 42.2837182,
+                  "lng" : -83.04051699999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2841388,
+               "lng" : -83.0394546
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2862674302915,
+                  "lng" : -83.0386185697085
+               },
+               "southwest" : {
+                  "lat" : 42.2835694697085,
+                  "lng" : -83.04131653029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJaSA4arQtO4gRZFBUWV-9uNc",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

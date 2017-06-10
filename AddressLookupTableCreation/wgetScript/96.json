@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4533",
+               "short_name" : "4533",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Southwood Lakes Boulevard",
+               "short_name" : "Southwood Lakes Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Southwood Lakes",
+               "short_name" : "Southwood Lakes",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2M3",
+               "short_name" : "N9G 2M3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4533 Southwood Lakes Blvd, Windsor, ON N9G 2M3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2424435,
+                  "lng" : -82.99240390000001
+               },
+               "southwest" : {
+                  "lat" : 42.2424408,
+                  "lng" : -82.9924223
+               }
+            },
+            "location" : {
+               "lat" : 42.2424435,
+               "lng" : -82.99240390000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2437911302915,
+                  "lng" : -82.99106411970851
+               },
+               "southwest" : {
+                  "lat" : 42.24109316970851,
+                  "lng" : -82.99376208029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjY0NTMzIFNvdXRod29vZCBMYWtlcyBCbHZkLCBXaW5kc29yLCBPTiBOOUcgMk0zLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

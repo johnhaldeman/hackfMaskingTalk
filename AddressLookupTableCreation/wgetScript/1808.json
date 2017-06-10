@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Saint Patricks Avenue",
+               "short_name" : "St Patricks Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "St Patricks Ave, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2926974,
+                  "lng" : -83.0266652
+               },
+               "southwest" : {
+                  "lat" : 42.2534506,
+                  "lng" : -83.0532774
+               }
+            },
+            "location" : {
+               "lat" : 42.2726082,
+               "lng" : -83.04037509999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2926974,
+                  "lng" : -83.0266652
+               },
+               "southwest" : {
+                  "lat" : 42.2534506,
+                  "lng" : -83.0532774
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJqSJxt80tO4gRz0mgXTvnp6E",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

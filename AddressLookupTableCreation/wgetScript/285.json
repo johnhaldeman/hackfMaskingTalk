@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1188",
+               "short_name" : "1188",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Jarvis Avenue",
+               "short_name" : "Jarvis Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1C9",
+               "short_name" : "N8P 1C9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1188 Jarvis Ave, Windsor, ON N8P 1C9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3262255,
+                  "lng" : -82.9008262
+               },
+               "southwest" : {
+                  "lat" : 42.326223,
+                  "lng" : -82.9008446
+               }
+            },
+            "location" : {
+               "lat" : 42.326223,
+               "lng" : -82.9008446
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3275732302915,
+                  "lng" : -82.8994864197085
+               },
+               "southwest" : {
+                  "lat" : 42.3248752697085,
+                  "lng" : -82.9021843802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxMTg4IEphcnZpcyBBdmUsIFdpbmRzb3IsIE9OIE44UCAxQzksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "694",
+               "short_name" : "694",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4P8",
+               "short_name" : "N9A 4P8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "694 Dougall Ave, Windsor, ON N9A 4P8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.312045,
+                  "lng" : -83.0391029
+               },
+               "southwest" : {
+                  "lat" : 42.3120391,
+                  "lng" : -83.0391199
+               }
+            },
+            "location" : {
+               "lat" : 42.3120391,
+               "lng" : -83.0391199
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3133910302915,
+                  "lng" : -83.03776241970851
+               },
+               "southwest" : {
+                  "lat" : 42.3106930697085,
+                  "lng" : -83.04046038029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw2OTQgRG91Z2FsbCBBdmUsIFdpbmRzb3IsIE9OIE45QSA0UDgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

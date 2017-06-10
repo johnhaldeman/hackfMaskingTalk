@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "696",
+               "short_name" : "696",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Church Street",
+               "short_name" : "Church St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4T4",
+               "short_name" : "N9A 4T4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "696 Church St, Windsor, ON N9A 4T4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3116486,
+                  "lng" : -83.0400042
+               },
+               "southwest" : {
+                  "lat" : 42.3116429,
+                  "lng" : -83.04002129999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3116429,
+               "lng" : -83.04002129999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3129947302915,
+                  "lng" : -83.03866376970849
+               },
+               "southwest" : {
+                  "lat" : 42.3102967697085,
+                  "lng" : -83.0413617302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio2OTYgQ2h1cmNoIFN0LCBXaW5kc29yLCBPTiBOOUEgNFQ0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

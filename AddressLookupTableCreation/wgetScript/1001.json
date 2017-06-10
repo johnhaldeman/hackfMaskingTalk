@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1561",
+               "short_name" : "1561",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Janette Avenue",
+               "short_name" : "Janette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X",
+               "short_name" : "N8X",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1561 Janette Ave, Windsor, ON N8X, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.29846209999999,
+                  "lng" : -83.03478079999999
+               },
+               "southwest" : {
+                  "lat" : 42.2984564,
+                  "lng" : -83.0347979
+               }
+            },
+            "location" : {
+               "lat" : 42.29846209999999,
+               "lng" : -83.03478079999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2998082302915,
+                  "lng" : -83.03344036970849
+               },
+               "southwest" : {
+                  "lat" : 42.2971102697085,
+                  "lng" : -83.03613833029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikxNTYxIEphbmV0dGUgQXZlLCBXaW5kc29yLCBPTiBOOFgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

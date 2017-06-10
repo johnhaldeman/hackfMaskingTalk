@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3684",
+               "short_name" : "3684",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Queen Street",
+               "short_name" : "Queen St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1P2",
+               "short_name" : "N9C 1P2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3684 Queen St, Windsor, ON N9C 1P2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2907647,
+                  "lng" : -83.0792805
+               },
+               "southwest" : {
+                  "lat" : 42.2907606,
+                  "lng" : -83.0792984
+               }
+            },
+            "location" : {
+               "lat" : 42.2907606,
+               "lng" : -83.0792805
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2921116302915,
+                  "lng" : -83.07794046970849
+               },
+               "southwest" : {
+                  "lat" : 42.2894136697085,
+                  "lng" : -83.0806384302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozNjg0IFF1ZWVuIFN0LCBXaW5kc29yLCBPTiBOOUMgMVAyLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

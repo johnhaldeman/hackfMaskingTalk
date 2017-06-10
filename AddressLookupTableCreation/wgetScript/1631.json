@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1021",
+               "short_name" : "1021",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Prince Road",
+               "short_name" : "Prince Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C",
+               "short_name" : "N9C",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1021 Prince Rd, Windsor, ON N9C, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2891854,
+                  "lng" : -83.07302829999999
+               },
+               "southwest" : {
+                  "lat" : 42.2891722,
+                  "lng" : -83.0730343
+               }
+            },
+            "location" : {
+               "lat" : 42.2891722,
+               "lng" : -83.0730343
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2905277802915,
+                  "lng" : -83.07168231970849
+               },
+               "southwest" : {
+                  "lat" : 42.2878298197085,
+                  "lng" : -83.07438028029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EicxMDIxIFByaW5jZSBSZCwgV2luZHNvciwgT04gTjlDLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

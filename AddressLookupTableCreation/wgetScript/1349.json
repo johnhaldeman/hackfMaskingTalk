@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1834",
+               "short_name" : "1834",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Factoria Road",
+               "short_name" : "Factoria Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3W6",
+               "short_name" : "N8W 3W6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1834 Factoria Rd, Windsor, ON N8W 3W6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3040434,
+                  "lng" : -82.9934478
+               },
+               "southwest" : {
+                  "lat" : 42.30403760000001,
+                  "lng" : -82.99346489999999
+               }
+            },
+            "location" : {
+               "lat" : 42.30403760000001,
+               "lng" : -82.99346489999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3053894802915,
+                  "lng" : -82.99210736970849
+               },
+               "southwest" : {
+                  "lat" : 42.3026915197085,
+                  "lng" : -82.9948053302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xODM0IEZhY3RvcmlhIFJkLCBXaW5kc29yLCBPTiBOOFcgM1c2LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

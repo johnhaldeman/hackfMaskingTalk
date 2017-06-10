@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1350",
+               "short_name" : "1350",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rankin Avenue",
+               "short_name" : "Rankin Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2S7",
+               "short_name" : "N9B 2S7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1350 Rankin Ave, Windsor, ON N9B 2S7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2946024,
+                  "lng" : -83.0523419
+               },
+               "southwest" : {
+                  "lat" : 42.2944967,
+                  "lng" : -83.0524865
+               }
+            },
+            "location" : {
+               "lat" : 42.2945495,
+               "lng" : -83.0524142
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2958985302915,
+                  "lng" : -83.05106521970849
+               },
+               "southwest" : {
+                  "lat" : 42.2932005697085,
+                  "lng" : -83.0537631802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJjdgBh6MtO4gRWDAoVZr2vZ0",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

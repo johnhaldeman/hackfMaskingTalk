@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4742",
+               "short_name" : "4742",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tecumseh Road East",
+               "short_name" : "Tecumseh Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 1B7",
+               "short_name" : "N8T 1B7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4742 Tecumseh Rd E, Windsor, ON N8T 1B7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3076757,
+               "lng" : -82.96785269999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3090246802915,
+                  "lng" : -82.96650371970848
+               },
+               "southwest" : {
+                  "lat" : 42.3063267197085,
+                  "lng" : -82.9692016802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJGZrFRhIrO4gRhI5dhha19M8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

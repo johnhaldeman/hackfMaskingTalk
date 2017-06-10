@@ -1,0 +1,195 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Dougall Ave, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.318529,
+                  "lng" : -82.99248919999999
+               },
+               "southwest" : {
+                  "lat" : 42.2476875,
+                  "lng" : -83.04313689999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2826606,
+               "lng" : -83.0195791
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.318529,
+                  "lng" : -82.99248919999999
+               },
+               "southwest" : {
+                  "lat" : 42.2476875,
+                  "lng" : -83.04313689999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ6apGyUYsO4gRS0ODDhPVyPM",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dougall Parkway",
+               "short_name" : "Dougall Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Dougall Pkwy, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2525068,
+                  "lng" : -82.96515479999999
+               },
+               "southwest" : {
+                  "lat" : 42.2443355,
+                  "lng" : -82.99658789999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2472588,
+               "lng" : -82.9804379
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2525068,
+                  "lng" : -82.96515479999999
+               },
+               "southwest" : {
+                  "lat" : 42.2443355,
+                  "lng" : -82.99658789999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJC_6ByFIpO4gRo5wCzp8Hg24",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Dougall Square",
+               "short_name" : "Dougall Square",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "Dougall Square, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2567321,
+                  "lng" : -83.00348939999999
+               },
+               "southwest" : {
+                  "lat" : 42.2565002,
+                  "lng" : -83.0044274
+               }
+            },
+            "location" : {
+               "lat" : 42.2566722,
+               "lng" : -83.003922
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2579651302915,
+                  "lng" : -83.00260941970849
+               },
+               "southwest" : {
+                  "lat" : 42.2552671697085,
+                  "lng" : -83.0053073802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ9a13KqYuO4gRdRxSkrL0dIY",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1831",
+               "short_name" : "1831",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hickory Road",
+               "short_name" : "Hickory Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3X3",
+               "short_name" : "N8W 3X3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1831 Hickory Rd, Windsor, ON N8W 3X3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3049272,
+                  "lng" : -82.99049649999999
+               },
+               "southwest" : {
+                  "lat" : 42.3049214,
+                  "lng" : -82.9905136
+               }
+            },
+            "location" : {
+               "lat" : 42.3049272,
+               "lng" : -82.99049649999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3062732802915,
+                  "lng" : -82.98915606970849
+               },
+               "southwest" : {
+                  "lat" : 42.3035753197085,
+                  "lng" : -82.99185403029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxODMxIEhpY2tvcnkgUmQsIFdpbmRzb3IsIE9OIE44VyAzWDMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

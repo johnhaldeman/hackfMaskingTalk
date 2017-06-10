@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3265",
+               "short_name" : "3265",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Woodlawn Avenue",
+               "short_name" : "Woodlawn Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2J1",
+               "short_name" : "N8W 2J1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3265 Woodlawn Ave, Windsor, ON N8W 2J1, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2745882,
+               "lng" : -82.9925714
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2759371802915,
+                  "lng" : -82.99122241970851
+               },
+               "southwest" : {
+                  "lat" : 42.2732392197085,
+                  "lng" : -82.99392038029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJk3NAjfUrO4gRxE82Nxydor0",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

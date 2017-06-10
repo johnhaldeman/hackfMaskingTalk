@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2753",
+               "short_name" : "2753",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Southridge Street",
+               "short_name" : "Southridge St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5N3",
+               "short_name" : "N8W 5N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2753 Southridge St, Windsor, ON N8W 5N3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2885111,
+                  "lng" : -82.9959018
+               },
+               "southwest" : {
+                  "lat" : 42.2885053,
+                  "lng" : -82.99591890000001
+               }
+            },
+            "location" : {
+               "lat" : 42.2885111,
+               "lng" : -82.9959018
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2898571802915,
+                  "lng" : -82.99456136970851
+               },
+               "southwest" : {
+                  "lat" : 42.28715921970851,
+                  "lng" : -82.99725933029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8yNzUzIFNvdXRocmlkZ2UgU3QsIFdpbmRzb3IsIE9OIE44VyA1TjMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

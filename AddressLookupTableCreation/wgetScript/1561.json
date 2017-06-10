@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1738",
+               "short_name" : "1738",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Westcott Road",
+               "short_name" : "Westcott Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 4C9",
+               "short_name" : "N8Y 4C9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1738 Westcott Rd, Windsor, ON N8Y 4C9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3104818,
+                  "lng" : -82.9816407
+               },
+               "southwest" : {
+                  "lat" : 42.3104759,
+                  "lng" : -82.9816577
+               }
+            },
+            "location" : {
+               "lat" : 42.3104759,
+               "lng" : -82.9816577
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31182783029151,
+                  "lng" : -82.9803002197085
+               },
+               "southwest" : {
+                  "lat" : 42.30912986970851,
+                  "lng" : -82.98299818029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xNzM4IFdlc3Rjb3R0IFJkLCBXaW5kc29yLCBPTiBOOFkgNEM5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

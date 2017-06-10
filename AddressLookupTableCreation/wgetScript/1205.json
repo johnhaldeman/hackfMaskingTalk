@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2278",
+               "short_name" : "2278",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Union Street",
+               "short_name" : "Union St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1L8",
+               "short_name" : "N9B 1L8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2278 Union St, Windsor, ON N9B 1L8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3024608,
+                  "lng" : -83.06012819999999
+               },
+               "southwest" : {
+                  "lat" : 42.30244829999999,
+                  "lng" : -83.0601363
+               }
+            },
+            "location" : {
+               "lat" : 42.30244829999999,
+               "lng" : -83.06012819999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3038035302915,
+                  "lng" : -83.05878326970848
+               },
+               "southwest" : {
+                  "lat" : 42.3011055697085,
+                  "lng" : -83.06148123029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EioyMjc4IFVuaW9uIFN0LCBXaW5kc29yLCBPTiBOOUIgMUw4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

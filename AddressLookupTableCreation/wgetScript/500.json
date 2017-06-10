@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2692",
+               "short_name" : "2692",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Carissa Avenue",
+               "short_name" : "Carissa Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R",
+               "short_name" : "N8R",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2692 Carissa Ave, Windsor, ON N8R, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3109,
+                  "lng" : -82.92853769999999
+               },
+               "southwest" : {
+                  "lat" : 42.3108942,
+                  "lng" : -82.9285548
+               }
+            },
+            "location" : {
+               "lat" : 42.3108942,
+               "lng" : -82.9285548
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31224608029149,
+                  "lng" : -82.9271972697085
+               },
+               "southwest" : {
+                  "lat" : 42.3095481197085,
+                  "lng" : -82.92989523029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikyNjkyIENhcmlzc2EgQXZlLCBXaW5kc29yLCBPTiBOOFIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

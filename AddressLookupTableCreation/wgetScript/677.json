@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1342",
+               "short_name" : "1342",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Armanda Street",
+               "short_name" : "Armanda St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Malden",
+               "short_name" : "Malden",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 3W9",
+               "short_name" : "N9C 3W9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1342 Armanda St, Windsor, ON N9C 3W9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2693312,
+                  "lng" : -83.07058599999999
+               },
+               "southwest" : {
+                  "lat" : 42.2691367,
+                  "lng" : -83.07078539999999
+               }
+            },
+            "location" : {
+               "lat" : 42.269234,
+               "lng" : -83.0706857
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27058293029149,
+                  "lng" : -83.06933671970849
+               },
+               "southwest" : {
+                  "lat" : 42.26788496970849,
+                  "lng" : -83.07203468029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJTdSMc_stO4gRZ8Z8xB3xWb4",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

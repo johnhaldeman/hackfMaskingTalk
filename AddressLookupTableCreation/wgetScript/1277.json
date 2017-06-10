@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1189",
+               "short_name" : "1189",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Campbell Avenue",
+               "short_name" : "Campbell Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3M7",
+               "short_name" : "N9B 3M7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1189 Campbell Ave, Windsor, ON N9B 3M7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.298514,
+                  "lng" : -83.0505594
+               },
+               "southwest" : {
+                  "lat" : 42.2985132,
+                  "lng" : -83.05057819999999
+               }
+            },
+            "location" : {
+               "lat" : 42.298514,
+               "lng" : -83.0505594
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2998625802915,
+                  "lng" : -83.04921981970848
+               },
+               "southwest" : {
+                  "lat" : 42.2971646197085,
+                  "lng" : -83.05191778029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xMTg5IENhbXBiZWxsIEF2ZSwgV2luZHNvciwgT04gTjlCIDNNNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "412",
+               "short_name" : "412",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cabana Road West",
+               "short_name" : "Cabana Rd W",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "412 Cabana Rd W, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2571992,
+                  "lng" : -83.0037372
+               },
+               "southwest" : {
+                  "lat" : 42.2571856,
+                  "lng" : -83.00374119999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2571856,
+               "lng" : -83.0037372
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2585413802915,
+                  "lng" : -83.00239021970849
+               },
+               "southwest" : {
+                  "lat" : 42.2558434197085,
+                  "lng" : -83.00508818029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eig0MTIgQ2FiYW5hIFJkIFcsIFdpbmRzb3IsIE9OIE45RywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "412",
+               "short_name" : "412",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cabana Road East",
+               "short_name" : "Cabana Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "412 Cabana Rd E, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2585139,
+                  "lng" : -82.99683499999999
+               },
+               "southwest" : {
+                  "lat" : 42.2585006,
+                  "lng" : -82.9968403
+               }
+            },
+            "location" : {
+               "lat" : 42.2585006,
+               "lng" : -82.99683499999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2598562302915,
+                  "lng" : -82.99548866970849
+               },
+               "southwest" : {
+                  "lat" : 42.2571582697085,
+                  "lng" : -82.9981866302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eig0MTIgQ2FiYW5hIFJkIEUsIFdpbmRzb3IsIE9OIE45RywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

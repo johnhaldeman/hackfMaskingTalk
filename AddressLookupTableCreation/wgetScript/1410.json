@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1052",
+               "short_name" : "1052",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Esdras Place",
+               "short_name" : "Esdras Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2N2",
+               "short_name" : "N8S 2N2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1052 Esdras Pl, Windsor, ON N8S 2N2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3241629,
+                  "lng" : -82.9629547
+               },
+               "southwest" : {
+                  "lat" : 42.3240436,
+                  "lng" : -82.9631275
+               }
+            },
+            "location" : {
+               "lat" : 42.3241032,
+               "lng" : -82.9630411
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3254522302915,
+                  "lng" : -82.9616921197085
+               },
+               "southwest" : {
+                  "lat" : 42.3227542697085,
+                  "lng" : -82.96439008029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ2Wmi8jorO4gR0Cfvjk0PTaM",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

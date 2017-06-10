@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "574",
+               "short_name" : "574",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Avenue",
+               "short_name" : "McKay Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1Z8",
+               "short_name" : "N9B 1Z8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "574 McKay Ave, Windsor, ON N9B 1Z8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3088304,
+                  "lng" : -83.05301299999999
+               },
+               "southwest" : {
+                  "lat" : 42.3088244,
+                  "lng" : -83.0530299
+               }
+            },
+            "location" : {
+               "lat" : 42.3088244,
+               "lng" : -83.0530299
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31017638029149,
+                  "lng" : -83.05167246970849
+               },
+               "southwest" : {
+                  "lat" : 42.3074784197085,
+                  "lng" : -83.05437043029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio1NzQgTWNLYXkgQXZlLCBXaW5kc29yLCBPTiBOOUIgMVo4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

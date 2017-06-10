@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2966",
+               "short_name" : "2966",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Jefferson Boulevard",
+               "short_name" : "Jefferson Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T",
+               "short_name" : "N8T",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2966 Jefferson Blvd, Windsor, ON N8T, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2982829,
+                  "lng" : -82.9441619
+               },
+               "southwest" : {
+                  "lat" : 42.29827700000001,
+                  "lng" : -82.9441788
+               }
+            },
+            "location" : {
+               "lat" : 42.29827700000001,
+               "lng" : -82.9441788
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2996289302915,
+                  "lng" : -82.9428213697085
+               },
+               "southwest" : {
+                  "lat" : 42.29693096970851,
+                  "lng" : -82.9455193302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyOTY2IEplZmZlcnNvbiBCbHZkLCBXaW5kc29yLCBPTiBOOFQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

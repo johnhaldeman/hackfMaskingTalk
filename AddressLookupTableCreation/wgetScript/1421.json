@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1757",
+               "short_name" : "1757",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hickory Road",
+               "short_name" : "Hickory Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3T4",
+               "short_name" : "N8Y 3T4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1757 Hickory Rd, Windsor, ON N8Y 3T4, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3064823,
+               "lng" : -82.9917919
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3078312802915,
+                  "lng" : -82.99044291970849
+               },
+               "southwest" : {
+                  "lat" : 42.3051333197085,
+                  "lng" : -82.99314088029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJSeqDP30rO4gR8eLHn8M9KkU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

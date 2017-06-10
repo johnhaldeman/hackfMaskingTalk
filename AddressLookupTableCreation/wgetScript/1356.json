@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2851",
+               "short_name" : "2851",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saint Clair Avenue",
+               "short_name" : "St Clair Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4A3",
+               "short_name" : "N9E 4A3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2851 St Clair Ave, Windsor, ON N9E 4A3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2657712,
+                  "lng" : -83.0395106
+               },
+               "southwest" : {
+                  "lat" : 42.2656123,
+                  "lng" : -83.03978479999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2656918,
+               "lng" : -83.0396477
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2670407302915,
+                  "lng" : -83.03829871970848
+               },
+               "southwest" : {
+                  "lat" : 42.2643427697085,
+                  "lng" : -83.0409966802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJjbvNb9QtO4gRPqmnM1Wd4Vc",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

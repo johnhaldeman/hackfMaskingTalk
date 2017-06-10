@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2831",
+               "short_name" : "2831",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lauzon Parkway",
+               "short_name" : "Lauzon Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 3H5",
+               "short_name" : "N8T 3H5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2831 Lauzon Pkwy, Windsor, ON N8T 3H5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3058772,
+                  "lng" : -82.93373509999999
+               },
+               "southwest" : {
+                  "lat" : 42.3058712,
+                  "lng" : -82.93375209999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3058772,
+               "lng" : -82.93373509999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3072231802915,
+                  "lng" : -82.93239461970848
+               },
+               "southwest" : {
+                  "lat" : 42.3045252197085,
+                  "lng" : -82.9350925802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0yODMxIExhdXpvbiBQa3d5LCBXaW5kc29yLCBPTiBOOFQgM0g1LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

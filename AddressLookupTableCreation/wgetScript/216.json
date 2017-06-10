@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1929",
+               "short_name" : "1929",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Francois Road",
+               "short_name" : "Francois Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4S9",
+               "short_name" : "N8W 4S9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1929 Francois Rd, Windsor, ON N8W 4S9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3087916,
+                  "lng" : -82.9723858
+               },
+               "southwest" : {
+                  "lat" : 42.3087856,
+                  "lng" : -82.97240269999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3087916,
+               "lng" : -82.9723858
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3101375802915,
+                  "lng" : -82.9710452697085
+               },
+               "southwest" : {
+                  "lat" : 42.3074396197085,
+                  "lng" : -82.9737432302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xOTI5IEZyYW5jb2lzIFJkLCBXaW5kc29yLCBPTiBOOFcgNFM5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

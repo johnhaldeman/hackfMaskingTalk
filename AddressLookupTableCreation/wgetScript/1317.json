@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4618",
+               "short_name" : "4618",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Fontana Avenue",
+               "short_name" : "Fontana Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walker Gates",
+               "short_name" : "Walker Gates",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "4618 Fontana Ave, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2491302,
+                  "lng" : -82.96798079999999
+               },
+               "southwest" : {
+                  "lat" : 42.2491296,
+                  "lng" : -82.96799949999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2491302,
+               "lng" : -82.96799949999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2504788802915,
+                  "lng" : -82.96664116970848
+               },
+               "southwest" : {
+                  "lat" : 42.2477809197085,
+                  "lng" : -82.9693391302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eik0NjE4IEZvbnRhbmEgQXZlLCBXaW5kc29yLCBPTiBOOUcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

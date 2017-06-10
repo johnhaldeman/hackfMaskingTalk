@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1829",
+               "short_name" : "1829",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tourangeau Road",
+               "short_name" : "Tourangeau Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4N2",
+               "short_name" : "N8W 4N2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1829 Tourangeau Rd, Windsor, ON N8W 4N2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3098361,
+                  "lng" : -82.97728250000002
+               },
+               "southwest" : {
+                  "lat" : 42.3098301,
+                  "lng" : -82.97729939999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3098361,
+               "lng" : -82.97728250000002
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3111820802915,
+                  "lng" : -82.9759419697085
+               },
+               "southwest" : {
+                  "lat" : 42.3084841197085,
+                  "lng" : -82.97863993029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xODI5IFRvdXJhbmdlYXUgUmQsIFdpbmRzb3IsIE9OIE44VyA0TjIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

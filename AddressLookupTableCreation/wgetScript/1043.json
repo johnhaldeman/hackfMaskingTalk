@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1496",
+               "short_name" : "1496",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saint Patricks Avenue",
+               "short_name" : "St Patricks Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3K4",
+               "short_name" : "N9B 3K4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1496 St Patricks Ave, Windsor, ON N9B 3K4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2914566,
+                  "lng" : -83.05246059999999
+               },
+               "southwest" : {
+                  "lat" : 42.2914506,
+                  "lng" : -83.05247749999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2914506,
+               "lng" : -83.05247749999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.29280258029149,
+                  "lng" : -83.05112006970849
+               },
+               "southwest" : {
+                  "lat" : 42.2901046197085,
+                  "lng" : -83.0538180302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjExNDk2IFN0IFBhdHJpY2tzIEF2ZSwgV2luZHNvciwgT04gTjlCIDNLNCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

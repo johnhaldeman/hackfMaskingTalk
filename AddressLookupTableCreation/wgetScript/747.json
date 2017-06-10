@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2120",
+               "short_name" : "2120",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Secord Avenue",
+               "short_name" : "Secord Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1T1",
+               "short_name" : "N9B 1T1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2120 Secord Ave, Windsor, ON N9B 1T1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2942584,
+                  "lng" : -83.05264649999999
+               },
+               "southwest" : {
+                  "lat" : 42.2941302,
+                  "lng" : -83.05282769999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2941943,
+               "lng" : -83.0527371
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2955432802915,
+                  "lng" : -83.05138811970849
+               },
+               "southwest" : {
+                  "lat" : 42.2928453197085,
+                  "lng" : -83.0540860802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJe41ggqMtO4gRH531qCp6cZw",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

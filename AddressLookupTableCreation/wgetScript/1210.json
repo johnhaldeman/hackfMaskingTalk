@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "397",
+               "short_name" : "397",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ellis Street East",
+               "short_name" : "Ellis St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 5C9",
+               "short_name" : "N8X 5C9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "397 Ellis St E, Windsor, ON N8X 5C9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3043438,
+                  "lng" : -83.0219967
+               },
+               "southwest" : {
+                  "lat" : 42.3043313,
+                  "lng" : -83.0220049
+               }
+            },
+            "location" : {
+               "lat" : 42.3043438,
+               "lng" : -83.0220049
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3056865302915,
+                  "lng" : -83.0206518197085
+               },
+               "southwest" : {
+                  "lat" : 42.3029885697085,
+                  "lng" : -83.02334978029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszOTcgRWxsaXMgU3QgRSwgV2luZHNvciwgT04gTjhYIDVDOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

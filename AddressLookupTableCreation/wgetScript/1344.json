@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "9619",
+               "short_name" : "9619",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Manitou Crescent",
+               "short_name" : "Manitou Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1H9",
+               "short_name" : "N8P 1H9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "9619 Manitou Crescent, Windsor, ON N8P 1H9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3340909,
+                  "lng" : -82.9256712
+               },
+               "southwest" : {
+                  "lat" : 42.3340783,
+                  "lng" : -82.92567889999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3340909,
+               "lng" : -82.92567889999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3354335802915,
+                  "lng" : -82.9243260697085
+               },
+               "southwest" : {
+                  "lat" : 42.33273561970851,
+                  "lng" : -82.92702403029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjI5NjE5IE1hbml0b3UgQ3Jlc2NlbnQsIFdpbmRzb3IsIE9OIE44UCAxSDksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

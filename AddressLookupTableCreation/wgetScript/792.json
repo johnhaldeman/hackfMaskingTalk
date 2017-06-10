@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3041",
+               "short_name" : "3041",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Grandview Street",
+               "short_name" : "Grandview St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2L8",
+               "short_name" : "N8T 2L8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3041 Grandview St, Windsor, ON N8T 2L8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2962514,
+                  "lng" : -82.94837969999999
+               },
+               "southwest" : {
+                  "lat" : 42.2962457,
+                  "lng" : -82.94839689999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2962514,
+               "lng" : -82.94837969999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2975975302915,
+                  "lng" : -82.94703931970848
+               },
+               "southwest" : {
+                  "lat" : 42.29489956970851,
+                  "lng" : -82.94973728029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4zMDQxIEdyYW5kdmlldyBTdCwgV2luZHNvciwgT04gTjhUIDJMOCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

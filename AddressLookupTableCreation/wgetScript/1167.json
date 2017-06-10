@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2233",
+               "short_name" : "2233",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Spring Garden Road",
+               "short_name" : "Spring Garden Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Malden",
+               "short_name" : "Malden",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3P9",
+               "short_name" : "N9E 3P9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2233 Spring Garden Rd, Windsor, ON N9E 3P9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.26765229999999,
+                  "lng" : -83.0492177
+               },
+               "southwest" : {
+                  "lat" : 42.2676384,
+                  "lng" : -83.04921849999999
+               }
+            },
+            "location" : {
+               "lat" : 42.26765229999999,
+               "lng" : -83.0492177
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2689943302915,
+                  "lng" : -83.04786911970851
+               },
+               "southwest" : {
+                  "lat" : 42.2662963697085,
+                  "lng" : -83.05056708029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjIyMjMzIFNwcmluZyBHYXJkZW4gUmQsIFdpbmRzb3IsIE9OIE45RSAzUDksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

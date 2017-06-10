@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1374",
+               "short_name" : "1374",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Darlington Court",
+               "short_name" : "Darlington Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 4M1",
+               "short_name" : "N8S 4M1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1374 Darlington Ct, Windsor, ON N8S 4M1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3235677,
+                  "lng" : -82.9341537
+               },
+               "southwest" : {
+                  "lat" : 42.3235578,
+                  "lng" : -82.93416689999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3235578,
+               "lng" : -82.93416689999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3249117302915,
+                  "lng" : -82.93281131970849
+               },
+               "southwest" : {
+                  "lat" : 42.3222137697085,
+                  "lng" : -82.9355092802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xMzc0IERhcmxpbmd0b24gQ3QsIFdpbmRzb3IsIE9OIE44UyA0TTEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

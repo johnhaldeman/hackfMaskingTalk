@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2356",
+               "short_name" : "2356",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Turner Road",
+               "short_name" : "Turner Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3K6",
+               "short_name" : "N8W 3K6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2356 Turner Rd, Windsor, ON N8W 3K6, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.298149,
+               "lng" : -82.99262069999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.29949798029151,
+                  "lng" : -82.99127171970849
+               },
+               "southwest" : {
+                  "lat" : 42.29680001970851,
+                  "lng" : -82.9939696802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJfQsv-n8rO4gRomd45yTWuUw",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

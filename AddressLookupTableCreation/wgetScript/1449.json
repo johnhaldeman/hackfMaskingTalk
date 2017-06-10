@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2322",
+               "short_name" : "2322",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Moy Avenue",
+               "short_name" : "Moy Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2M8",
+               "short_name" : "N8W 2M8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2322 Moy Ave, Windsor, ON N8W 2M8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2958537,
+               "lng" : -83.0014781
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.29720268029149,
+                  "lng" : -83.0001291197085
+               },
+               "southwest" : {
+                  "lat" : 42.2945047197085,
+                  "lng" : -83.00282708029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJX0cW_nwsO4gRX4-AjE2QBNg",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

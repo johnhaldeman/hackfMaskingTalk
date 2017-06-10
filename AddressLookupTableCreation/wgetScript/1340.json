@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2220",
+               "short_name" : "2220",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Secord Avenue",
+               "short_name" : "Secord Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1T3",
+               "short_name" : "N9B 1T3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2220 Secord Ave, Windsor, ON N9B 1T3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.293615,
+                  "lng" : -83.05356449999999
+               },
+               "southwest" : {
+                  "lat" : 42.293603,
+                  "lng" : -83.053574
+               }
+            },
+            "location" : {
+               "lat" : 42.293603,
+               "lng" : -83.05356449999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2949579802915,
+                  "lng" : -83.05222026970849
+               },
+               "southwest" : {
+                  "lat" : 42.2922600197085,
+                  "lng" : -83.05491823029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMjIwIFNlY29yZCBBdmUsIFdpbmRzb3IsIE9OIE45QiAxVDMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

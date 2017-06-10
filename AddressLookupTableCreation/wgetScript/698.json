@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2238",
+               "short_name" : "2238",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Moy Avenue",
+               "short_name" : "Moy Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2M6",
+               "short_name" : "N8W 2M6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2238 Moy Ave, Windsor, ON N8W 2M6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2976481,
+                  "lng" : -83.002989
+               },
+               "southwest" : {
+                  "lat" : 42.297642,
+                  "lng" : -83.00300589999999
+               }
+            },
+            "location" : {
+               "lat" : 42.297642,
+               "lng" : -83.00300589999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2989940302915,
+                  "lng" : -83.0016484697085
+               },
+               "southwest" : {
+                  "lat" : 42.2962960697085,
+                  "lng" : -83.00434643029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikyMjM4IE1veSBBdmUsIFdpbmRzb3IsIE9OIE44VyAyTTYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

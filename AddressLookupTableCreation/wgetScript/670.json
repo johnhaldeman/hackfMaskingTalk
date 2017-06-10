@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1484",
+               "short_name" : "1484",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Langlois Avenue",
+               "short_name" : "Langlois Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4M1",
+               "short_name" : "N8X 4M1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1484 Langlois Ave, Windsor, ON N8X 4M1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30583439999999,
+                  "lng" : -83.0139219
+               },
+               "southwest" : {
+                  "lat" : 42.3058287,
+                  "lng" : -83.01393899999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3058287,
+               "lng" : -83.01393899999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30718053029149,
+                  "lng" : -83.01258146970849
+               },
+               "southwest" : {
+                  "lat" : 42.3044825697085,
+                  "lng" : -83.0152794302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNDg0IExhbmdsb2lzIEF2ZSwgV2luZHNvciwgT04gTjhYIDRNMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

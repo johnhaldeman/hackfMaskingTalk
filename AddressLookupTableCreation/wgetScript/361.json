@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3052",
+               "short_name" : "3052",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sandwich Street",
+               "short_name" : "Sandwich St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1A4",
+               "short_name" : "N9C 1A4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3052 Sandwich St, Windsor, ON N9C 1A4, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3058111,
+               "lng" : -83.0744823
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3071600802915,
+                  "lng" : -83.0731333197085
+               },
+               "southwest" : {
+                  "lat" : 42.3044621197085,
+                  "lng" : -83.07583128029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJZajH2n4tO4gRr2a0iE-tSpM",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

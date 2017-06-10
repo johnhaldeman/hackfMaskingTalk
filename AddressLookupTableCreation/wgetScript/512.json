@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2377",
+               "short_name" : "2377",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Festival Avenue",
+               "short_name" : "Festival Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P",
+               "short_name" : "N8P",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2377 Festival Ave, Windsor, ON N8P, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.31736799999999,
+                  "lng" : -82.9101591
+               },
+               "southwest" : {
+                  "lat" : 42.3173656,
+                  "lng" : -82.9101776
+               }
+            },
+            "location" : {
+               "lat" : 42.31736799999999,
+               "lng" : -82.9101591
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31871578029149,
+                  "lng" : -82.9088193697085
+               },
+               "southwest" : {
+                  "lat" : 42.3160178197085,
+                  "lng" : -82.9115173302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EioyMzc3IEZlc3RpdmFsIEF2ZSwgV2luZHNvciwgT04gTjhQLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

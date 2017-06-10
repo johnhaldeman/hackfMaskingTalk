@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1833",
+               "short_name" : "1833",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Larkin Road",
+               "short_name" : "Larkin Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4G7",
+               "short_name" : "N8W 4G7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1833 Larkin Rd, Windsor, ON N8W 4G7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3072503,
+                  "lng" : -82.98408549999999
+               },
+               "southwest" : {
+                  "lat" : 42.3072443,
+                  "lng" : -82.98410249999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3072503,
+               "lng" : -82.98408549999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3085962802915,
+                  "lng" : -82.98274501970847
+               },
+               "southwest" : {
+                  "lat" : 42.3058983197085,
+                  "lng" : -82.9854429802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxODMzIExhcmtpbiBSZCwgV2luZHNvciwgT04gTjhXIDRHNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

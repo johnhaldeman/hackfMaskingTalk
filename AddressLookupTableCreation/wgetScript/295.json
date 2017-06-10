@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2912",
+               "short_name" : "2912",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Academy Drive",
+               "short_name" : "Academy Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2H1",
+               "short_name" : "N9E 2H1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2912 Academy Dr, Windsor, ON N9E 2H1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2706953,
+                  "lng" : -83.0233899
+               },
+               "southwest" : {
+                  "lat" : 42.27068939999999,
+                  "lng" : -83.0234069
+               }
+            },
+            "location" : {
+               "lat" : 42.27068939999999,
+               "lng" : -83.0234069
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27204133029149,
+                  "lng" : -83.02204941970849
+               },
+               "southwest" : {
+                  "lat" : 42.2693433697085,
+                  "lng" : -83.0247473802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyOTEyIEFjYWRlbXkgRHIsIFdpbmRzb3IsIE9OIE45RSAySDEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

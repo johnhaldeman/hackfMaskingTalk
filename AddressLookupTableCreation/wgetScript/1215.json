@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2234",
+               "short_name" : "2234",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lamont Avenue",
+               "short_name" : "Lamont Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Malden",
+               "short_name" : "Malden",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4X4",
+               "short_name" : "N9E 4X4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2234 Lamont Ave, Windsor, ON N9E 4X4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.26543729999999,
+                  "lng" : -83.049064
+               },
+               "southwest" : {
+                  "lat" : 42.2654234,
+                  "lng" : -83.04906459999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2654234,
+               "lng" : -83.04906459999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.26677933029149,
+                  "lng" : -83.0477153197085
+               },
+               "southwest" : {
+                  "lat" : 42.26408136970849,
+                  "lng" : -83.05041328029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMjM0IExhbW9udCBBdmUsIFdpbmRzb3IsIE9OIE45RSA0WDQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

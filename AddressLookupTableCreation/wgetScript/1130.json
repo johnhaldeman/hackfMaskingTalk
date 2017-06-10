@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "493",
+               "short_name" : "493",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Windermere Road",
+               "short_name" : "Windermere Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3C9",
+               "short_name" : "N8Y 3C9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "493 Windermere Rd, Windsor, ON N8Y 3C9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3228487,
+                  "lng" : -83.01548409999999
+               },
+               "southwest" : {
+                  "lat" : 42.3228428,
+                  "lng" : -83.01550109999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3228487,
+               "lng" : -83.01548409999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3241947302915,
+                  "lng" : -83.01414361970849
+               },
+               "southwest" : {
+                  "lat" : 42.3214967697085,
+                  "lng" : -83.01684158029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei40OTMgV2luZGVybWVyZSBSZCwgV2luZHNvciwgT04gTjhZIDNDOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

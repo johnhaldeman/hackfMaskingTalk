@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1493",
+               "short_name" : "1493",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ouellette Avenue",
+               "short_name" : "Ouellette Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1K1",
+               "short_name" : "N8X 1K1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1493 Ouellette Ave, Windsor, ON N8X 1K1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30065920000001,
+                  "lng" : -83.02819819999999
+               },
+               "southwest" : {
+                  "lat" : 42.3006534,
+                  "lng" : -83.0282153
+               }
+            },
+            "location" : {
+               "lat" : 42.30065920000001,
+               "lng" : -83.02819819999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3020052802915,
+                  "lng" : -83.02685776970849
+               },
+               "southwest" : {
+                  "lat" : 42.29930731970851,
+                  "lng" : -83.02955573029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xNDkzIE91ZWxsZXR0ZSBBdmUsIFdpbmRzb3IsIE9OIE44WCAxSzEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

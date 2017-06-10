@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2783",
+               "short_name" : "2783",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tourangeau Road",
+               "short_name" : "Tourangeau Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5M2",
+               "short_name" : "N8W 5M2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2783 Tourangeau Rd, Windsor, ON N8W 5M2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.29637899999999,
+                  "lng" : -82.9679575
+               },
+               "southwest" : {
+                  "lat" : 42.2963729,
+                  "lng" : -82.9679744
+               }
+            },
+            "location" : {
+               "lat" : 42.29637899999999,
+               "lng" : -82.9679575
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2977249302915,
+                  "lng" : -82.9666169697085
+               },
+               "southwest" : {
+                  "lat" : 42.2950269697085,
+                  "lng" : -82.9693149302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8yNzgzIFRvdXJhbmdlYXUgUmQsIFdpbmRzb3IsIE9OIE44VyA1TTIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

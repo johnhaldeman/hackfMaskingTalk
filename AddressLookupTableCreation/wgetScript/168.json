@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1679",
+               "short_name" : "1679",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Jefferson Boulevard",
+               "short_name" : "Jefferson Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2V6",
+               "short_name" : "N8T 2V6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1679 Jefferson Blvd, Windsor, ON N8T 2V6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3185437,
+                  "lng" : -82.9569803
+               },
+               "southwest" : {
+                  "lat" : 42.3185378,
+                  "lng" : -82.9569973
+               }
+            },
+            "location" : {
+               "lat" : 42.3185437,
+               "lng" : -82.9569803
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3198897302915,
+                  "lng" : -82.95563981970849
+               },
+               "southwest" : {
+                  "lat" : 42.3171917697085,
+                  "lng" : -82.9583377802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAxNjc5IEplZmZlcnNvbiBCbHZkLCBXaW5kc29yLCBPTiBOOFQgMlY2LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

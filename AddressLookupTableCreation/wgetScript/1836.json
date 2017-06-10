@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "217",
+               "short_name" : "217",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Askin Avenue",
+               "short_name" : "Askin Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "217 Askin Ave, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3114307,
+                  "lng" : -83.0661454
+               },
+               "southwest" : {
+                  "lat" : 42.3114245,
+                  "lng" : -83.06616219999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3114307,
+               "lng" : -83.0661454
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3127765802915,
+                  "lng" : -83.0648048197085
+               },
+               "southwest" : {
+                  "lat" : 42.31007861970851,
+                  "lng" : -83.06750278029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiYyMTcgQXNraW4gQXZlLCBXaW5kc29yLCBPTiBOOUIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

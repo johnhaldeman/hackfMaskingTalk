@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1290",
+               "short_name" : "1290",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Aire Place",
+               "short_name" : "Aire Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 4E4",
+               "short_name" : "N8S 4E4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1290 Aire Pl, Windsor, ON N8S 4E4, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.32430799999999,
+               "lng" : -82.92700019999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32565698029149,
+                  "lng" : -82.9256512197085
+               },
+               "southwest" : {
+                  "lat" : 42.32295901970849,
+                  "lng" : -82.92834918029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJv8TalbcqO4gRz9_qpTIVXLg",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

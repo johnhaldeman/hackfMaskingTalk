@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "7136",
+               "short_name" : "7136",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Saint Rose Avenue",
+               "short_name" : "St Rose Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 1X7",
+               "short_name" : "N8S 1X7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "7136 St Rose Ave, Windsor, ON N8S 1X7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3302491,
+                  "lng" : -82.95171689999999
+               },
+               "southwest" : {
+                  "lat" : 42.3302353,
+                  "lng" : -82.95171739999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3302353,
+               "lng" : -82.95171739999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3315911802915,
+                  "lng" : -82.9503681697085
+               },
+               "southwest" : {
+                  "lat" : 42.3288932197085,
+                  "lng" : -82.9530661302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei03MTM2IFN0IFJvc2UgQXZlLCBXaW5kc29yLCBPTiBOOFMgMVg3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

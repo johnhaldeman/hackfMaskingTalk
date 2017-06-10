@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1377",
+               "short_name" : "1377",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Elm Avenue",
+               "short_name" : "Elm Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2B7",
+               "short_name" : "N8X 2B7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1377 Elm Ave, Windsor, ON N8X 2B7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2983938,
+                  "lng" : -83.0419071
+               },
+               "southwest" : {
+                  "lat" : 42.2983878,
+                  "lng" : -83.04192399999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2983938,
+               "lng" : -83.0419071
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2997397802915,
+                  "lng" : -83.0405665697085
+               },
+               "southwest" : {
+                  "lat" : 42.2970418197085,
+                  "lng" : -83.04326453029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikxMzc3IEVsbSBBdmUsIFdpbmRzb3IsIE9OIE44WCAyQjcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4086",
+               "short_name" : "4086",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Manzanillo Crescent",
+               "short_name" : "Manzanillo Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walker Gates",
+               "short_name" : "Walker Gates",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 0A2",
+               "short_name" : "N9G 0A2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4086 Manzanillo Crescent, Windsor, ON N9G 0A2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2528717,
+                  "lng" : -82.97634239999999
+               },
+               "southwest" : {
+                  "lat" : 42.2528578,
+                  "lng" : -82.9763433
+               }
+            },
+            "location" : {
+               "lat" : 42.2528578,
+               "lng" : -82.9763433
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2542137302915,
+                  "lng" : -82.9749938697085
+               },
+               "southwest" : {
+                  "lat" : 42.2515157697085,
+                  "lng" : -82.9776918302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjU0MDg2IE1hbnphbmlsbG8gQ3Jlc2NlbnQsIFdpbmRzb3IsIE9OIE45RyAwQTIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

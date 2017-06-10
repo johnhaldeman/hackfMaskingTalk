@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1613",
+               "short_name" : "1613",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rooney Street",
+               "short_name" : "Rooney St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1613 Rooney St, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30524399999999,
+                  "lng" : -83.05335579999999
+               },
+               "southwest" : {
+                  "lat" : 42.3052315,
+                  "lng" : -83.05336389999999
+               }
+            },
+            "location" : {
+               "lat" : 42.30524399999999,
+               "lng" : -83.05336389999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30658673029149,
+                  "lng" : -83.05201086970848
+               },
+               "southwest" : {
+                  "lat" : 42.30388876970849,
+                  "lng" : -83.0547088302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EicxNjEzIFJvb25leSBTdCwgV2luZHNvciwgT04gTjlCLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

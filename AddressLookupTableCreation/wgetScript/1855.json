@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3597",
+               "short_name" : "3597",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Deerbrook Drive",
+               "short_name" : "Deerbrook Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 2E6",
+               "short_name" : "N8R 2E6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3597 Deerbrook Dr, Windsor, ON N8R 2E6, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.298813,
+               "lng" : -82.9046965
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3001619802915,
+                  "lng" : -82.9033475197085
+               },
+               "southwest" : {
+                  "lat" : 42.2974640197085,
+                  "lng" : -82.90604548029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJNWEMtH3VOogRqka4dsY2gE8",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

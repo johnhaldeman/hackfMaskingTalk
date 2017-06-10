@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1474",
+               "short_name" : "1474",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Henry Ford Centre Drive",
+               "short_name" : "Henry Ford Centre Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2T8",
+               "short_name" : "N8Y 2T8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1474 Henry Ford Centre Dr, Windsor, ON N8Y 2T8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.31296100000001,
+               "lng" : -82.9933729
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31430998029151,
+                  "lng" : -82.99202391970849
+               },
+               "southwest" : {
+                  "lat" : 42.31161201970851,
+                  "lng" : -82.99472188029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJldK5A54sO4gRhqy_bF80NFU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

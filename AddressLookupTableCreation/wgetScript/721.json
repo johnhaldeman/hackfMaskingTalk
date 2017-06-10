@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1277",
+               "short_name" : "1277",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chateau Avenue",
+               "short_name" : "Chateau Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Tecumseh",
+               "short_name" : "Tecumseh",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1M1",
+               "short_name" : "N8P 1M1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1277 Chateau Ave, Tecumseh, ON N8P 1M1, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3245604,
+               "lng" : -82.9069734
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32590938029149,
+                  "lng" : -82.9056244197085
+               },
+               "southwest" : {
+                  "lat" : 42.3232114197085,
+                  "lng" : -82.90832238029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJO91VKlbVOogRaqFAT52PECs",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

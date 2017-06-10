@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2092",
+               "short_name" : "2092",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Vimy Avenue",
+               "short_name" : "Vimy Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 1P3",
+               "short_name" : "N8W 1P3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2092 Vimy Ave, Windsor, ON N8W 1P3, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.299078,
+               "lng" : -82.9950391
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3004269802915,
+                  "lng" : -82.9936901197085
+               },
+               "southwest" : {
+                  "lat" : 42.29772901970851,
+                  "lng" : -82.99638808029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJITVOaIAsO4gRINwmBM_MSJU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

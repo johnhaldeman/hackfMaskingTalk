@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1150",
+               "short_name" : "1150",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Greenpark Boulevard",
+               "short_name" : "Greenpark Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1J4",
+               "short_name" : "N8P 1J4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1150 Greenpark Blvd, Windsor, ON N8P 1J4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3267221,
+                  "lng" : -82.9050017
+               },
+               "southwest" : {
+                  "lat" : 42.3267196,
+                  "lng" : -82.90502010000002
+               }
+            },
+            "location" : {
+               "lat" : 42.3267196,
+               "lng" : -82.90502010000002
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3280698302915,
+                  "lng" : -82.9036619197085
+               },
+               "southwest" : {
+                  "lat" : 42.3253718697085,
+                  "lng" : -82.9063598802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAxMTUwIEdyZWVucGFyayBCbHZkLCBXaW5kc29yLCBPTiBOOFAgMUo0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

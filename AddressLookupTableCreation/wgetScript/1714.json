@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2376",
+               "short_name" : "2376",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Louis Avenue",
+               "short_name" : "Louis Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2B6",
+               "short_name" : "N8W 2B6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2376 Louis Ave, Windsor, ON N8W 2B6, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2932769,
+               "lng" : -83.01092799999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2946258802915,
+                  "lng" : -83.00957901970848
+               },
+               "southwest" : {
+                  "lat" : 42.2919279197085,
+                  "lng" : -83.0122769802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJlVh8xmYsO4gR7fR3n4N5QCo",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2453",
+               "short_name" : "2453",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rivard Avenue",
+               "short_name" : "Rivard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T",
+               "short_name" : "N8T",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2453 Rivard Ave, Windsor, ON N8T, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3069688,
+                  "lng" : -82.9568814
+               },
+               "southwest" : {
+                  "lat" : 42.3069643,
+                  "lng" : -82.9568992
+               }
+            },
+            "location" : {
+               "lat" : 42.3069643,
+               "lng" : -82.9568814
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3083155302915,
+                  "lng" : -82.95554131970849
+               },
+               "southwest" : {
+                  "lat" : 42.3056175697085,
+                  "lng" : -82.95823928029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigyNDUzIFJpdmFyZCBBdmUsIFdpbmRzb3IsIE9OIE44VCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2453",
+               "short_name" : "2453",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rivard Street",
+               "short_name" : "Rivard St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Eastern Market",
+               "short_name" : "Eastern Market",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Detroit",
+               "short_name" : "Detroit",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Wayne County",
+               "short_name" : "Wayne County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Michigan",
+               "short_name" : "MI",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "48207",
+               "short_name" : "48207",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2453 Rivard St, Detroit, MI 48207, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3451432,
+                  "lng" : -83.0414844
+               },
+               "southwest" : {
+                  "lat" : 42.3451372,
+                  "lng" : -83.0415014
+               }
+            },
+            "location" : {
+               "lat" : 42.3451432,
+               "lng" : -83.0414844
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.34648918029149,
+                  "lng" : -83.0401439197085
+               },
+               "southwest" : {
+                  "lat" : 42.3437912197085,
+                  "lng" : -83.0428418802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiYyNDUzIFJpdmFyZCBTdCwgRGV0cm9pdCwgTUkgNDgyMDcsIFVTQQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

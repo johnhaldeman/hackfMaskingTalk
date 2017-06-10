@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2311",
+               "short_name" : "2311",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Youngstown Street",
+               "short_name" : "Youngstown St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4L6",
+               "short_name" : "N9E 4L6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2311 Youngstown St, Windsor, ON N9E 4L6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2689707,
+                  "lng" : -83.0398094
+               },
+               "southwest" : {
+                  "lat" : 42.2689583,
+                  "lng" : -83.0398177
+               }
+            },
+            "location" : {
+               "lat" : 42.2689707,
+               "lng" : -83.0398177
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2703134802915,
+                  "lng" : -83.03846456970849
+               },
+               "southwest" : {
+                  "lat" : 42.2676155197085,
+                  "lng" : -83.0411625302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8yMzExIFlvdW5nc3Rvd24gU3QsIFdpbmRzb3IsIE9OIE45RSA0TDYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

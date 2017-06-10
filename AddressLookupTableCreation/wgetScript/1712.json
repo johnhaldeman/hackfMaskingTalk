@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "251",
+               "short_name" : "251",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pratt Place",
+               "short_name" : "Pratt Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2W5",
+               "short_name" : "N8Y 2W5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "251 Pratt Pl, Windsor, ON N8Y 2W5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.325461,
+                  "lng" : -82.9969256
+               },
+               "southwest" : {
+                  "lat" : 42.3254549,
+                  "lng" : -82.9969425
+               }
+            },
+            "location" : {
+               "lat" : 42.325461,
+               "lng" : -82.9969256
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32680693029149,
+                  "lng" : -82.99558506970848
+               },
+               "southwest" : {
+                  "lat" : 42.3241089697085,
+                  "lng" : -82.99828303029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikyNTEgUHJhdHQgUGwsIFdpbmRzb3IsIE9OIE44WSAyVzUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

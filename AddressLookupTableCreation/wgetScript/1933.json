@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2237",
+               "short_name" : "2237",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parkwood Avenue",
+               "short_name" : "Parkwood Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2K1",
+               "short_name" : "N8W 2K1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2237 Parkwood Ave, Windsor, ON N8W 2K1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2969566,
+                  "lng" : -83.00507759999999
+               },
+               "southwest" : {
+                  "lat" : 42.2969506,
+                  "lng" : -83.0050945
+               }
+            },
+            "location" : {
+               "lat" : 42.2969566,
+               "lng" : -83.00507759999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2983025802915,
+                  "lng" : -83.00373706970848
+               },
+               "southwest" : {
+                  "lat" : 42.29560461970851,
+                  "lng" : -83.00643503029148
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4yMjM3IFBhcmt3b29kIEF2ZSwgV2luZHNvciwgT04gTjhXIDJLMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

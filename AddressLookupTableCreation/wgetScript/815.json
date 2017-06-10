@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4673",
+               "short_name" : "4673",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Shadetree Crescent",
+               "short_name" : "Shadetree Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2P8",
+               "short_name" : "N9G 2P8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4673 Shadetree Crescent, Windsor, ON N9G 2P8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2391249,
+                  "lng" : -83.0009816
+               },
+               "southwest" : {
+                  "lat" : 42.2389622,
+                  "lng" : -83.0012184
+               }
+            },
+            "location" : {
+               "lat" : 42.2390436,
+               "lng" : -83.00109999999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2403925302915,
+                  "lng" : -82.9997510197085
+               },
+               "southwest" : {
+                  "lat" : 42.2376945697085,
+                  "lng" : -83.0024489802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJxQwQ08kuO4gRW5H8vwFrBg4",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

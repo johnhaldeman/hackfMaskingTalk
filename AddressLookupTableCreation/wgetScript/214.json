@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "386",
+               "short_name" : "386",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Giles Boulevard East",
+               "short_name" : "Giles Blvd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4C4",
+               "short_name" : "N9A 4C4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "386 Giles Blvd E, Windsor, ON N9A 4C4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3075974,
+                  "lng" : -83.0259586
+               },
+               "southwest" : {
+                  "lat" : 42.3075852,
+                  "lng" : -83.0259677
+               }
+            },
+            "location" : {
+               "lat" : 42.3075852,
+               "lng" : -83.0259586
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30894028029149,
+                  "lng" : -83.02461416970849
+               },
+               "southwest" : {
+                  "lat" : 42.3062423197085,
+                  "lng" : -83.02731213029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0zODYgR2lsZXMgQmx2ZCBFLCBXaW5kc29yLCBPTiBOOUEgNEM0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

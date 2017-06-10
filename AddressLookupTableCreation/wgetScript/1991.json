@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3112",
+               "short_name" : "3112",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3112 Dougall Ave, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2709553,
+                  "lng" : -83.0124891
+               },
+               "southwest" : {
+                  "lat" : 42.27095,
+                  "lng" : -83.0125065
+               }
+            },
+            "location" : {
+               "lat" : 42.27095,
+               "lng" : -83.0125065
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2723016302915,
+                  "lng" : -83.0111488197085
+               },
+               "southwest" : {
+                  "lat" : 42.2696036697085,
+                  "lng" : -83.0138467802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikzMTEyIERvdWdhbGwgQXZlLCBXaW5kc29yLCBPTiBOOUUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

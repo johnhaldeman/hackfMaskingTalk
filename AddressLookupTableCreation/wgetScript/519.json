@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2932",
+               "short_name" : "2932",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Clemenceau Boulevard",
+               "short_name" : "Clemenceau Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2R1",
+               "short_name" : "N8T 2R1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2932 Clemenceau Blvd, Windsor, ON N8T 2R1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2989386,
+                  "lng" : -82.9475176
+               },
+               "southwest" : {
+                  "lat" : 42.2989328,
+                  "lng" : -82.9475346
+               }
+            },
+            "location" : {
+               "lat" : 42.2989328,
+               "lng" : -82.9475346
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3002846802915,
+                  "lng" : -82.94617711970848
+               },
+               "southwest" : {
+                  "lat" : 42.2975867197085,
+                  "lng" : -82.9488750802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjEyOTMyIENsZW1lbmNlYXUgQmx2ZCwgV2luZHNvciwgT04gTjhUIDJSMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

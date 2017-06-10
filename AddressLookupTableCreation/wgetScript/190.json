@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2522",
+               "short_name" : "2522",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Richmond Street",
+               "short_name" : "Richmond St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y",
+               "short_name" : "N8Y",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2522 Richmond St, Windsor, ON N8Y, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3190997,
+                  "lng" : -83.00162519999999
+               },
+               "southwest" : {
+                  "lat" : 42.3190871,
+                  "lng" : -83.001633
+               }
+            },
+            "location" : {
+               "lat" : 42.3190871,
+               "lng" : -83.00162519999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3204423802915,
+                  "lng" : -83.00028011970849
+               },
+               "southwest" : {
+                  "lat" : 42.3177444197085,
+                  "lng" : -83.00297808029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikyNTIyIFJpY2htb25kIFN0LCBXaW5kc29yLCBPTiBOOFksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

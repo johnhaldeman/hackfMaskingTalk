@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "922",
+               "short_name" : "922",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bruce Avenue",
+               "short_name" : "Bruce Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4X7",
+               "short_name" : "N9A 4X7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "922 Bruce Ave, Windsor, ON N9A 4X7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30825129999999,
+                  "lng" : -83.03978620000001
+               },
+               "southwest" : {
+                  "lat" : 42.3082453,
+                  "lng" : -83.03980310000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3082453,
+               "lng" : -83.03980310000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30959728029149,
+                  "lng" : -83.03844566970851
+               },
+               "southwest" : {
+                  "lat" : 42.3068993197085,
+                  "lng" : -83.04114363029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eio5MjIgQnJ1Y2UgQXZlLCBXaW5kc29yLCBPTiBOOUEgNFg3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

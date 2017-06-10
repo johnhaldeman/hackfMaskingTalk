@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "973",
+               "short_name" : "973",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bellagio Drive",
+               "short_name" : "Bellagio Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1J7",
+               "short_name" : "N8P 1J7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "973 Bellagio Dr, Windsor, ON N8P 1J7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3298948,
+                  "lng" : -82.9069026
+               },
+               "southwest" : {
+                  "lat" : 42.3298922,
+                  "lng" : -82.90692109999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3298948,
+               "lng" : -82.9069026
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3312424802915,
+                  "lng" : -82.90556286970849
+               },
+               "southwest" : {
+                  "lat" : 42.3285445197085,
+                  "lng" : -82.9082608302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw5NzMgQmVsbGFnaW8gRHIsIFdpbmRzb3IsIE9OIE44UCAxSjcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

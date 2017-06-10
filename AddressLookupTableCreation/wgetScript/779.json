@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3597",
+               "short_name" : "3597",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Caribou Crescent",
+               "short_name" : "Caribou Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 5T2",
+               "short_name" : "N8W 5T2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3597 Caribou Crescent, Windsor, ON N8W 5T2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2701022,
+                  "lng" : -82.98079799999999
+               },
+               "southwest" : {
+                  "lat" : 42.2699428,
+                  "lng" : -82.9810212
+               }
+            },
+            "location" : {
+               "lat" : 42.2700225,
+               "lng" : -82.9809096
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.27137148029149,
+                  "lng" : -82.97956061970849
+               },
+               "southwest" : {
+                  "lat" : 42.26867351970849,
+                  "lng" : -82.9822585802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJp7Ydte8rO4gRjGif-8J-4po",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

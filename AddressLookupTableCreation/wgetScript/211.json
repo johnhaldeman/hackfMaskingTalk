@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2479",
+               "short_name" : "2479",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Westminster Boulevard",
+               "short_name" : "Westminster Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 1X9",
+               "short_name" : "N8T 1X9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2479 Westminster Blvd, Windsor, ON N8T 1X9, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3057558,
+               "lng" : -82.96205820000002
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3071047802915,
+                  "lng" : -82.96070921970852
+               },
+               "southwest" : {
+                  "lat" : 42.3044068197085,
+                  "lng" : -82.96340718029153
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJHQopHhArO4gRkdclDqbLlgI",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

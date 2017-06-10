@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1440",
+               "short_name" : "1440",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Church Street",
+               "short_name" : "Church St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X",
+               "short_name" : "N8X",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1440 Church St, Windsor, ON N8X, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.299795,
+                  "lng" : -83.03233569999999
+               },
+               "southwest" : {
+                  "lat" : 42.299789,
+                  "lng" : -83.0323526
+               }
+            },
+            "location" : {
+               "lat" : 42.299789,
+               "lng" : -83.0323526
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3011409802915,
+                  "lng" : -83.0309951697085
+               },
+               "southwest" : {
+                  "lat" : 42.2984430197085,
+                  "lng" : -83.03369313029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EicxNDQwIENodXJjaCBTdCwgV2luZHNvciwgT04gTjhYLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1440",
+               "short_name" : "1440",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Church Street",
+               "short_name" : "Church St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Corktown",
+               "short_name" : "Corktown",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Detroit",
+               "short_name" : "Detroit",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Wayne County",
+               "short_name" : "Wayne County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Michigan",
+               "short_name" : "MI",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "48216",
+               "short_name" : "48216",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1440 Church St, Detroit, MI 48216, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3313301,
+                  "lng" : -83.0663289
+               },
+               "southwest" : {
+                  "lat" : 42.331321,
+                  "lng" : -83.06634320000001
+               }
+            },
+            "location" : {
+               "lat" : 42.331321,
+               "lng" : -83.0663289
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3326745302915,
+                  "lng" : -83.06498706970851
+               },
+               "southwest" : {
+                  "lat" : 42.3299765697085,
+                  "lng" : -83.06768503029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiYxNDQwIENodXJjaCBTdCwgRGV0cm9pdCwgTUkgNDgyMTYsIFVTQQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

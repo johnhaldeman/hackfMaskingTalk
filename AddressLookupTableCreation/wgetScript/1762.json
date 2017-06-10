@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1229",
+               "short_name" : "1229",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chilver Road",
+               "short_name" : "Chilver Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2L2",
+               "short_name" : "N8Y 2L2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1229 Chilver Rd, Windsor, ON N8Y 2L2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3132564,
+               "lng" : -83.00853889999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3146053802915,
+                  "lng" : -83.00718991970848
+               },
+               "southwest" : {
+                  "lat" : 42.3119074197085,
+                  "lng" : -83.0098878802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJcwnrTZEsO4gRiLuRL-2uWJ4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

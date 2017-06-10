@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1991",
+               "short_name" : "1991",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Elgin Street",
+               "short_name" : "Elgin St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Malden",
+               "short_name" : "Malden",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1991 Elgin St, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2603294,
+                  "lng" : -83.05738479999999
+               },
+               "southwest" : {
+                  "lat" : 42.2603155,
+                  "lng" : -83.0573854
+               }
+            },
+            "location" : {
+               "lat" : 42.2603294,
+               "lng" : -83.05738479999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.26167143029149,
+                  "lng" : -83.05603611970849
+               },
+               "southwest" : {
+                  "lat" : 42.25897346970849,
+                  "lng" : -83.0587340802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiYxOTkxIEVsZ2luIFN0LCBXaW5kc29yLCBPTiBOOUUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

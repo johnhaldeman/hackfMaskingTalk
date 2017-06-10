@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1149",
+               "short_name" : "1149",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ottawa Street",
+               "short_name" : "Ottawa St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2E4",
+               "short_name" : "N8X 2E4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1149 Ottawa St, Windsor, ON N8X 2E4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30931,
+                  "lng" : -83.01384849999999
+               },
+               "southwest" : {
+                  "lat" : 42.3092973,
+                  "lng" : -83.0138561
+               }
+            },
+            "location" : {
+               "lat" : 42.30931,
+               "lng" : -83.0138561
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31065263029149,
+                  "lng" : -83.01250331970849
+               },
+               "southwest" : {
+                  "lat" : 42.30795466970849,
+                  "lng" : -83.01520128029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxMTQ5IE90dGF3YSBTdCwgV2luZHNvciwgT04gTjhYIDJFNCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Beverly Glen Street",
+               "short_name" : "Beverly Glen St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P",
+               "short_name" : "N8P",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "Beverly Glen St, Windsor, ON N8P, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.329638,
+                  "lng" : -82.90369179999999
+               },
+               "southwest" : {
+                  "lat" : 42.3279709,
+                  "lng" : -82.91830019999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3293268,
+               "lng" : -82.9122282
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3301534302915,
+                  "lng" : -82.90369179999999
+               },
+               "southwest" : {
+                  "lat" : 42.3274554697085,
+                  "lng" : -82.91830019999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJf4j0TqoqO4gRZR5BU0Hz3vo",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

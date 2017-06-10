@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4565",
+               "short_name" : "4565",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pleasant Place",
+               "short_name" : "Pleasant Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2E9",
+               "short_name" : "N8Y 2E9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4565 Pleasant Pl, Windsor, ON N8Y 2E9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3267855,
+                  "lng" : -82.9815306
+               },
+               "southwest" : {
+                  "lat" : 42.3267722,
+                  "lng" : -82.9815359
+               }
+            },
+            "location" : {
+               "lat" : 42.3267855,
+               "lng" : -82.9815359
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3281278302915,
+                  "lng" : -82.9801842697085
+               },
+               "southwest" : {
+                  "lat" : 42.3254298697085,
+                  "lng" : -82.98288223029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei00NTY1IFBsZWFzYW50IFBsLCBXaW5kc29yLCBPTiBOOFkgMkU5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

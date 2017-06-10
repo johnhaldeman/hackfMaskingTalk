@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "179",
+               "short_name" : "179",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bruce Avenue",
+               "short_name" : "Bruce Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 4W2",
+               "short_name" : "N9A 4W2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "179 Bruce Ave, Windsor, ON N9A 4W2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3170842,
+               "lng" : -83.0457583
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3184331802915,
+                  "lng" : -83.04440931970849
+               },
+               "southwest" : {
+                  "lat" : 42.3157352197085,
+                  "lng" : -83.04710728029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ7dq7wRktO4gRZe7SpnCgWG4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

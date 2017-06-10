@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1538",
+               "short_name" : "1538",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "South Pacific Avenue",
+               "short_name" : "S Pacific Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4Z7",
+               "short_name" : "N8X 4Z7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1538 S Pacific Ave, Windsor, ON N8X 4Z7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2853547,
+                  "lng" : -82.9972228
+               },
+               "southwest" : {
+                  "lat" : 42.2853489,
+                  "lng" : -82.9972398
+               }
+            },
+            "location" : {
+               "lat" : 42.2853489,
+               "lng" : -82.9972398
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2867007802915,
+                  "lng" : -82.99588231970851
+               },
+               "southwest" : {
+                  "lat" : 42.2840028197085,
+                  "lng" : -82.99858028029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8xNTM4IFMgUGFjaWZpYyBBdmUsIFdpbmRzb3IsIE9OIE44WCA0WjcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

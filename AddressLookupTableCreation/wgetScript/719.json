@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1215",
+               "short_name" : "1215",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chateau Avenue",
+               "short_name" : "Chateau Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Tecumseh",
+               "short_name" : "Tecumseh",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1M1",
+               "short_name" : "N8P 1M1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1215 Chateau Ave, Tecumseh, ON N8P 1M1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3249129,
+                  "lng" : -82.90683059999999
+               },
+               "southwest" : {
+                  "lat" : 42.3249105,
+                  "lng" : -82.9068491
+               }
+            },
+            "location" : {
+               "lat" : 42.3249129,
+               "lng" : -82.90683059999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3262606802915,
+                  "lng" : -82.90549086970849
+               },
+               "southwest" : {
+                  "lat" : 42.32356271970851,
+                  "lng" : -82.90818883029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xMjE1IENoYXRlYXUgQXZlLCBUZWN1bXNlaCwgT04gTjhQIDFNMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

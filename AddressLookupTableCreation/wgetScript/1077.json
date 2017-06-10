@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1890",
+               "short_name" : "1890",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Windermere Road",
+               "short_name" : "Windermere Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W",
+               "short_name" : "N8W",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1890 Windermere Rd, Windsor, ON N8W, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3014196,
+                  "lng" : -83.0016553
+               },
+               "southwest" : {
+                  "lat" : 42.3014136,
+                  "lng" : -83.0016722
+               }
+            },
+            "location" : {
+               "lat" : 42.3014136,
+               "lng" : -83.0016722
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3027655802915,
+                  "lng" : -83.0003147697085
+               },
+               "southwest" : {
+                  "lat" : 42.3000676197085,
+                  "lng" : -83.0030127302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxODkwIFdpbmRlcm1lcmUgUmQsIFdpbmRzb3IsIE9OIE44VywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

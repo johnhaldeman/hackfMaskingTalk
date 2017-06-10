@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4762",
+               "short_name" : "4762",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Shadetree Court",
+               "short_name" : "Shadetree Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2T9",
+               "short_name" : "N9G 2T9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4762 Shadetree Ct, Windsor, ON N9G 2T9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2377262,
+                  "lng" : -82.9993018
+               },
+               "southwest" : {
+                  "lat" : 42.2376002,
+                  "lng" : -82.9994816
+               }
+            },
+            "location" : {
+               "lat" : 42.23766320000001,
+               "lng" : -82.99939169999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2390121802915,
+                  "lng" : -82.99804271970849
+               },
+               "southwest" : {
+                  "lat" : 42.2363142197085,
+                  "lng" : -83.0007406802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJB2P-kMkuO4gRsRo8PwiPaAY",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

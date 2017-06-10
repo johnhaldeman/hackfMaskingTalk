@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "289",
+               "short_name" : "289",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cameron Avenue",
+               "short_name" : "Cameron Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1Y5",
+               "short_name" : "N9B 1Y5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "289 Cameron Ave, Windsor, ON N9B 1Y5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3135607,
+                  "lng" : -83.0547387
+               },
+               "southwest" : {
+                  "lat" : 42.3135546,
+                  "lng" : -83.05475559999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3135607,
+               "lng" : -83.0547387
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3149066302915,
+                  "lng" : -83.0533981697085
+               },
+               "southwest" : {
+                  "lat" : 42.3122086697085,
+                  "lng" : -83.05609613029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyODkgQ2FtZXJvbiBBdmUsIFdpbmRzb3IsIE9OIE45QiAxWTUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

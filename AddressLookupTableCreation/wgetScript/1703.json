@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "681",
+               "short_name" : "681",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Christina Crescent",
+               "short_name" : "Christina Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2M3",
+               "short_name" : "N9G 2M3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "681 Christina Crescent, Windsor, ON N9G 2M3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2412302,
+                  "lng" : -82.9946159
+               },
+               "southwest" : {
+                  "lat" : 42.2412254,
+                  "lng" : -82.99463349999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2412302,
+               "lng" : -82.9946159
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2425767802915,
+                  "lng" : -82.99327571970849
+               },
+               "southwest" : {
+                  "lat" : 42.2398788197085,
+                  "lng" : -82.99597368029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjM2ODEgQ2hyaXN0aW5hIENyZXNjZW50LCBXaW5kc29yLCBPTiBOOUcgMk0zLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "681",
+               "short_name" : "681",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Christina Court",
+               "short_name" : "Christina Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Southwood Lakes",
+               "short_name" : "Southwood Lakes",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2M4",
+               "short_name" : "N9G 2M4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "681 Christina Ct, Windsor, ON N9G 2M4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.241883,
+                  "lng" : -82.99353359999999
+               },
+               "southwest" : {
+                  "lat" : 42.2418703,
+                  "lng" : -82.9935412
+               }
+            },
+            "location" : {
+               "lat" : 42.241883,
+               "lng" : -82.9935412
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2432256302915,
+                  "lng" : -82.99218841970848
+               },
+               "southwest" : {
+                  "lat" : 42.2405276697085,
+                  "lng" : -82.99488638029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei02ODEgQ2hyaXN0aW5hIEN0LCBXaW5kc29yLCBPTiBOOUcgMk00LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

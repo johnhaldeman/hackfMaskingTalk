@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "421",
+               "short_name" : "421",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "John Harvey Crescent",
+               "short_name" : "John Harvey Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4R4",
+               "short_name" : "N9E 4R4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "421 John Harvey Crescent, Windsor, ON N9E 4R4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2690089,
+                  "lng" : -83.00601999999999
+               },
+               "southwest" : {
+                  "lat" : 42.2688792,
+                  "lng" : -83.0062296
+               }
+            },
+            "location" : {
+               "lat" : 42.268944,
+               "lng" : -83.00612479999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2702930302915,
+                  "lng" : -83.0047758197085
+               },
+               "southwest" : {
+                  "lat" : 42.2675950697085,
+                  "lng" : -83.00747378029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJjTGFgxosO4gRGbGu9Mb84Y4",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

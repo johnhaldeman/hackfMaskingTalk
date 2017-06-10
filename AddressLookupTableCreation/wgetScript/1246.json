@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "433",
+               "short_name" : "433",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rosedale Avenue",
+               "short_name" : "Rosedale Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1H2",
+               "short_name" : "N9C 1H2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "433 Rosedale Ave, Windsor, ON N9C 1H2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3045725,
+                  "lng" : -83.0715677
+               },
+               "southwest" : {
+                  "lat" : 42.304567,
+                  "lng" : -83.07158489999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3045725,
+               "lng" : -83.0715677
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30591873029149,
+                  "lng" : -83.07022731970849
+               },
+               "southwest" : {
+                  "lat" : 42.3032207697085,
+                  "lng" : -83.07292528029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei00MzMgUm9zZWRhbGUgQXZlLCBXaW5kc29yLCBPTiBOOUMgMUgyLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

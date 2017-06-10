@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1517",
+               "short_name" : "1517",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ferndale Avenue",
+               "short_name" : "Ferndale Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T",
+               "short_name" : "N8T",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1517 Ferndale Ave, Windsor, ON N8T, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3200179,
+                  "lng" : -82.9639075
+               },
+               "southwest" : {
+                  "lat" : 42.32001289999999,
+                  "lng" : -82.963925
+               }
+            },
+            "location" : {
+               "lat" : 42.3200179,
+               "lng" : -82.9639075
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3213643802915,
+                  "lng" : -82.9625672697085
+               },
+               "southwest" : {
+                  "lat" : 42.3186664197085,
+                  "lng" : -82.96526523029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EioxNTE3IEZlcm5kYWxlIEF2ZSwgV2luZHNvciwgT04gTjhULCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

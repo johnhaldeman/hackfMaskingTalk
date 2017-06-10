@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1170",
+               "short_name" : "1170",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Jefferson Boulevard",
+               "short_name" : "Jefferson Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2R4",
+               "short_name" : "N8S 2R4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1170 Jefferson Blvd, Windsor, ON N8S 2R4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3219708,
+                  "lng" : -82.9591178
+               },
+               "southwest" : {
+                  "lat" : 42.3219649,
+                  "lng" : -82.9591348
+               }
+            },
+            "location" : {
+               "lat" : 42.3219649,
+               "lng" : -82.9591348
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3233168302915,
+                  "lng" : -82.9577773197085
+               },
+               "southwest" : {
+                  "lat" : 42.3206188697085,
+                  "lng" : -82.9604752802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAxMTcwIEplZmZlcnNvbiBCbHZkLCBXaW5kc29yLCBPTiBOOFMgMlI0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

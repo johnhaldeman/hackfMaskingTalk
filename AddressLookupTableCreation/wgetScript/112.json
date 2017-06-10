@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1716",
+               "short_name" : "1716",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Northway Avenue",
+               "short_name" : "Northway Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3M2",
+               "short_name" : "N9B 3M2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1716 Northway Ave, Windsor, ON N9B 3M2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2859004,
+                  "lng" : -83.0546695
+               },
+               "southwest" : {
+                  "lat" : 42.2858943,
+                  "lng" : -83.05468639999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2858943,
+               "lng" : -83.05468639999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2872463302915,
+                  "lng" : -83.05332896970849
+               },
+               "southwest" : {
+                  "lat" : 42.2845483697085,
+                  "lng" : -83.05602693029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNzE2IE5vcnRod2F5IEF2ZSwgV2luZHNvciwgT04gTjlCIDNNMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

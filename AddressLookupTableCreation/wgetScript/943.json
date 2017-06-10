@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2787",
+               "short_name" : "2787",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lynngrove Court",
+               "short_name" : "Lynngrove Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 1R5",
+               "short_name" : "N8R 1R5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2787 Lynngrove Ct, Windsor, ON N8R 1R5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.31320729999999,
+                  "lng" : -82.91861
+               },
+               "southwest" : {
+                  "lat" : 42.3132052,
+                  "lng" : -82.91862859999999
+               }
+            },
+            "location" : {
+               "lat" : 42.31320729999999,
+               "lng" : -82.91862859999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3145552302915,
+                  "lng" : -82.91727031970849
+               },
+               "southwest" : {
+                  "lat" : 42.3118572697085,
+                  "lng" : -82.9199682802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4yNzg3IEx5bm5ncm92ZSBDdCwgV2luZHNvciwgT04gTjhSIDFSNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

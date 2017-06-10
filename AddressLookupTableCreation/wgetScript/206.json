@@ -1,0 +1,225 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3515",
+               "short_name" : "3515",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Russell Street",
+               "short_name" : "Russell St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1B5",
+               "short_name" : "N9C 1B5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3515 Russell St, Windsor, ON N9C 1B5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2943694,
+                  "lng" : -83.0822649
+               },
+               "southwest" : {
+                  "lat" : 42.2943636,
+                  "lng" : -83.08228199999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2943694,
+               "lng" : -83.08228199999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2957154802915,
+                  "lng" : -83.08092446970849
+               },
+               "southwest" : {
+                  "lat" : 42.2930175197085,
+                  "lng" : -83.0836224302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzNTE1IFJ1c3NlbGwgU3QsIFdpbmRzb3IsIE9OIE45QyAxQjUsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3515",
+               "short_name" : "3515",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Russell Street",
+               "short_name" : "Russell St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C",
+               "short_name" : "N9C",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3515 Russell St, Windsor, ON N9C, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3048202,
+                  "lng" : -83.07542939999999
+               },
+               "southwest" : {
+                  "lat" : 42.3048143,
+                  "lng" : -83.0754465
+               }
+            },
+            "location" : {
+               "lat" : 42.3048202,
+               "lng" : -83.0754465
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3061662302915,
+                  "lng" : -83.0740889697085
+               },
+               "southwest" : {
+                  "lat" : 42.3034682697085,
+                  "lng" : -83.0767869302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigzNTE1IFJ1c3NlbGwgU3QsIFdpbmRzb3IsIE9OIE45QywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3515",
+               "short_name" : "3515",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Russell Street",
+               "short_name" : "Russell St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Detroit",
+               "short_name" : "Detroit",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Wayne County",
+               "short_name" : "Wayne County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Michigan",
+               "short_name" : "MI",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "48207",
+               "short_name" : "48207",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3515 Russell St, Detroit, MI 48207, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.35194,
+                  "lng" : -83.04426529999999
+               },
+               "southwest" : {
+                  "lat" : 42.35193390000001,
+                  "lng" : -83.04428209999999
+               }
+            },
+            "location" : {
+               "lat" : 42.35194,
+               "lng" : -83.04426529999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3532859302915,
+                  "lng" : -83.04292471970848
+               },
+               "southwest" : {
+                  "lat" : 42.3505879697085,
+                  "lng" : -83.04562268029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiczNTE1IFJ1c3NlbGwgU3QsIERldHJvaXQsIE1JIDQ4MjA3LCBVU0E",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "McNorton Street",
+               "short_name" : "McNorton St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "McNorton St, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3172156,
+                  "lng" : -82.88309479999999
+               },
+               "southwest" : {
+                  "lat" : 42.3160685,
+                  "lng" : -82.90200969999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3161971,
+               "lng" : -82.8923851
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3179910302915,
+                  "lng" : -82.88309479999999
+               },
+               "southwest" : {
+                  "lat" : 42.3152930697085,
+                  "lng" : -82.90200969999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiBNY05vcnRvbiBTdCwgV2luZHNvciwgT04sIENhbmFkYQ",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1556",
+               "short_name" : "1556",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Langlois Avenue",
+               "short_name" : "Langlois Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4M2",
+               "short_name" : "N8X 4M2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1556 Langlois Ave, Windsor, ON N8X 4M2, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3041048,
+               "lng" : -83.0126047
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30545378029149,
+                  "lng" : -83.0112557197085
+               },
+               "southwest" : {
+                  "lat" : 42.3027558197085,
+                  "lng" : -83.01395368029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJS-Qog4wsO4gRcyVRqsSpHpc",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

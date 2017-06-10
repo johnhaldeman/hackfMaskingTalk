@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "540",
+               "short_name" : "540",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lisa Crescent",
+               "short_name" : "Lisa Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2M5",
+               "short_name" : "N9G 2M5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "540 Lisa Crescent, Windsor, ON N9G 2M5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2444043,
+                  "lng" : -82.9950078
+               },
+               "southwest" : {
+                  "lat" : 42.2443981,
+                  "lng" : -82.99502459999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2444043,
+               "lng" : -82.9950078
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2457501802915,
+                  "lng" : -82.9936672197085
+               },
+               "southwest" : {
+                  "lat" : 42.2430522197085,
+                  "lng" : -82.99636518029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei41NDAgTGlzYSBDcmVzY2VudCwgV2luZHNvciwgT04gTjlHIDJNNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

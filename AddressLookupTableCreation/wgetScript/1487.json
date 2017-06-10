@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4072",
+               "short_name" : "4072",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1X4",
+               "short_name" : "N9G 1X4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4072 Dougall Ave, Windsor, ON N9G 1X4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2525335,
+                  "lng" : -83.0003966
+               },
+               "southwest" : {
+                  "lat" : 42.2525302,
+                  "lng" : -83.0004148
+               }
+            },
+            "location" : {
+               "lat" : 42.2525335,
+               "lng" : -83.0003966
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.25388083029149,
+                  "lng" : -82.99905671970851
+               },
+               "southwest" : {
+                  "lat" : 42.25118286970849,
+                  "lng" : -83.00175468029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei00MDcyIERvdWdhbGwgQXZlLCBXaW5kc29yLCBPTiBOOUcgMVg0LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "4072",
+               "short_name" : "4072",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Square",
+               "short_name" : "Dougall Square",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1X3",
+               "short_name" : "N9G 1X3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4072 Dougall Square, Windsor, ON N9G 1X3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2566442,
+                  "lng" : -83.0042158
+               },
+               "southwest" : {
+                  "lat" : 42.2566413,
+                  "lng" : -83.0042342
+               }
+            },
+            "location" : {
+               "lat" : 42.2566442,
+               "lng" : -83.0042342
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2579917302915,
+                  "lng" : -83.00287601970848
+               },
+               "southwest" : {
+                  "lat" : 42.2552937697085,
+                  "lng" : -83.0055739802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjA0MDcyIERvdWdhbGwgU3F1YXJlLCBXaW5kc29yLCBPTiBOOUcgMVgzLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

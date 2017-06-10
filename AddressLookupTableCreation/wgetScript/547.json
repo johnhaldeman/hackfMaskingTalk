@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1510",
+               "short_name" : "1510",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Gladstone Avenue",
+               "short_name" : "Gladstone Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2R1",
+               "short_name" : "N8X 2R1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1510 Gladstone Ave, Windsor, ON N8X 2R1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3074026,
+                  "lng" : -83.0076255
+               },
+               "southwest" : {
+                  "lat" : 42.3072841,
+                  "lng" : -83.00781359999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3073434,
+               "lng" : -83.0077196
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30869233029149,
+                  "lng" : -83.00637056970849
+               },
+               "southwest" : {
+                  "lat" : 42.3059943697085,
+                  "lng" : -83.00906853029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJz-9kP44sO4gRDXFEWcxvKJk",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

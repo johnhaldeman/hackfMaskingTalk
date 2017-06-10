@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2964",
+               "short_name" : "2964",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Everts Avenue",
+               "short_name" : "Everts Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2V2",
+               "short_name" : "N9E 2V2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2964 Everts Ave, Windsor, ON N9E 2V2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.26742309999999,
+                  "lng" : -83.02888489999999
+               },
+               "southwest" : {
+                  "lat" : 42.2674172,
+                  "lng" : -83.02890189999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2674172,
+               "lng" : -83.02890189999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2687691302915,
+                  "lng" : -83.02754441970849
+               },
+               "southwest" : {
+                  "lat" : 42.2660711697085,
+                  "lng" : -83.0302423802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyOTY0IEV2ZXJ0cyBBdmUsIFdpbmRzb3IsIE9OIE45RSAyVjIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

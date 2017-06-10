@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3218",
+               "short_name" : "3218",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 1S8",
+               "short_name" : "N9E 1S8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3218 Dougall Ave, Windsor, ON N9E 1S8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2680829,
+                  "lng" : -83.0107481
+               },
+               "southwest" : {
+                  "lat" : 42.268077,
+                  "lng" : -83.0107651
+               }
+            },
+            "location" : {
+               "lat" : 42.268077,
+               "lng" : -83.0107651
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2694289302915,
+                  "lng" : -83.0094076197085
+               },
+               "southwest" : {
+                  "lat" : 42.2667309697085,
+                  "lng" : -83.0121055802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0zMjE4IERvdWdhbGwgQXZlLCBXaW5kc29yLCBPTiBOOUUgMVM4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

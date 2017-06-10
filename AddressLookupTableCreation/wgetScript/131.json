@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2343",
+               "short_name" : "2343",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Askin Avenue",
+               "short_name" : "Askin Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4Y2",
+               "short_name" : "N9E 4Y2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2343 Askin Ave, Windsor, ON N9E 4Y2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2747903,
+                  "lng" : -83.04291669999999
+               },
+               "southwest" : {
+                  "lat" : 42.2747844,
+                  "lng" : -83.04293369999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2747903,
+               "lng" : -83.04291669999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2761363302915,
+                  "lng" : -83.04157621970847
+               },
+               "southwest" : {
+                  "lat" : 42.2734383697085,
+                  "lng" : -83.0442741802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyMzQzIEFza2luIEF2ZSwgV2luZHNvciwgT04gTjlFIDRZMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

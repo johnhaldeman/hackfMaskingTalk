@@ -1,0 +1,150 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3714",
+               "short_name" : "3714",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Seminole Street",
+               "short_name" : "Seminole St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y",
+               "short_name" : "N8Y",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3714 Seminole St, Windsor, ON N8Y, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3150753,
+                  "lng" : -82.9853511
+               },
+               "southwest" : {
+                  "lat" : 42.3150627,
+                  "lng" : -82.985359
+               }
+            },
+            "location" : {
+               "lat" : 42.3150627,
+               "lng" : -82.9853511
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31641798029149,
+                  "lng" : -82.9840060697085
+               },
+               "southwest" : {
+                  "lat" : 42.3137200197085,
+                  "lng" : -82.98670403029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EikzNzE0IFNlbWlub2xlIFN0LCBXaW5kc29yLCBPTiBOOFksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3714",
+               "short_name" : "3714",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Seminole Street",
+               "short_name" : "Seminole St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Detroit",
+               "short_name" : "Detroit",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Wayne County",
+               "short_name" : "Wayne County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Michigan",
+               "short_name" : "MI",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "48214",
+               "short_name" : "48214",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3714 Seminole St, Detroit, MI 48214, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3696474,
+                  "lng" : -83.004227
+               },
+               "southwest" : {
+                  "lat" : 42.3696409,
+                  "lng" : -83.0042435
+               }
+            },
+            "location" : {
+               "lat" : 42.3696409,
+               "lng" : -83.0042435
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3709931302915,
+                  "lng" : -83.0028862697085
+               },
+               "southwest" : {
+                  "lat" : 42.3682951697085,
+                  "lng" : -83.0055842302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigzNzE0IFNlbWlub2xlIFN0LCBEZXRyb2l0LCBNSSA0ODIxNCwgVVNB",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

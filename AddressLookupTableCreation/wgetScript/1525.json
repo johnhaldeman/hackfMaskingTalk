@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3376",
+               "short_name" : "3376",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hemlock Road",
+               "short_name" : "Hemlock Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R 1Z9",
+               "short_name" : "N8R 1Z9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3376 Hemlock Rd, Windsor, ON N8R 1Z9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2970802,
+                  "lng" : -82.9155796
+               },
+               "southwest" : {
+                  "lat" : 42.2970784,
+                  "lng" : -82.91559819999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2970784,
+               "lng" : -82.91559819999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2984282802915,
+                  "lng" : -82.91423991970849
+               },
+               "southwest" : {
+                  "lat" : 42.2957303197085,
+                  "lng" : -82.9169378802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzMzc2IEhlbWxvY2sgUmQsIFdpbmRzb3IsIE9OIE44UiAxWjksIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

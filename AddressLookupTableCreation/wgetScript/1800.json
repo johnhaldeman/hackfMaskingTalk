@@ -1,0 +1,230 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3984",
+               "short_name" : "3984",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ypres Avenue",
+               "short_name" : "Ypres Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W",
+               "short_name" : "N8W",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3984 Ypres Ave, Windsor, ON N8W, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.29826,
+                  "lng" : -82.98916939999999
+               },
+               "southwest" : {
+                  "lat" : 42.2982475,
+                  "lng" : -82.98917759999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2982475,
+               "lng" : -82.98916939999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2996027302915,
+                  "lng" : -82.98782451970848
+               },
+               "southwest" : {
+                  "lat" : 42.2969047697085,
+                  "lng" : -82.9905224802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiczOTg0IFlwcmVzIEF2ZSwgV2luZHNvciwgT04gTjhXLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3984",
+               "short_name" : "3984",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ypres Avenue",
+               "short_name" : "Ypres Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4J4",
+               "short_name" : "N8W 4J4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3984 Ypres Ave, Windsor, ON N8W 4J4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3020293,
+                  "lng" : -82.9785141
+               },
+               "southwest" : {
+                  "lat" : 42.3020167,
+                  "lng" : -82.97852209999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3020167,
+               "lng" : -82.9785141
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3033719802915,
+                  "lng" : -82.97716911970849
+               },
+               "southwest" : {
+                  "lat" : 42.3006740197085,
+                  "lng" : -82.9798670802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszOTg0IFlwcmVzIEF2ZSwgV2luZHNvciwgT04gTjhXIDRKNCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3984",
+               "short_name" : "3984",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Ypres Street",
+               "short_name" : "Ypres St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W",
+               "short_name" : "N8W",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3984 Ypres St, Windsor, ON N8W, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3056993,
+                  "lng" : -82.96815099999999
+               },
+               "southwest" : {
+                  "lat" : 42.3056867,
+                  "lng" : -82.96815869999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3056867,
+               "lng" : -82.96815099999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30704198029149,
+                  "lng" : -82.96680586970848
+               },
+               "southwest" : {
+                  "lat" : 42.30434401970849,
+                  "lng" : -82.9695038302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiYzOTg0IFlwcmVzIFN0LCBXaW5kc29yLCBPTiBOOFcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

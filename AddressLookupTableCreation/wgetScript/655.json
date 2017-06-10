@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "981",
+               "short_name" : "981",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lake Trail Drive",
+               "short_name" : "Lake Trail Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "981 Lake Trail Dr, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2393166,
+               "lng" : -82.9840234
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2406655802915,
+                  "lng" : -82.98267441970849
+               },
+               "southwest" : {
+                  "lat" : 42.2379676197085,
+                  "lng" : -82.98537238029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJqzgZPEgpO4gRTnbr687Jrwo",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

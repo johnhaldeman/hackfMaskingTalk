@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "612",
+               "short_name" : "612",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Edinborough Street",
+               "short_name" : "Edinborough St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3C7",
+               "short_name" : "N8X 3C7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "612 Edinborough St, Windsor, ON N8X 3C7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2841828,
+                  "lng" : -83.00891469999999
+               },
+               "southwest" : {
+                  "lat" : 42.2841703,
+                  "lng" : -83.0089229
+               }
+            },
+            "location" : {
+               "lat" : 42.2841703,
+               "lng" : -83.00891469999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.28552553029149,
+                  "lng" : -83.00756981970851
+               },
+               "southwest" : {
+                  "lat" : 42.28282756970849,
+                  "lng" : -83.01026778029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei82MTIgRWRpbmJvcm91Z2ggU3QsIFdpbmRzb3IsIE9OIE44WCAzQzcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

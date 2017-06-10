@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "455",
+               "short_name" : "455",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McEwan Avenue",
+               "short_name" : "McEwan Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2E7",
+               "short_name" : "N9B 2E7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "455 McEwan Ave, Windsor, ON N9B 2E7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3092669,
+                  "lng" : -83.0559114
+               },
+               "southwest" : {
+                  "lat" : 42.3091566,
+                  "lng" : -83.05607209999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3092118,
+               "lng" : -83.0559918
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3105607302915,
+                  "lng" : -83.05464276970851
+               },
+               "southwest" : {
+                  "lat" : 42.3078627697085,
+                  "lng" : -83.05734073029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJu1aOHg0tO4gRbdmVduKj3Kk",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

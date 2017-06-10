@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "949",
+               "short_name" : "949",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bridge Avenue",
+               "short_name" : "Bridge Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2M9",
+               "short_name" : "N9B 2M9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "949 Bridge Ave, Windsor, ON N9B 2M9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3017691,
+                  "lng" : -83.0548838
+               },
+               "southwest" : {
+                  "lat" : 42.3017631,
+                  "lng" : -83.05490080000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3017691,
+               "lng" : -83.0548838
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3031150802915,
+                  "lng" : -83.05354331970851
+               },
+               "southwest" : {
+                  "lat" : 42.3004171197085,
+                  "lng" : -83.05624128029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eis5NDkgQnJpZGdlIEF2ZSwgV2luZHNvciwgT04gTjlCIDJNOSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

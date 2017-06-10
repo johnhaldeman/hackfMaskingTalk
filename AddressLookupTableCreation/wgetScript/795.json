@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3372",
+               "short_name" : "3372",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rankin Avenue",
+               "short_name" : "Rankin Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 3B6",
+               "short_name" : "N9E 3B6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3372 Rankin Ave, Windsor, ON N9E 3B6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2729617,
+                  "lng" : -83.03829349999999
+               },
+               "southwest" : {
+                  "lat" : 42.2729558,
+                  "lng" : -83.03831049999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2729558,
+               "lng" : -83.03831049999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2743077302915,
+                  "lng" : -83.03695301970849
+               },
+               "southwest" : {
+                  "lat" : 42.2716097697085,
+                  "lng" : -83.03965098029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzMzcyIFJhbmtpbiBBdmUsIFdpbmRzb3IsIE9OIE45RSAzQjYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3372",
+               "short_name" : "3372",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Rankin Avenue",
+               "short_name" : "Rankin Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3372 Rankin Ave, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.259075,
+                  "lng" : -83.0293052
+               },
+               "southwest" : {
+                  "lat" : 42.2590691,
+                  "lng" : -83.0293222
+               }
+            },
+            "location" : {
+               "lat" : 42.2590691,
+               "lng" : -83.0293222
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2604210302915,
+                  "lng" : -83.02796471970849
+               },
+               "southwest" : {
+                  "lat" : 42.2577230697085,
+                  "lng" : -83.0306626802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EigzMzcyIFJhbmtpbiBBdmUsIFdpbmRzb3IsIE9OIE45RSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

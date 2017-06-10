@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4462",
+               "short_name" : "4462",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Villa Paradiso Crescent",
+               "short_name" : "Villa Paradiso Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 2L7",
+               "short_name" : "N9G 2L7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4462 Villa Paradiso Crescent, Windsor, ON N9G 2L7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2415465,
+                  "lng" : -83.00903889999999
+               },
+               "southwest" : {
+                  "lat" : 42.241342,
+                  "lng" : -83.00931279999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2414443,
+               "lng" : -83.0091759
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2427932302915,
+                  "lng" : -83.00782686970848
+               },
+               "southwest" : {
+                  "lat" : 42.2400952697085,
+                  "lng" : -83.0105248302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJbdNoy7guO4gRs4g88N0e9jo",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

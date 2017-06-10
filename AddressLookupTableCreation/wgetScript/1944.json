@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1035",
+               "short_name" : "1035",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parkview Avenue",
+               "short_name" : "Parkview Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2X6",
+               "short_name" : "N8S 2X6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1035 Parkview Ave, Windsor, ON N8S 2X6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3264819,
+                  "lng" : -82.95248889999999
+               },
+               "southwest" : {
+                  "lat" : 42.32636970000001,
+                  "lng" : -82.9526467
+               }
+            },
+            "location" : {
+               "lat" : 42.3264258,
+               "lng" : -82.9525678
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32777478029151,
+                  "lng" : -82.95121881970849
+               },
+               "southwest" : {
+                  "lat" : 42.32507681970851,
+                  "lng" : -82.95391678029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJR25xWSgrO4gRhLyvBWx4rVk",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1099",
+               "short_name" : "1099",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Coventry Court",
+               "short_name" : "Coventry Ct",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2W6",
+               "short_name" : "N8S 2W6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1099 Coventry Ct, Windsor, ON N8S 2W6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.325044,
+                  "lng" : -82.952685
+               },
+               "southwest" : {
+                  "lat" : 42.3250381,
+                  "lng" : -82.952702
+               }
+            },
+            "location" : {
+               "lat" : 42.325044,
+               "lng" : -82.952685
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3263900302915,
+                  "lng" : -82.9513445197085
+               },
+               "southwest" : {
+                  "lat" : 42.3236920697085,
+                  "lng" : -82.95404248029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xMDk5IENvdmVudHJ5IEN0LCBXaW5kc29yLCBPTiBOOFMgMlc2LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

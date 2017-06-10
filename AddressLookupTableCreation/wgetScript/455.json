@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "287",
+               "short_name" : "287",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Belleperche Place",
+               "short_name" : "Belleperche Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3B6",
+               "short_name" : "N8S 3B6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "287 Belleperche Pl, Windsor, ON N8S 3B6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3333484,
+                  "lng" : -82.9515194
+               },
+               "southwest" : {
+                  "lat" : 42.3333425,
+                  "lng" : -82.95153639999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3333484,
+               "lng" : -82.9515194
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3346944302915,
+                  "lng" : -82.95017891970849
+               },
+               "southwest" : {
+                  "lat" : 42.3319964697085,
+                  "lng" : -82.9528768802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei8yODcgQmVsbGVwZXJjaGUgUGwsIFdpbmRzb3IsIE9OIE44UyAzQjYsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

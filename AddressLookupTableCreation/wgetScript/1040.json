@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4282",
+               "short_name" : "4282",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Howard Avenue",
+               "short_name" : "Howard Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1P3",
+               "short_name" : "N9G 1P3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4282 Howard Ave, Windsor, ON N9G 1P3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2477159,
+                  "lng" : -82.9962713
+               },
+               "southwest" : {
+                  "lat" : 42.2477154,
+                  "lng" : -82.9962901
+               }
+            },
+            "location" : {
+               "lat" : 42.2477159,
+               "lng" : -82.9962901
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.24906463029149,
+                  "lng" : -82.9949317197085
+               },
+               "southwest" : {
+                  "lat" : 42.24636666970849,
+                  "lng" : -82.99762968029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw0MjgyIEhvd2FyZCBBdmUsIFdpbmRzb3IsIE9OIE45RyAxUDMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

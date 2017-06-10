@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "321",
+               "short_name" : "321",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Hanna Street East",
+               "short_name" : "Hanna St E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 2R3",
+               "short_name" : "N8X 2R3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "321 Hanna St E, Windsor, ON N8X 2R3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2994053,
+                  "lng" : -83.02221999999999
+               },
+               "southwest" : {
+                  "lat" : 42.2993928,
+                  "lng" : -83.0222282
+               }
+            },
+            "location" : {
+               "lat" : 42.2994053,
+               "lng" : -83.0222282
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30074803029149,
+                  "lng" : -83.02087511970848
+               },
+               "southwest" : {
+                  "lat" : 42.2980500697085,
+                  "lng" : -83.0235730802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszMjEgSGFubmEgU3QgRSwgV2luZHNvciwgT04gTjhYIDJSMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

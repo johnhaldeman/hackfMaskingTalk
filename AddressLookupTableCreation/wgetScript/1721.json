@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "491",
+               "short_name" : "491",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Detroit Street",
+               "short_name" : "Detroit St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 2P6",
+               "short_name" : "N9C 2P6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "491 Detroit St, Windsor, ON N9C 2P6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3031896,
+                  "lng" : -83.07103979999999
+               },
+               "southwest" : {
+                  "lat" : 42.303177,
+                  "lng" : -83.07104769999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3031896,
+               "lng" : -83.07103979999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3045322802915,
+                  "lng" : -83.06969476970849
+               },
+               "southwest" : {
+                  "lat" : 42.3018343197085,
+                  "lng" : -83.0723927302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eis0OTEgRGV0cm9pdCBTdCwgV2luZHNvciwgT04gTjlDIDJQNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "491",
+               "short_name" : "491",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Windsor Avenue",
+               "short_name" : "Windsor Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "City Centre",
+               "short_name" : "City Centre",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A",
+               "short_name" : "N9A",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "491 Windsor Ave, Windsor, ON N9A, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3160896,
+                  "lng" : -83.0343874
+               },
+               "southwest" : {
+                  "lat" : 42.3160835,
+                  "lng" : -83.03440429999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3160896,
+               "lng" : -83.0343874
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3174355302915,
+                  "lng" : -83.03304686970849
+               },
+               "southwest" : {
+                  "lat" : 42.3147375697085,
+                  "lng" : -83.03574483029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eig0OTEgV2luZHNvciBBdmUsIFdpbmRzb3IsIE9OIE45QSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

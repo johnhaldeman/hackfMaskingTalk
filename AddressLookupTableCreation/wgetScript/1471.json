@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1496",
+               "short_name" : "1496",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lincoln Road",
+               "short_name" : "Lincoln Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2J1",
+               "short_name" : "N8Y 2J1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1496 Lincoln Rd, Windsor, ON N8Y 2J1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3080828,
+                  "lng" : -83.0071602
+               },
+               "southwest" : {
+                  "lat" : 42.30807679999999,
+                  "lng" : -83.00717709999999
+               }
+            },
+            "location" : {
+               "lat" : 42.30807679999999,
+               "lng" : -83.00717709999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3094287802915,
+                  "lng" : -83.00581966970849
+               },
+               "southwest" : {
+                  "lat" : 42.3067308197085,
+                  "lng" : -83.00851763029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxNDk2IExpbmNvbG4gUmQsIFdpbmRzb3IsIE9OIE44WSAySjEsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

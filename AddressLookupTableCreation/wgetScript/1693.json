@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3028",
+               "short_name" : "3028",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pillette Road",
+               "short_name" : "Pillette Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 3J3",
+               "short_name" : "N8T 3J3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3028 Pillette Rd, Windsor, ON N8T 3J3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2929637,
+                  "lng" : -82.9583289
+               },
+               "southwest" : {
+                  "lat" : 42.2927452,
+                  "lng" : -82.9585743
+               }
+            },
+            "location" : {
+               "lat" : 42.2928544,
+               "lng" : -82.95845159999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2942034302915,
+                  "lng" : -82.95710261970849
+               },
+               "southwest" : {
+                  "lat" : 42.2915054697085,
+                  "lng" : -82.9598005802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJzYNE_KgrO4gRlRpZrKhVeZo",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

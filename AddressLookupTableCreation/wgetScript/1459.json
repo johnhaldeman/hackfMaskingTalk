@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3049",
+               "short_name" : "3049",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Turner Road",
+               "short_name" : "Turner Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Remington Park",
+               "short_name" : "Remington Park",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3L6",
+               "short_name" : "N8W 3L6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3049 Turner Rd, Windsor, ON N8W 3L6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2840651,
+                  "lng" : -82.98411209999999
+               },
+               "southwest" : {
+                  "lat" : 42.2840594,
+                  "lng" : -82.9841292
+               }
+            },
+            "location" : {
+               "lat" : 42.2840651,
+               "lng" : -82.98411209999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.28541123029149,
+                  "lng" : -82.98277166970848
+               },
+               "southwest" : {
+                  "lat" : 42.2827132697085,
+                  "lng" : -82.9854696302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiszMDQ5IFR1cm5lciBSZCwgV2luZHNvciwgT04gTjhXIDNMNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

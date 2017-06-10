@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1430",
+               "short_name" : "1430",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Partington Avenue",
+               "short_name" : "Partington Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2P8",
+               "short_name" : "N9B 2P8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1430 Partington Ave, Windsor, ON N9B 2P8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2935541,
+               "lng" : -83.0496826
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2949030802915,
+                  "lng" : -83.0483336197085
+               },
+               "southwest" : {
+                  "lat" : 42.29220511970851,
+                  "lng" : -83.05103158029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ24rH_aQtO4gR_6ciCw20feI",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

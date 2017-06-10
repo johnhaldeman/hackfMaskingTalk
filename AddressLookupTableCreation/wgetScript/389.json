@@ -1,0 +1,65 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Northway Avenue",
+               "short_name" : "Northway Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Northway Ave, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2908146,
+                  "lng" : -83.0307756
+               },
+               "southwest" : {
+                  "lat" : 42.2491721,
+                  "lng" : -83.05784629999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2698972,
+               "lng" : -83.04441299999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2908146,
+                  "lng" : -83.0307756
+               },
+               "southwest" : {
+                  "lat" : 42.2491721,
+                  "lng" : -83.05784629999999
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJPRheSdAtO4gRkvB6AtR8-Nc",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,135 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Banwell Road",
+               "short_name" : "Banwell Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Banwell Rd, Windsor, ON, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.33414,
+                  "lng" : -82.8965592
+               },
+               "southwest" : {
+                  "lat" : 42.2916225,
+                  "lng" : -82.9058593
+               }
+            },
+            "location" : {
+               "lat" : 42.3128892,
+               "lng" : -82.90112049999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.33414,
+                  "lng" : -82.8965592
+               },
+               "southwest" : {
+                  "lat" : 42.2916225,
+                  "lng" : -82.9058593
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eh9CYW53ZWxsIFJkLCBXaW5kc29yLCBPTiwgQ2FuYWRh",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Banwell Drive",
+               "short_name" : "Banwell Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1J8",
+               "short_name" : "N8P 1J8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Banwell Dr, Windsor, ON N8P 1J8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.33414,
+                  "lng" : -82.90512219999999
+               },
+               "southwest" : {
+                  "lat" : 42.3320969,
+                  "lng" : -82.905615
+               }
+            },
+            "location" : {
+               "lat" : 42.3331023,
+               "lng" : -82.9053631
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3344674302915,
+                  "lng" : -82.90401961970849
+               },
+               "southwest" : {
+                  "lat" : 42.3317694697085,
+                  "lng" : -82.9067175802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ8fMR6aoqJYgRD5U6rW8uSXE",
+         "types" : [ "route" ]
+      }
+   ],
+   "status" : "OK"
+}

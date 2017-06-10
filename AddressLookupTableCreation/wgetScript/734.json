@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "615",
+               "short_name" : "615",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Indian Road",
+               "short_name" : "Indian Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 2M7",
+               "short_name" : "N9C 2M7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "615 Indian Rd, Windsor, ON N9C 2M7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.30254290000001,
+               "lng" : -83.0692859
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30389188029151,
+                  "lng" : -83.0679369197085
+               },
+               "southwest" : {
+                  "lat" : 42.30119391970851,
+                  "lng" : -83.07063488029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJQ7TrCXgtO4gRHDwkKd2ojuU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

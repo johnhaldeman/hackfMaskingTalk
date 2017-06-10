@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "879",
+               "short_name" : "879",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Arthur Road",
+               "short_name" : "Arthur Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 3Y1",
+               "short_name" : "N8Y 3Y1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "879 Arthur Rd, Windsor, ON N8Y 3Y1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.32445209999999,
+                  "lng" : -82.9798179
+               },
+               "southwest" : {
+                  "lat" : 42.3243523,
+                  "lng" : -82.9799895
+               }
+            },
+            "location" : {
+               "lat" : 42.3244022,
+               "lng" : -82.97990369999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3257511802915,
+                  "lng" : -82.9785547197085
+               },
+               "southwest" : {
+                  "lat" : 42.3230532197085,
+                  "lng" : -82.9812526802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJOTgcB0UrO4gRkEt84ZVjIcM",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "11725",
+               "short_name" : "11725",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tecumseh Road East",
+               "short_name" : "Tecumseh Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8N 1L8",
+               "short_name" : "N8N 1L8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "11725 Tecumseh Rd E, Windsor, ON N8N 1L8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.312026,
+                  "lng" : -82.89748050000001
+               },
+               "southwest" : {
+                  "lat" : 42.3120124,
+                  "lng" : -82.89748449999999
+               }
+            },
+            "location" : {
+               "lat" : 42.312026,
+               "lng" : -82.89748050000001
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3133681802915,
+                  "lng" : -82.8961335197085
+               },
+               "southwest" : {
+                  "lat" : 42.31067021970851,
+                  "lng" : -82.89883148029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAxMTcyNSBUZWN1bXNlaCBSZCBFLCBXaW5kc29yLCBPTiBOOE4gMUw4LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

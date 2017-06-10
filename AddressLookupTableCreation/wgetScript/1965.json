@@ -1,0 +1,225 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2295",
+               "short_name" : "2295",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Roxborough Avenue",
+               "short_name" : "Roxborough Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2Z9",
+               "short_name" : "N9E 2Z9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2295 Roxborough Ave, Windsor, ON N9E 2Z9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2592164,
+                  "lng" : -83.027095
+               },
+               "southwest" : {
+                  "lat" : 42.25921049999999,
+                  "lng" : -83.027112
+               }
+            },
+            "location" : {
+               "lat" : 42.2592164,
+               "lng" : -83.027095
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2605624302915,
+                  "lng" : -83.0257545197085
+               },
+               "southwest" : {
+                  "lat" : 42.2578644697085,
+                  "lng" : -83.02845248029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjAyMjk1IFJveGJvcm91Z2ggQXZlLCBXaW5kc29yLCBPTiBOOUUgMlo5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2295",
+               "short_name" : "2295",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Roxborough Avenue",
+               "short_name" : "Roxborough Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2295 Roxborough Ave, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2924383,
+                  "lng" : -83.0475347
+               },
+               "southwest" : {
+                  "lat" : 42.2924323,
+                  "lng" : -83.0475517
+               }
+            },
+            "location" : {
+               "lat" : 42.2924383,
+               "lng" : -83.0475347
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2937842802915,
+                  "lng" : -83.0461942197085
+               },
+               "southwest" : {
+                  "lat" : 42.2910863197085,
+                  "lng" : -83.0488921802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMjk1IFJveGJvcm91Z2ggQXZlLCBXaW5kc29yLCBPTiBOOUIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2295",
+               "short_name" : "2295",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Roxborough Boulevard",
+               "short_name" : "Roxborough Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3X2",
+               "short_name" : "N9B 3X2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2295 Roxborough Blvd, Windsor, ON N9B 3X2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2778341,
+                  "lng" : -83.0392021
+               },
+               "southwest" : {
+                  "lat" : 42.27782819999999,
+                  "lng" : -83.0392191
+               }
+            },
+            "location" : {
+               "lat" : 42.2778341,
+               "lng" : -83.0392021
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2791801302915,
+                  "lng" : -83.03786161970849
+               },
+               "southwest" : {
+                  "lat" : 42.2764821697085,
+                  "lng" : -83.0405595802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjEyMjk1IFJveGJvcm91Z2ggQmx2ZCwgV2luZHNvciwgT04gTjlCIDNYMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

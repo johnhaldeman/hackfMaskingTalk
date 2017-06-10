@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "248",
+               "short_name" : "248",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Henkel Place",
+               "short_name" : "Henkel Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2E7",
+               "short_name" : "N8Y 2E7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "248 Henkel Pl, Windsor, ON N8Y 2E7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.325967,
+                  "lng" : -82.98750269999999
+               },
+               "southwest" : {
+                  "lat" : 42.3259613,
+                  "lng" : -82.9875198
+               }
+            },
+            "location" : {
+               "lat" : 42.3259613,
+               "lng" : -82.9875198
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3273131302915,
+                  "lng" : -82.9861622697085
+               },
+               "southwest" : {
+                  "lat" : 42.3246151697085,
+                  "lng" : -82.98886023029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EioyNDggSGVua2VsIFBsLCBXaW5kc29yLCBPTiBOOFkgMkU3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

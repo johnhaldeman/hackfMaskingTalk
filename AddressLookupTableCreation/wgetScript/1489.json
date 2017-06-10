@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "850",
+               "short_name" : "850",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Cousineau Road",
+               "short_name" : "Cousineau Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1V7",
+               "short_name" : "N9G 1V7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "850 Cousineau Rd, Windsor, ON N9G 1V7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2445258,
+               "lng" : -83.0036248
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2458747802915,
+                  "lng" : -83.0022758197085
+               },
+               "southwest" : {
+                  "lat" : 42.2431768197085,
+                  "lng" : -83.00497378029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ_SqzVLcuO4gRY81beiUqY90",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

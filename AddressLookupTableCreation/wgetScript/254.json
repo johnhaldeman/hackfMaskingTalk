@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "976",
+               "short_name" : "976",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Reedmere Road",
+               "short_name" : "Reedmere Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2L8",
+               "short_name" : "N8S 2L8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "976 Reedmere Rd, Windsor, ON N8S 2L8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3253983,
+                  "lng" : -82.96540089999999
+               },
+               "southwest" : {
+                  "lat" : 42.3253924,
+                  "lng" : -82.96541789999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3253924,
+               "lng" : -82.96541789999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3267443302915,
+                  "lng" : -82.96406041970847
+               },
+               "southwest" : {
+                  "lat" : 42.3240463697085,
+                  "lng" : -82.96675838029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw5NzYgUmVlZG1lcmUgUmQsIFdpbmRzb3IsIE9OIE44UyAyTDgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

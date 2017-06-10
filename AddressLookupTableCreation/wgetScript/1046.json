@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2217",
+               "short_name" : "2217",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lillian Avenue",
+               "short_name" : "Lillian Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 4B1",
+               "short_name" : "N8X 4B1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2217 Lillian Ave, Windsor, ON N8X 4B1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2970376,
+                  "lng" : -83.01460949999999
+               },
+               "southwest" : {
+                  "lat" : 42.2970318,
+                  "lng" : -83.0146266
+               }
+            },
+            "location" : {
+               "lat" : 42.2970376,
+               "lng" : -83.01460949999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2983836802915,
+                  "lng" : -83.01326906970849
+               },
+               "southwest" : {
+                  "lat" : 42.2956857197085,
+                  "lng" : -83.01596703029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0yMjE3IExpbGxpYW4gQXZlLCBXaW5kc29yLCBPTiBOOFggNEIxLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

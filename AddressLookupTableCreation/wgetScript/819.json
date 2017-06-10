@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2277",
+               "short_name" : "2277",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Parent Avenue",
+               "short_name" : "Parent Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2E4",
+               "short_name" : "N8W 2E4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2277 Parent Ave, Windsor, ON N8W 2E4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2947393,
+                  "lng" : -83.0083875
+               },
+               "southwest" : {
+                  "lat" : 42.2947334,
+                  "lng" : -83.0084045
+               }
+            },
+            "location" : {
+               "lat" : 42.2947393,
+               "lng" : -83.0083875
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2960853302915,
+                  "lng" : -83.00704701970849
+               },
+               "southwest" : {
+                  "lat" : 42.2933873697085,
+                  "lng" : -83.0097449802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMjc3IFBhcmVudCBBdmUsIFdpbmRzb3IsIE9OIE44VyAyRTQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1087",
+               "short_name" : "1087",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Sprucewood Avenue",
+               "short_name" : "Sprucewood Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Malden",
+               "short_name" : "Malden",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C",
+               "short_name" : "N9C",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "1087 Sprucewood Ave, Windsor, ON N9C, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2539305,
+                  "lng" : -83.0788678
+               },
+               "southwest" : {
+                  "lat" : 42.2539187,
+                  "lng" : -83.0788778
+               }
+            },
+            "location" : {
+               "lat" : 42.2539305,
+               "lng" : -83.0788678
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2552735802915,
+                  "lng" : -83.07752381970849
+               },
+               "southwest" : {
+                  "lat" : 42.2525756197085,
+                  "lng" : -83.08022178029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxMDg3IFNwcnVjZXdvb2QgQXZlLCBXaW5kc29yLCBPTiBOOUMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

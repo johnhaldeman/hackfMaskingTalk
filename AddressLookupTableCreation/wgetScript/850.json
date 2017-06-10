@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1272",
+               "short_name" : "1272",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chilver Road",
+               "short_name" : "Chilver Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2L1",
+               "short_name" : "N8Y 2L1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1272 Chilver Rd, Windsor, ON N8Y 2L1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3124394,
+                  "lng" : -83.0074039
+               },
+               "southwest" : {
+                  "lat" : 42.3123049,
+                  "lng" : -83.0075882
+               }
+            },
+            "location" : {
+               "lat" : 42.3123722,
+               "lng" : -83.007496
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3137211302915,
+                  "lng" : -83.00614706970849
+               },
+               "southwest" : {
+                  "lat" : 42.31102316970851,
+                  "lng" : -83.0088450302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJH8tVPJEsO4gR9bV05Z_9OCM",
+         "types" : [ "premise" ]
+      }
+   ],
+   "status" : "OK"
+}

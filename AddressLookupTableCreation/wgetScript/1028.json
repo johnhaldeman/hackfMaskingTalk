@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1891",
+               "short_name" : "1891",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chateau Avenue",
+               "short_name" : "Chateau Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1M6",
+               "short_name" : "N8P 1M6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1891 Chateau Ave, Windsor, ON N8P 1M6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3198611,
+                  "lng" : -82.9056148
+               },
+               "southwest" : {
+                  "lat" : 42.3198586,
+                  "lng" : -82.90563330000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3198611,
+               "lng" : -82.9056148
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3212088302915,
+                  "lng" : -82.9042750697085
+               },
+               "southwest" : {
+                  "lat" : 42.3185108697085,
+                  "lng" : -82.90697303029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei0xODkxIENoYXRlYXUgQXZlLCBXaW5kc29yLCBPTiBOOFAgMU02LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

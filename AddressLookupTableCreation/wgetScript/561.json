@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1634",
+               "short_name" : "1634",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Highland Avenue",
+               "short_name" : "Highland Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3S1",
+               "short_name" : "N8X 3S1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1634 Highland Ave, Windsor, ON N8X 3S1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2996929,
+                  "lng" : -83.0192423
+               },
+               "southwest" : {
+                  "lat" : 42.2996869,
+                  "lng" : -83.01925919999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2996869,
+               "lng" : -83.01925919999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3010388802915,
+                  "lng" : -83.01790176970849
+               },
+               "southwest" : {
+                  "lat" : 42.2983409197085,
+                  "lng" : -83.02059973029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4xNjM0IEhpZ2hsYW5kIEF2ZSwgV2luZHNvciwgT04gTjhYIDNTMSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

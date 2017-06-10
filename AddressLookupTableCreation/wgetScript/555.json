@@ -1,0 +1,75 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2411",
+               "short_name" : "2411",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Clemenceau Boulevard",
+               "short_name" : "Clemenceau Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 2P4",
+               "short_name" : "N8T 2P4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2411 Clemenceau Blvd, Windsor, ON N8T 2P4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3094012,
+                  "lng" : -82.95410799999999
+               },
+               "southwest" : {
+                  "lat" : 42.3093953,
+                  "lng" : -82.95412499999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3094012,
+               "lng" : -82.95410799999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3107472302915,
+                  "lng" : -82.95276751970847
+               },
+               "southwest" : {
+                  "lat" : 42.3080492697085,
+                  "lng" : -82.95546548029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjEyNDExIENsZW1lbmNlYXUgQmx2ZCwgV2luZHNvciwgT04gTjhUIDJQNCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

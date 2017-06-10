@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1385",
+               "short_name" : "1385",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Prince Road",
+               "short_name" : "Prince Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 3A6",
+               "short_name" : "N9C 3A6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1385 Prince Rd, Windsor, ON N9C 3A6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2871344,
+                  "lng" : -83.0648779
+               },
+               "southwest" : {
+                  "lat" : 42.2871213,
+                  "lng" : -83.0648839
+               }
+            },
+            "location" : {
+               "lat" : 42.2871344,
+               "lng" : -83.0648779
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2884768302915,
+                  "lng" : -83.0635319197085
+               },
+               "southwest" : {
+                  "lat" : 42.2857788697085,
+                  "lng" : -83.0662298802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxMzg1IFByaW5jZSBSZCwgV2luZHNvciwgT04gTjlDIDNBNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

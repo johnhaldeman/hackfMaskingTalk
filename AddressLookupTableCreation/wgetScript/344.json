@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "237",
+               "short_name" : "237",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Chilver Road",
+               "short_name" : "Chilver Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Walkerville",
+               "short_name" : "Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2J5",
+               "short_name" : "N8Y 2J5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "237 Chilver Rd, Windsor, ON N8Y 2J5, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3249767,
+                  "lng" : -83.0157852
+               },
+               "southwest" : {
+                  "lat" : 42.32497559999999,
+                  "lng" : -83.01580390000001
+               }
+            },
+            "location" : {
+               "lat" : 42.3249767,
+               "lng" : -83.0157852
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32632513029149,
+                  "lng" : -83.0144455697085
+               },
+               "southwest" : {
+                  "lat" : 42.3236271697085,
+                  "lng" : -83.01714353029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyMzcgQ2hpbHZlciBSZCwgV2luZHNvciwgT04gTjhZIDJKNSwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

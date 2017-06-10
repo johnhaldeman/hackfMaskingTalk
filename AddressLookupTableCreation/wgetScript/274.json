@@ -1,0 +1,155 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3699",
+               "short_name" : "3699",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Girardot Avenue",
+               "short_name" : "Girardot Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B",
+               "short_name" : "N9B",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3699 Girardot Ave, Windsor, ON N9B, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2965557,
+                  "lng" : -83.05764139999999
+               },
+               "southwest" : {
+                  "lat" : 42.2965432,
+                  "lng" : -83.0576495
+               }
+            },
+            "location" : {
+               "lat" : 42.2965557,
+               "lng" : -83.0576495
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2978984302915,
+                  "lng" : -83.05629646970849
+               },
+               "southwest" : {
+                  "lat" : 42.2952004697085,
+                  "lng" : -83.05899443029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozNjk5IEdpcmFyZG90IEF2ZSwgV2luZHNvciwgT04gTjlCLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3699",
+               "short_name" : "3699",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Girardot Avenue",
+               "short_name" : "Girardot Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Sandwich",
+               "short_name" : "Sandwich",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 1W6",
+               "short_name" : "N9C 1W6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "3699 Girardot Ave, Windsor, ON N9C 1W6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2890794,
+                  "lng" : -83.0703966
+               },
+               "southwest" : {
+                  "lat" : 42.2890737,
+                  "lng" : -83.0704137
+               }
+            },
+            "location" : {
+               "lat" : 42.2890794,
+               "lng" : -83.0704137
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2904255302915,
+                  "lng" : -83.06905616970849
+               },
+               "southwest" : {
+                  "lat" : 42.2877275697085,
+                  "lng" : -83.0717541302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei4zNjk5IEdpcmFyZG90IEF2ZSwgV2luZHNvciwgT04gTjlDIDFXNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

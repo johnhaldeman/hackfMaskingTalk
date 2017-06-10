@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2249",
+               "short_name" : "2249",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Turner Road",
+               "short_name" : "Turner Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 3K4",
+               "short_name" : "N8W 3K4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2249 Turner Rd, Windsor, ON N8W 3K4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30034029999999,
+                  "lng" : -82.9943885
+               },
+               "southwest" : {
+                  "lat" : 42.30033419999999,
+                  "lng" : -82.99440539999999
+               }
+            },
+            "location" : {
+               "lat" : 42.30034029999999,
+               "lng" : -82.9943885
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.30168623029149,
+                  "lng" : -82.9930479697085
+               },
+               "southwest" : {
+                  "lat" : 42.2989882697085,
+                  "lng" : -82.99574593029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyMjQ5IFR1cm5lciBSZCwgV2luZHNvciwgT04gTjhXIDNLNCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4729",
+               "short_name" : "4729",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Periwinkle Crescent",
+               "short_name" : "Periwinkle Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 3G5",
+               "short_name" : "N9G 3G5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4729 Periwinkle Crescent, Windsor, ON N9G 3G5, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2472886,
+               "lng" : -82.9712533
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2486375802915,
+                  "lng" : -82.9699043197085
+               },
+               "southwest" : {
+                  "lat" : 42.2459396197085,
+                  "lng" : -82.97260228029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJkf7eBmgpO4gRTEp-omeKa8o",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

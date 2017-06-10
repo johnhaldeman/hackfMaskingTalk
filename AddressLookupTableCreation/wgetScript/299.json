@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4221",
+               "short_name" : "4221",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tumbleweed Crescent",
+               "short_name" : "Tumbleweed Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 3B8",
+               "short_name" : "N9G 3B8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4221 Tumbleweed Crescent, Windsor, ON N9G 3B8, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2440545,
+                  "lng" : -82.97398699999999
+               },
+               "southwest" : {
+                  "lat" : 42.2440502,
+                  "lng" : -82.9740049
+               }
+            },
+            "location" : {
+               "lat" : 42.2440502,
+               "lng" : -82.97398699999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.24540133029149,
+                  "lng" : -82.97264696970849
+               },
+               "southwest" : {
+                  "lat" : 42.2427033697085,
+                  "lng" : -82.97534493029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjU0MjIxIFR1bWJsZXdlZWQgQ3Jlc2NlbnQsIFdpbmRzb3IsIE9OIE45RyAzQjgsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

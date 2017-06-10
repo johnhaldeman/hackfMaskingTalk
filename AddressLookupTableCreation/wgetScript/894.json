@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1651",
+               "short_name" : "1651",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Northway Avenue",
+               "short_name" : "Northway Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3L8",
+               "short_name" : "N9B 3L8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1651 Northway Ave, Windsor, ON N9B 3L8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.28763499999999,
+               "lng" : -83.0560619
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2889839802915,
+                  "lng" : -83.05471291970849
+               },
+               "southwest" : {
+                  "lat" : 42.2862860197085,
+                  "lng" : -83.05741088029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJV047w70tO4gRs3OQ6Zsbh3M",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

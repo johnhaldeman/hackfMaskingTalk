@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1710",
+               "short_name" : "1710",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Norman Road",
+               "short_name" : "Norman Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 4N8",
+               "short_name" : "N8Y 4N8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1710 Norman Rd, Windsor, ON N8Y 4N8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3151461,
+               "lng" : -82.9702566
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3164950802915,
+                  "lng" : -82.96890761970849
+               },
+               "southwest" : {
+                  "lat" : 42.3137971197085,
+                  "lng" : -82.97160558029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJL5v2aRUrO4gR1iQ_auPoMdA",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

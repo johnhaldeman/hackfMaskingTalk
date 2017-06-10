@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2151",
+               "short_name" : "2151",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dougall Avenue",
+               "short_name" : "Dougall Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1S5",
+               "short_name" : "N8X 1S5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2151 Dougall Ave, Windsor, ON N8X 1S5, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2947599,
+               "lng" : -83.0282447
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2961088802915,
+                  "lng" : -83.02689571970849
+               },
+               "southwest" : {
+                  "lat" : 42.2934109197085,
+                  "lng" : -83.02959368029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ0R-CKVEsO4gRRtIx69kYi4c",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

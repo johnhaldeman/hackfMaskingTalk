@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "494",
+               "short_name" : "494",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Laporte Avenue",
+               "short_name" : "Laporte Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 3R2",
+               "short_name" : "N8S 3R2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "494 Laporte Ave, Windsor, ON N8S 3R2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3342606,
+                  "lng" : -82.94192169999999
+               },
+               "southwest" : {
+                  "lat" : 42.3342553,
+                  "lng" : -82.94193899999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3342553,
+               "lng" : -82.94193899999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.33560693029149,
+                  "lng" : -82.9405813697085
+               },
+               "southwest" : {
+                  "lat" : 42.33290896970849,
+                  "lng" : -82.9432793302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Eiw0OTQgTGFwb3J0ZSBBdmUsIFdpbmRzb3IsIE9OIE44UyAzUjIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

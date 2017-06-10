@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4752",
+               "short_name" : "4752",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Juliet Crescent",
+               "short_name" : "Juliet Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 3A7",
+               "short_name" : "N9G 3A7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4752 Juliet Crescent, Windsor, ON N9G 3A7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2466296,
+                  "lng" : -82.96717989999999
+               },
+               "southwest" : {
+                  "lat" : 42.2466291,
+                  "lng" : -82.9671987
+               }
+            },
+            "location" : {
+               "lat" : 42.2466296,
+               "lng" : -82.9671987
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2479783302915,
+                  "lng" : -82.96584031970849
+               },
+               "southwest" : {
+                  "lat" : 42.2452803697085,
+                  "lng" : -82.96853828029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjE0NzUyIEp1bGlldCBDcmVzY2VudCwgV2luZHNvciwgT04gTjlHIDNBNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

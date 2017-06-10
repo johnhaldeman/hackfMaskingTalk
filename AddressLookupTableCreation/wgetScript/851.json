@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1130",
+               "short_name" : "1130",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Esdras Place",
+               "short_name" : "Esdras Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Riverside",
+               "short_name" : "Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8S 2N4",
+               "short_name" : "N8S 2N4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1130 Esdras Pl, Windsor, ON N8S 2N4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3222317,
+                  "lng" : -82.96213759999999
+               },
+               "southwest" : {
+                  "lat" : 42.3222259,
+                  "lng" : -82.96215459999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3222259,
+               "lng" : -82.96215459999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3235777802915,
+                  "lng" : -82.96079711970849
+               },
+               "southwest" : {
+                  "lat" : 42.3208798197085,
+                  "lng" : -82.96349508029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisxMTMwIEVzZHJhcyBQbCwgV2luZHNvciwgT04gTjhTIDJONCwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

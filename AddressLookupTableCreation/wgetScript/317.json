@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4382",
+               "short_name" : "4382",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pleasant Place",
+               "short_name" : "Pleasant Pl",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2G1",
+               "short_name" : "N8Y 2G1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4382 Pleasant Pl, Windsor, ON N8Y 2G1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3264743,
+                  "lng" : -82.98375519999999
+               },
+               "southwest" : {
+                  "lat" : 42.3264609,
+                  "lng" : -82.98375999999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3264609,
+               "lng" : -82.98375519999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3278165802915,
+                  "lng" : -82.98240861970848
+               },
+               "southwest" : {
+                  "lat" : 42.3251186197085,
+                  "lng" : -82.98510658029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei00MzgyIFBsZWFzYW50IFBsLCBXaW5kc29yLCBPTiBOOFkgMkcxLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

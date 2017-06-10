@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5073",
+               "short_name" : "5073",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Colbourne Drive",
+               "short_name" : "Colbourne Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8T 1T6",
+               "short_name" : "N8T 1T6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "5073 Colbourne Dr, Windsor, ON N8T 1T6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.29215869999999,
+                  "lng" : -82.9554345
+               },
+               "southwest" : {
+                  "lat" : 42.2921528,
+                  "lng" : -82.9554515
+               }
+            },
+            "location" : {
+               "lat" : 42.29215869999999,
+               "lng" : -82.9554345
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2935047302915,
+                  "lng" : -82.95409401970849
+               },
+               "southwest" : {
+                  "lat" : 42.2908067697085,
+                  "lng" : -82.95679198029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei41MDczIENvbGJvdXJuZSBEciwgV2luZHNvciwgT04gTjhUIDFUNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

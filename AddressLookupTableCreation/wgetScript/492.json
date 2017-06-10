@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1515",
+               "short_name" : "1515",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "York Street",
+               "short_name" : "York St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 1W5",
+               "short_name" : "N8X 1W5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1515 York St, Windsor, ON N8X 1W5, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2983544,
+               "lng" : -83.0324904
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2997033802915,
+                  "lng" : -83.0311414197085
+               },
+               "southwest" : {
+                  "lat" : 42.2970054197085,
+                  "lng" : -83.03383938029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJuxG6sFUsO4gRTD3LMR40z_Q",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

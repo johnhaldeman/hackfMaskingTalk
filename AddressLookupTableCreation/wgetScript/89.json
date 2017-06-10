@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4275",
+               "short_name" : "4275",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Stagecoach Avenue",
+               "short_name" : "Stagecoach Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G",
+               "short_name" : "N9G",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "4275 Stagecoach Ave, Windsor, ON N9G, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2442544,
+               "lng" : -82.9773422
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2456033802915,
+                  "lng" : -82.9759932197085
+               },
+               "southwest" : {
+                  "lat" : 42.2429054197085,
+                  "lng" : -82.97869118029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJVx6bdEQpO4gRkF9y_6ZBf68",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

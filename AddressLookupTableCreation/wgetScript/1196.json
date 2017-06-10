@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2361",
+               "short_name" : "2361",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Lincoln Road",
+               "short_name" : "Lincoln Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Walkerville",
+               "short_name" : "South Walkerville",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 2R4",
+               "short_name" : "N8W 2R4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2361 Lincoln Rd, Windsor, ON N8W 2R4, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2957241,
+                  "lng" : -82.99919539999999
+               },
+               "southwest" : {
+                  "lat" : 42.2957183,
+                  "lng" : -82.9992125
+               }
+            },
+            "location" : {
+               "lat" : 42.2957241,
+               "lng" : -82.99919539999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2970701802915,
+                  "lng" : -82.9978549697085
+               },
+               "southwest" : {
+                  "lat" : 42.2943722197085,
+                  "lng" : -83.00055293029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMzYxIExpbmNvbG4gUmQsIFdpbmRzb3IsIE9OIE44VyAyUjQsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

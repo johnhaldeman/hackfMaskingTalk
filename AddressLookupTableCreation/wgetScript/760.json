@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "475",
+               "short_name" : "475",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Avenue",
+               "short_name" : "McKay Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 1Z7",
+               "short_name" : "N9B 1Z7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "475 McKay Ave, Windsor, ON N9B 1Z7, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3096849,
+               "lng" : -83.0538854
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3110338802915,
+                  "lng" : -83.05253641970849
+               },
+               "southwest" : {
+                  "lat" : 42.3083359197085,
+                  "lng" : -83.05523438029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJr_B5uQ0tO4gRCzyPSdkAihM",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

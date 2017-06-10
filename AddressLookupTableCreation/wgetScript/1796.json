@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2813",
+               "short_name" : "2813",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Mangin Crescent",
+               "short_name" : "Mangin Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 4K6",
+               "short_name" : "N9E 4K6",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2813 Mangin Crescent, Windsor, ON N9E 4K6, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2658479,
+                  "lng" : -83.04255879999999
+               },
+               "southwest" : {
+                  "lat" : 42.2658363,
+                  "lng" : -83.042569
+               }
+            },
+            "location" : {
+               "lat" : 42.2658363,
+               "lng" : -83.042569
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2671910802915,
+                  "lng" : -83.04121491970849
+               },
+               "southwest" : {
+                  "lat" : 42.2644931197085,
+                  "lng" : -83.0439128802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjEyODEzIE1hbmdpbiBDcmVzY2VudCwgV2luZHNvciwgT04gTjlFIDRLNiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3924",
+               "short_name" : "3924",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Acorn Crescent",
+               "short_name" : "Acorn Crescent",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Devonshire Heights",
+               "short_name" : "Devonshire Heights",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W",
+               "short_name" : "N8W",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "3924 Acorn Crescent, Windsor, ON N8W, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2596551,
+                  "lng" : -82.9780725
+               },
+               "southwest" : {
+                  "lat" : 42.2596544,
+                  "lng" : -82.9780913
+               }
+            },
+            "location" : {
+               "lat" : 42.2596551,
+               "lng" : -82.9780913
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2610037302915,
+                  "lng" : -82.9767329197085
+               },
+               "southwest" : {
+                  "lat" : 42.2583057697085,
+                  "lng" : -82.97943088029152
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwzOTI0IEFjb3JuIENyZXNjZW50LCBXaW5kc29yLCBPTiBOOFcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2333",
+               "short_name" : "2333",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Clover Avenue",
+               "short_name" : "Clover Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Riverside",
+               "short_name" : "East Riverside",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8P 1N3",
+               "short_name" : "N8P 1N3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2333 Clover Ave, Windsor, ON N8P 1N3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3171743,
+                  "lng" : -82.9110934
+               },
+               "southwest" : {
+                  "lat" : 42.3171719,
+                  "lng" : -82.91111189999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3171719,
+               "lng" : -82.91111189999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31852208029149,
+                  "lng" : -82.90975366970849
+               },
+               "southwest" : {
+                  "lat" : 42.3158241197085,
+                  "lng" : -82.9124516302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyMzMzIENsb3ZlciBBdmUsIFdpbmRzb3IsIE9OIE44UCAxTjMsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

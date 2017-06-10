@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1637",
+               "short_name" : "1637",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Highland Avenue",
+               "short_name" : "Highland Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8X 3R9",
+               "short_name" : "N8X 3R9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1637 Highland Ave, Windsor, ON N8X 3R9, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2995804,
+               "lng" : -83.0193697
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3009293802915,
+                  "lng" : -83.01802071970849
+               },
+               "southwest" : {
+                  "lat" : 42.2982314197085,
+                  "lng" : -83.02071868029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJ6Vwp-PUsO4gRLZMkSMBexN0",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

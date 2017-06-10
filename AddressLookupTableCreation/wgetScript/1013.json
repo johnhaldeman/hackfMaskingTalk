@@ -1,0 +1,74 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "3598",
+               "short_name" : "3598",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "North Harvard Road",
+               "short_name" : "N Harvard Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Otis Orchards",
+               "short_name" : "Otis Orchards",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Otis Orchards-East Farms",
+               "short_name" : "Otis Orchards-East Farms",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Spokane County",
+               "short_name" : "Spokane County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Washington",
+               "short_name" : "WA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "99027",
+               "short_name" : "99027",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "9313",
+               "short_name" : "9313",
+               "types" : [ "postal_code_suffix" ]
+            }
+         ],
+         "formatted_address" : "3598 N Harvard Rd, Otis Orchards, WA 99027, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 47.690188,
+               "lng" : -117.111175
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.6915369802915,
+                  "lng" : -117.1098260197085
+               },
+               "southwest" : {
+                  "lat" : 47.6888390197085,
+                  "lng" : -117.1125239802915
+               }
+            }
+         },
+         "place_id" : "ChIJReY3qHXeYVMR4Sqd8XIf4gk",
+         "types" : [ "church", "establishment", "place_of_worship", "point_of_interest" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2384",
+               "short_name" : "2384",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Meldrum Road",
+               "short_name" : "Meldrum Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Fontainbleu",
+               "short_name" : "Fontainbleu",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8W 4E4",
+               "short_name" : "N8W 4E4",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2384 Meldrum Rd, Windsor, ON N8W 4E4, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3014713,
+               "lng" : -82.98120109999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3028202802915,
+                  "lng" : -82.97985211970848
+               },
+               "southwest" : {
+                  "lat" : 42.3001223197085,
+                  "lng" : -82.9825500802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJu05mSHcrO4gR4ZS9ey_SpT4",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

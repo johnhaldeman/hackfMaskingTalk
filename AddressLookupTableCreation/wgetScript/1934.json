@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "395",
+               "short_name" : "395",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Neal Boulevard",
+               "short_name" : "Neal Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Roseland",
+               "short_name" : "Roseland",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9G 1T5",
+               "short_name" : "N9G 1T5",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "395 Neal Blvd, Windsor, ON N9G 1T5, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.2465268,
+               "lng" : -82.9978679
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.24787578029149,
+                  "lng" : -82.99651891970851
+               },
+               "southwest" : {
+                  "lat" : 42.2451778197085,
+                  "lng" : -82.99921688029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJHb6d0rMuO4gR6iTzGZckFuA",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

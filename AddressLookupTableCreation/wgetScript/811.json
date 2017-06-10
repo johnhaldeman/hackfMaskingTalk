@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "11435",
+               "short_name" : "11435",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Tecumseh Road East",
+               "short_name" : "Tecumseh Rd E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Forest Glade",
+               "short_name" : "Forest Glade",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8R",
+               "short_name" : "N8R",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "11435 Tecumseh Rd E, Windsor, ON N8R, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.31254,
+                  "lng" : -82.9009731
+               },
+               "southwest" : {
+                  "lat" : 42.31252629999999,
+                  "lng" : -82.9009768
+               }
+            },
+            "location" : {
+               "lat" : 42.31252629999999,
+               "lng" : -82.9009768
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3138821302915,
+                  "lng" : -82.8996259697085
+               },
+               "southwest" : {
+                  "lat" : 42.3111841697085,
+                  "lng" : -82.9023239302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwxMTQzNSBUZWN1bXNlaCBSZCBFLCBXaW5kc29yLCBPTiBOOFIsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

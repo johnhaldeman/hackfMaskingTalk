@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "4379",
+               "short_name" : "4379",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Riverside Drive East",
+               "short_name" : "Riverside Dr E",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 1B7",
+               "short_name" : "N8Y 1B7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "4379 Riverside Dr E, Windsor, ON N8Y 1B7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3274929,
+                  "lng" : -82.9844792
+               },
+               "southwest" : {
+                  "lat" : 42.3274797,
+                  "lng" : -82.9844849
+               }
+            },
+            "location" : {
+               "lat" : 42.3274929,
+               "lng" : -82.9844849
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.32883528029149,
+                  "lng" : -82.9831330697085
+               },
+               "southwest" : {
+                  "lat" : 42.32613731970849,
+                  "lng" : -82.98583103029151
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjA0Mzc5IFJpdmVyc2lkZSBEciBFLCBXaW5kc29yLCBPTiBOOFkgMUI3LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,305 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "2962",
+               "short_name" : "2962",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Avenue",
+               "short_name" : "McKay Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E",
+               "short_name" : "N9E",
+               "types" : [ "postal_code", "postal_code_prefix" ]
+            }
+         ],
+         "formatted_address" : "2962 McKay Ave, Windsor, ON N9E, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2688571,
+                  "lng" : -83.0274022
+               },
+               "southwest" : {
+                  "lat" : 42.2688512,
+                  "lng" : -83.0274192
+               }
+            },
+            "location" : {
+               "lat" : 42.2688512,
+               "lng" : -83.0274192
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2702031302915,
+                  "lng" : -83.02606171970849
+               },
+               "southwest" : {
+                  "lat" : 42.2675051697085,
+                  "lng" : -83.0287596802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EicyOTYyIE1jS2F5IEF2ZSwgV2luZHNvciwgT04gTjlFLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2962",
+               "short_name" : "2962",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Boulevard",
+               "short_name" : "McKay Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Windsor",
+               "short_name" : "South Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9E 2R7",
+               "short_name" : "N9E 2R7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2962 McKay Blvd, Windsor, ON N9E 2R7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2608549,
+                  "lng" : -83.0218921
+               },
+               "southwest" : {
+                  "lat" : 42.26084669999999,
+                  "lng" : -83.0219072
+               }
+            },
+            "location" : {
+               "lat" : 42.26084669999999,
+               "lng" : -83.0219072
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2621997802915,
+                  "lng" : -83.0205506697085
+               },
+               "southwest" : {
+                  "lat" : 42.2595018197085,
+                  "lng" : -83.0232486302915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiwyOTYyIE1jS2F5IEJsdmQsIFdpbmRzb3IsIE9OIE45RSAyUjcsIENhbmFkYQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2962",
+               "short_name" : "2962",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Avenue",
+               "short_name" : "McKay Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3P2",
+               "short_name" : "N9B 3P2",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2962 McKay Ave, Windsor, ON N9B 3P2, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.28909040000001,
+                  "lng" : -83.0407319
+               },
+               "southwest" : {
+                  "lat" : 42.2890779,
+                  "lng" : -83.0407403
+               }
+            },
+            "location" : {
+               "lat" : 42.28909040000001,
+               "lng" : -83.0407403
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2904331302915,
+                  "lng" : -83.03938711970849
+               },
+               "southwest" : {
+                  "lat" : 42.2877351697085,
+                  "lng" : -83.0420850802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyOTYyIE1jS2F5IEF2ZSwgV2luZHNvciwgT04gTjlCIDNQMiwgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2962",
+               "short_name" : "2962",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "McKay Avenue",
+               "short_name" : "McKay Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9C 2L7",
+               "short_name" : "N9C 2L7",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "2962 McKay Ave, Windsor, ON N9C 2L7, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.2787734,
+                  "lng" : -83.05182719999999
+               },
+               "southwest" : {
+                  "lat" : 42.2787607,
+                  "lng" : -83.05183509999999
+               }
+            },
+            "location" : {
+               "lat" : 42.2787607,
+               "lng" : -83.05182719999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2801160302915,
+                  "lng" : -83.05048216970847
+               },
+               "southwest" : {
+                  "lat" : 42.2774180697085,
+                  "lng" : -83.05318013029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EisyOTYyIE1jS2F5IEF2ZSwgV2luZHNvciwgT04gTjlDIDJMNywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

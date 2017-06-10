@@ -1,0 +1,70 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1691",
+               "short_name" : "1691",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dobrich Street",
+               "short_name" : "Dobrich St",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Cameron",
+               "short_name" : "South Cameron",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 3W8",
+               "short_name" : "N9B 3W8",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1691 Dobrich St, Windsor, ON N9B 3W8, Canada",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.27853,
+               "lng" : -83.0367615
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.2798789802915,
+                  "lng" : -83.03541251970849
+               },
+               "southwest" : {
+                  "lat" : 42.2771810197085,
+                  "lng" : -83.03811048029149
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJzz-S18otO4gR7G4HtnL9aJI",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

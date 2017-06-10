@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1437",
+               "short_name" : "1437",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Henry Ford Centre Drive",
+               "short_name" : "Henry Ford Centre Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "East Windsor",
+               "short_name" : "East Windsor",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N8Y 2R9",
+               "short_name" : "N8Y 2R9",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1437 Henry Ford Centre Dr, Windsor, ON N8Y 2R9, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3135634,
+                  "lng" : -82.99394409999999
+               },
+               "southwest" : {
+                  "lat" : 42.31355749999999,
+                  "lng" : -82.99396109999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3135634,
+               "lng" : -82.99394409999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.31490943029149,
+                  "lng" : -82.99260361970849
+               },
+               "southwest" : {
+                  "lat" : 42.3122114697085,
+                  "lng" : -82.9953015802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EjYxNDM3IEhlbnJ5IEZvcmQgQ2VudHJlIERyLCBXaW5kc29yLCBPTiBOOFkgMlI5LCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

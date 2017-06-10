@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "381",
+               "short_name" : "381",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Grove Avenue",
+               "short_name" : "Grove Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "South Central",
+               "short_name" : "South Central",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9A 6G1",
+               "short_name" : "N9A 6G1",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "381 Grove Ave, Windsor, ON N9A 6G1, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.3049518,
+                  "lng" : -83.03571909999999
+               },
+               "southwest" : {
+                  "lat" : 42.3049393,
+                  "lng" : -83.03572729999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3049518,
+               "lng" : -83.03572729999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3062945302915,
+                  "lng" : -83.03437421970848
+               },
+               "southwest" : {
+                  "lat" : 42.3035965697085,
+                  "lng" : -83.0370721802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "EiozODEgR3JvdmUgQXZlLCBXaW5kc29yLCBPTiBOOUEgNkcxLCBDYW5hZGE",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}

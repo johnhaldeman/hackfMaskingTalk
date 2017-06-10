@@ -1,0 +1,80 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "694",
+               "short_name" : "694",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Josephine Avenue",
+               "short_name" : "Josephine Ave",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "University",
+               "short_name" : "University",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Windsor",
+               "short_name" : "Windsor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Essex County",
+               "short_name" : "Essex County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Ontario",
+               "short_name" : "ON",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Canada",
+               "short_name" : "CA",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "N9B 2L3",
+               "short_name" : "N9B 2L3",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "694 Josephine Ave, Windsor, ON N9B 2L3, Canada",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.30569,
+                  "lng" : -83.05628369999999
+               },
+               "southwest" : {
+                  "lat" : 42.3056841,
+                  "lng" : -83.05630069999999
+               }
+            },
+            "location" : {
+               "lat" : 42.3056841,
+               "lng" : -83.05630069999999
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.3070360302915,
+                  "lng" : -83.05494321970848
+               },
+               "southwest" : {
+                  "lat" : 42.3043380697085,
+                  "lng" : -83.0576411802915
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "Ei42OTQgSm9zZXBoaW5lIEF2ZSwgV2luZHNvciwgT04gTjlCIDJMMywgQ2FuYWRh",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
